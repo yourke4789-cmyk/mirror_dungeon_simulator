@@ -1,0 +1,77 @@
+.damage-box {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  border: 4px solid #111;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.damage-box img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.main-title {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #d99020;
+
+  border-bottom: 3px solid #111;
+  padding-bottom: 12px;
+}
+
+.image-area {
+  min-height: 180px;
+  padding: 20px;
+  border: 4px solid #111;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inner-group {
+  border: 0px solid #111;
+  padding: 12px;
+  background-color: #a47a4f;
+}
+
+.group-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.box-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.tooltip {
+  font-size: 14px;
+  line-height: 1.4;
+
+  word-break: keep-all;
+}
+
+.tooltip-title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
