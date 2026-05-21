@@ -1,6 +1,0 @@
-[
-    { "id": 1, "sinner": "이상", "name": "동백 이상", "keywords": ["침잠"], "img": "./assets/id_1.png" },
-    { "id": 2, "sinner": "이상", "name": "약지 점묘파", "keywords": ["출혈"], "img": "./assets/id_2.png" },
-    { "id": 3, "sinner": "파우스트", "name": "쥐는 자", "keywords": ["출혈", "화상"], "img": "./assets/id_3.png" },
-    { "id": 4, "sinner": "파우스트", "name": "W사 정리요원", "keywords": ["충전"], "img": "./assets/id_4.png" }
-  ]
