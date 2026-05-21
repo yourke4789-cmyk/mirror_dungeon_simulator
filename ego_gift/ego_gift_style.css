@@ -286,3 +286,8 @@ body {
     gap: 20px;
   }
 }
+
+  .damage-box.combo-gift {
+     background-color: #333;
+     border-color: #b01c37;
+  }
