@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Limbus Deck Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="filter-panel">
+            <h2>수감자 필터</h2>
+            <div id="sinner-filters" class="sinner-grid"></div>
+        </aside>
+
+        <main class="picker-panel">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="이름으로 검색...">
+            </div>
+            <div id="picker-grid" class="card-grid"></div>
+        </main>
+
+        <aside class="deck-panel">
+            <h2>현재 편성 덱</h2>
+            <div class="deck-container">
+                <div class="deck-main">
+                    <h3>1군 (전투 참여) <span id="main-count">0</span>/6</h3>
+                    <div id="main-deck-list"></div>
+                </div>
+                <div class="deck-sub">
+                    <h3>2군 (자동 서포트) <span id="sub-count">0</span>/6</h3>
+                    <div id="sub-deck-list"></div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
