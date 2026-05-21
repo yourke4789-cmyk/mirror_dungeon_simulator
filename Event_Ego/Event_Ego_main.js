@@ -18,7 +18,7 @@ async function init() {
         manager.all = await res.json(); 
 
         // 2. 신규 EGO 데이터 로드
-        const egoRes = await fetch('./idealego_data.json');
+        const egoRes = await fetch('./ego_data.json');
         egoData = await egoRes.json();
 
         setupTabs();

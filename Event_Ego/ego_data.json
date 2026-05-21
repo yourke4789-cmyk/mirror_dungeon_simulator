@@ -556,7 +556,7 @@
     "name": "적안(開)",
     "grade": "HE",
     "keywords": [ "참격"],
-    "img": "./assets/ego/료슈_적안개.webp",
+    "img": "./assets/ego/료슈_적안.webp",
     "crime": { "분노": 2, "색욕": 2, "질투": 3 },
     "sanity": "25",
     "passive": {
