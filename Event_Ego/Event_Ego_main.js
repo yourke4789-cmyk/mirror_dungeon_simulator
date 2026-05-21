@@ -22,7 +22,7 @@ async function init() {
         manager.all = await res.json(); 
 
         // 2. 신규 EGO 데이터 로드
-        const egoRes = await fetch('./ego_data.json');
+        const egoRes = await fetch('./idealego_data.json');
         egoData = await egoRes.json();
 
         setupTabs();
@@ -159,35 +159,16 @@ function renderFilteredEgos() {
 /**
  * [핵심 로직] 선택된 EGO 데이터 모달 삽입 및 노출
  */
-/**
- * [핵심 로직] 선택된 EGO 데이터 모달 삽입 및 노출
- */
 function openModal(egoId) {
     const ego = egoData.find(e => e.id === egoId);
     if(!ego) return;
 
-    // DOM 요소에 기본 데이터 매핑
+    // DOM 요소에 데이터 매핑
     document.getElementById('modal-img').src = ego.img;
     document.getElementById('modal-title').innerText = `${ego.sinner} - ${ego.name}`;
     document.getElementById('modal-grade').innerText = ego.grade;
     document.getElementById('modal-keywords').innerText = ego.keywords.join(', ');
-
-    // --- [수정된 부분] JSON 구조 변경에 따른 데이터 재조합 로직 ---
-    
-    // 1. 소모 자원(crime) 파싱 (예: "나태x3, 분노x1")
-    const crimeText = Object.entries(ego.crime)
-        .map(([key, value]) => `${key}x${value}`)
-        .join(', ');
-
-    // 2. 패시브 이름 처리 (이름이 없는 경우 빈 문자열 반환)
-    const passiveName = ego.passive.name ? `(${ego.passive.name})` : '';
-
-    // 3. 최종 출력 문자열 포매팅
-    const formattedDesc = `소모 자원: ${crimeText}\n정신력 소모: ${ego.sanity}\n패시브${passiveName} : \n${ego.passive.description}`;
-
-    // 재조합된 문자열을 모달 설명란에 삽입
-    document.getElementById('modal-desc').innerText = formattedDesc;
-    // -----------------------------------------------------------
+    document.getElementById('modal-desc').innerText = ego.desc;
 
     // 모달 CSS 상태 변경을 통한 노출
     document.getElementById('ego-modal').classList.add('active');
