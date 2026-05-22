@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>림버스거던</title>
+    <style>
+        body { background-color: #2b2522; color: #f5eedf; font-family: sans-serif; margin: 0; }
+        .hero-banner {
+            position: relative;
+            width: 90%; margin: 20px auto; height: 300px;
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('./assets/hero-bg.jpg') center/cover;
+            border-radius: 10px; display: flex; flex-direction: column; justify-content: center; padding: 30px;
+        }
+        .menu-grid {
+            width: 90%; margin: 20px auto; display: grid;
+            grid-template-columns: repeat(4, 1fr); gap: 15px;
+        }
+        .menu-btn {
+            background-color: #a47a4f; color: #fff; padding: 20px; text-align: center;
+            border-radius: 8px; cursor: pointer; text-decoration: none; font-weight: bold;
+        }
+        .menu-btn:hover { background-color: #8c653d; }
+
+        .hero-banner {
+            position: relative;
+            width: 90%; 
+            margin: 20px auto; 
+            height: 300px;
+            /* 배경은 어두운 톤이나 희미한 배경 이미지로 유지 */
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('./assets/bg_pattern.jpg') center/cover;
+            border-radius: 10px; 
+            
+            /* Flexbox를 통한 좌우 배치 */
+            display: flex; 
+            justify-content: space-between; /* 텍스트와 이미지 사이 간격 최대화 */
+            align-items: center; /* 세로 중앙 정렬 */
+            padding: 0 50px; /* 좌우 여백 */
+            overflow: hidden; /* 이미지가 배너 밖으로 튀어나가지 않도록 제어 */
+        }
+        
+        .hero-text {
+            z-index: 2; /* 이미지보다 텍스트가 위에 보이도록 설정 */
+        }
+        
+        .hero-image {
+            height: 100%;
+            display: flex;
+            align-items: flex-end; /* 캐릭터 이미지가 배너 바닥에 붙도록 설정 */
+        }
+        
+        .hero-image img {
+            height: 120%; /* 배너 높이보다 살짝 크게 설정하여 입체감 부여 */
+            object-fit: contain;
+            /* 필요에 따라 이미지 위치 미세조정 */
+            transform: translateY(10px); 
+        }
+    </style>
+</head>
+<body>
+    <header style="padding: 20px; border-bottom: 1px solid #444;">
+        <h1>OSS팀과제</h1>
+    </header>
+
+    <section class="hero-banner">
+        <div class ="hero-text">
+            <h2>흠... 어때, 훨씬 [폭신]해 보이지?</h2>
+            <p>거울 던전 시뮬레이터 업데이트</p>
+            <button class="action-btn">인격 정보 바로가기</button>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/heathcliff_sprite.png" alt="중지 히스클리프">
+        </div>
+    </section>
+
+    <section class="menu-grid">
+        <a href="identity/identity.html" class="menu-btn">인격 도감</a>
+        <a href="simulator/simulator.html" class="menu-btn">거던 시뮬레이터</a>
+        <a href="ego_gift/ego_gift.html" class="menu-btn">E.G.O 기프트</a>
+        <a href="#" class="menu-btn" style="background-color: #e5b044; color: #000;">공사중</a>
+        <a href="#" class="menu-btn">내 인격 분류</a>
+        <a href="Event_Ego/Event_Ego.html" class="menu-btn">이벤트및Ego</a>
+    </section>
+</body>
+</html>
