@@ -1,141 +1,59 @@
-body {
-    background-color: #2b2522;
-    color: #f5eedf;
-    font-family: sans-serif;
-    margin: 30px;
-}
-
-h1 {
-    border-bottom: 2px solid #444;
-    padding-bottom: 12px;
-}
+/* 기본 테마 동기화 */
+body { background-color: #2b2522; color: #f5eedf; font-family: sans-serif; margin: 30px; }
+h1 { border-bottom: 2px solid #444; padding-bottom: 12px; }
 
 /* 수평형 탭 네비게이션 스타일 */
-.tab-menu {
-    display: flex;
-    gap: 12px;
-    margin-bottom: 25px;
-}
-
-.tab-btn {
-    background-color: #a47a4f;
-    color: #fff;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all 0.2s ease;
-}
-
-.tab-btn:hover {
-    background-color: #8c653d;
-}
-
-/* 마지막 클릭 상태 바인딩 시각화 (Active) */
-.tab-btn.active {
-    background-color: #e5b044;
-    color: #000;
-    box-shadow: 0 0 10px rgba(229, 176, 68, 0.4);
-}
+.tab-menu { display: flex; gap: 12px; margin-bottom: 25px; }
+.tab-btn { background-color: #a47a4f; color: #fff; padding: 12px 24px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.2s ease; }
+.tab-btn:hover { background-color: #8c653d; }
+.tab-btn.active { background-color: #e5b044; color: #000; box-shadow: 0 0 10px rgba(229, 176, 68, 0.4); }
 
 /* 콘텐츠 영역 레이아웃 상태 변경 */
-.view-panel {
-    display: none;
-    background-color: #1e1917;
-    padding: 25px;
-    border-radius: 8px;
-    border: 1px solid #444;
-    min-height: 250px;
-}
+.view-panel { display: none; background-color: #1e1917; padding: 25px; border-radius: 8px; border: 1px solid #444; min-height: 250px; }
+.view-panel.active { display: block; }
 
-.view-panel.active {
-    display: block;
-}
-
-/* 12인 수감자 추상화 아이콘 레이아웃 */
-.sinner-grid {
-    display: flex;
-    gap: 10px;
-    margin: 20px 0;
-    flex-wrap: wrap;
-}
-
-.sinner-icon {
-    background-color: #3d3531;
-    color: #f5eedf;
-    width: 75px;
-    height: 75px;
-    border: 1px solid #555;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all 0.2s;
-}
-
-.sinner-icon:hover {
-    border-color: #e5b044;
-    background-color: #4f443f;
-}
-
-.sinner-icon.active {
-    background-color: #e5b044;
-    color: #000;
-    border-color: #fff;
-}
-
-/* 등급 필터 버튼 스타일 */
+/* EGO 영역 스타일 */
+.sinner-grid { display: flex; gap: 10px; margin: 20px 0; flex-wrap: wrap; }
+.sinner-icon { background-color: #3d3531; color: #f5eedf; width: 75px; height: 75px; border: 1px solid #555; border-radius: 8px; cursor: pointer; font-weight: bold; transition: all 0.2s; }
+.sinner-icon:hover { border-color: #e5b044; background-color: #4f443f; }
+.sinner-icon.active { background-color: #e5b044; color: #000; border-color: #fff; }
 .filter-group { margin-bottom: 15px; }
 .filter-label { display: inline-block; width: 60px; font-weight: bold; color: #d4af37; }
-
-.grade-btn {
-    background-color: #3d3531; color: #f5eedf; 
-    padding: 8px 16px; margin-right: 5px; 
-    border: 1px solid #555; border-radius: 5px; 
-    cursor: pointer; transition: 0.2s;
-}
+.grade-btn { background-color: #3d3531; color: #f5eedf; padding: 8px 16px; margin-right: 5px; border: 1px solid #555; border-radius: 5px; cursor: pointer; transition: 0.2s; }
 .grade-btn:hover { background-color: #4f443f; }
-.grade-btn.active { 
-    background-color: #e5b044; color: #000; border-color: #fff; font-weight: bold; 
-}
+.grade-btn.active { background-color: #e5b044; color: #000; border-color: #fff; font-weight: bold; }
+.keyword-dropdown { background-color: #3d3531; color: #f5eedf; padding: 8px; border: 1px solid #555; border-radius: 5px; outline: none; }
 
-/* 키워드 드롭다운 스타일 */
-.keyword-dropdown {
-    background-color: #3d3531; color: #f5eedf; 
-    padding: 8px; border: 1px solid #555; border-radius: 5px;
-    outline: none;
-}
-
-/* 모달 오버레이 */
-.modal-overlay {
-    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.85); z-index: 1000;
-    align-items: center; justify-content: center;
-}
+/* EGO 모달 오버레이 */
+.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 1000; align-items: center; justify-content: center; }
 .modal-overlay.active { display: flex; }
-
-/* 모달 컨텐츠 박스 */
-.modal-content {
-    background: #1e1917; border: 2px solid #d4af37; border-radius: 10px;
-    padding: 30px; max-width: 500px; width: 90%; color: #f5eedf; position: relative;
-}
-.close-btn {
-    position: absolute; top: 15px; right: 20px; font-size: 28px; cursor: pointer; color: #ff4444;
-}
-
-/* 모달 이미지 렌더링 (object-fit: contain 적용 완료) */
-#modal-img { 
-    width: 100%; 
-    height: 250px; 
-    object-fit: contain; 
-    border-radius: 8px; 
-    margin-bottom: 15px; 
-}
-
+.modal-content { background: #1e1917; border: 2px solid #d4af37; border-radius: 10px; padding: 30px; max-width: 500px; width: 90%; color: #f5eedf; position: relative; }
+.close-btn { position: absolute; top: 15px; right: 20px; font-size: 28px; cursor: pointer; color: #ff4444; }
+#modal-img { width: 100%; height: 250px; object-fit: contain; border-radius: 8px; margin-bottom: 15px; }
 .badge { background: #8b0000; padding: 4px 8px; border-radius: 4px; font-weight: bold; margin-right: 10px; }
+#modal-desc { white-space: pre-wrap; line-height: 1.5; }
 
-/* JSON의 \n 개행 문자를 실제 줄바꿈으로 렌더링 보장 */
-#modal-desc {
-    white-space: pre-wrap; 
-    line-height: 1.5;
-}
+/* 거울 던전 이벤트 선택지 UI 스타일 */
+.mirror-dungeon-ui { display: flex; width: 100%; height: 550px; background-color: #1e1917; color: #f5eedf; border: 1px solid #444; border-radius: 8px; margin-top: 15px; }
+.sidebar { width: 250px; border-right: 2px solid #444; display: flex; flex-direction: column; background-color: #2b2522; border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
+.search-header { padding: 15px; border-bottom: 2px solid #444; }
+.search-header input { width: 90%; padding: 8px 10px; background-color: #1e1917; border: 1px solid #555; color: #f5eedf; border-radius: 4px; outline: none; }
+.search-header input:focus { border-color: #e5b044; }
+.event-list { list-style: none; padding: 0; margin: 0; overflow-y: auto; flex-grow: 1; }
+.event-list li { padding: 15px; border-bottom: 1px solid #444; cursor: pointer; transition: background 0.2s; font-size: 14px; }
+.event-list li:hover { background-color: #3d3531; }
+.event-list li.active { background-color: #3d3531; color: #e5b044; font-weight: bold; border-left: 4px solid #e5b044; }
+.detail-panel { flex-grow: 1; display: flex; flex-direction: column; padding: 20px; gap: 20px; }
+.section-title { color: #d4af37; font-size: 16px; margin: 0 0 10px 0; border-bottom: 1px solid #444; padding-bottom: 8px; }
+.gift-obtain-area { height: 30%; background-color: #2b2522; padding: 15px; border-radius: 6px; border: 1px solid #444; }
+.gift-display { display: flex; gap: 15px; overflow-x: auto; }
+.gift-item { display: flex; flex-direction: column; align-items: center; background-color: #1e1917; padding: 10px; border: 1px solid #555; border-radius: 4px; min-width: 80px; }
+.gift-item img { width: 60px; height: 60px; object-fit: contain; margin-bottom: 8px; }
+.gift-name { font-size: 12px; text-align: center; }
+.gift-desc-area { flex-grow: 1; background-color: #2b2522; padding: 15px; border-radius: 6px; border: 1px solid #444; display: flex; flex-direction: column; }
+.desc-content { flex-grow: 1; line-height: 1.6; overflow-y: auto; font-size: 14px; }
+.choice-buttons { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+.choice-btn { background-color: #3d3531; color: #f5eedf; border: 1px solid #d4af37; padding: 15px; text-align: left; cursor: pointer; border-radius: 4px; transition: 0.2s; font-size: 14px; }
+.choice-btn:hover { background-color: #e5b044; color: #000; font-weight: bold; }
+.desc-content p, .choice-buttons { animation: fadeIn 0.3s ease-in-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }

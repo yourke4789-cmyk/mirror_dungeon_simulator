@@ -7,7 +7,6 @@
 </head>
 <body>
     <h1>이벤트 및 Ego</h1>
-    
     <div class="tab-menu">
         <button class="tab-btn active" data-target="ego-view">EGO</button>
         <button class="tab-btn" data-target="event-view">거던 이벤트 선택지</button>
@@ -18,7 +17,6 @@
         <div id="ego-view" class="view-panel active">
             <h3>EGO 수감자 선택</h3>
             <div id="sinner-icons" class="sinner-grid"></div>
-            
             <div class="filter-container">
                 <div class="filter-group">
                     <span class="filter-label">등급</span>
@@ -26,53 +24,57 @@
                     <button class="grade-btn" data-grade="TETH">TETH</button>
                     <button class="grade-btn" data-grade="HE">HE</button>
                     <button class="grade-btn" data-grade="WAW">WAW</button>
-                    <button class="grade-btn" data-grade="ALEPH">ALEPH</button>
                 </div>
                 <div class="filter-group">
                     <span class="filter-label">키워드</span>
                     <select id="keyword-select" class="keyword-dropdown">
                         <option value="">모든 키워드</option>
-                        <option value="참격">참격</option>
-                        <option value="관통">관통</option>
-                        <option value="타격">타격</option>
-                        <option value="화상">화상</option>
-                        <option value="출혈">출혈</option>
-                        <option value="진동">진동</option>
-                        <option value="파열">파열</option>
-                        <option value="침잠">침잠</option>
-                        <option value="호흡">호흡</option>
-                        <option value="충전">충전</option>
+                        <option value="참격">참격</option><option value="관통">관통</option>
+                        <option value="타격">타격</option><option value="화상">화상</option>
+                        <option value="출혈">출혈</option><option value="진동">진동</option>
+                        <option value="파열">파열</option><option value="침잠">침잠</option>
+                        <option value="호흡">호흡</option><option value="충전">충전</option>
                     </select>
                 </div>
             </div>
-
-            <div id="ego-list">수감자와 필터를 선택하면 해당 EGO 목록이 여기에 나타납니다.</div>
+            <div id="ego-list"></div>
         </div>
         
         <div id="event-view" class="view-panel">
             <h3>거던 이벤트 선택지</h3>
-            <p>선택지 데이터 분석 및 탐색 영역입니다.</p>
+            <div class="mirror-dungeon-ui">
+                <aside class="sidebar">
+                    <div class="search-header"><input type="text" id="event-search" placeholder="이벤트 검색..."></div>
+                    <ul class="event-list" id="event-list"></ul>
+                </aside>
+                <main class="detail-panel">
+                    <section class="gift-obtain-area">
+                        <h4 class="section-title" id="event-title-display">얻을 수 있는 기프트</h4>
+                        <div class="gift-display" id="event-gift-display">
+                            <p style="color:#aaa; font-size:12px; padding:10px;">좌측에서 이벤트를 선택해주세요.</p>
+                        </div>
+                    </section>
+                    <section class="gift-desc-area">
+                        <h4 class="section-title">기프트 설명 및 선택지</h4>
+                        <div class="desc-content" id="event-desc-content">
+                            <p style="color:#aaa;">좌측 리스트에서 이벤트를 선택해주세요.</p>
+                        </div>
+                    </section>
+                </main>
+            </div>
         </div>
-        
-        <div id="penalty-view" class="view-panel">
-            <h3>거던 제약선택지</h3>
-            <p>고난 및 제약 조건 제어 영역입니다.</p>
-        </div>
+        <div id="penalty-view" class="view-panel"><h3>거던 제약선택지</h3></div>
     </main>
-
-    <script type="module" src="./Event_Ego_main.js"></script>
 
     <div id="ego-modal" class="modal-overlay">
         <div class="modal-content">
             <span class="close-btn" id="modal-close">&times;</span>
-            <img id="modal-img" src="" alt="EGO 일러스트" onerror="this.src='https://via.placeholder.com/500x250?text=No+Image'">
+            <img id="modal-img" src="" alt="일러스트">
             <h2 id="modal-title"></h2>
-            <div class="modal-tags">
-                <span id="modal-grade" class="badge"></span>
-                <span id="modal-keywords"></span>
-            </div>
+            <div class="modal-tags"><span id="modal-grade" class="badge"></span><span id="modal-keywords"></span></div>
             <p id="modal-desc"></p>
         </div>
     </div>
+    <script type="module" src="./Event_Ego_main.js"></script>
 </body>
 </html>
