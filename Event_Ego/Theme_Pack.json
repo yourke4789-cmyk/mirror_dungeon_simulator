@@ -23,7 +23,7 @@
         "id": "t03",
         "name": "카지노 푸어",
         "floor": "1F,2F",
-        "difficulty": ["NORMA"],
+        "difficulty": ["NORMAL"],
         "img": "./assets/Theme_Pack/카지노푸어.png",
         "gifts": [
         ]

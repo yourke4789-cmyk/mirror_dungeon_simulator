@@ -260,11 +260,26 @@ function updateThemeDetail(theme) {
     floorDiv.innerText = theme.floor || "-";
     
     if (theme.gifts && theme.gifts.length > 0) {
+        // [수정점 3번] onerror 끝부분 따옴표(?)' 추가됨
+        // [수정점 1번] data-name 속성 및 마우스 커서 스타일 추가됨
         giftDiv.innerHTML = theme.gifts.map(gift => `
-            <div class="theme-gift-item" title="${gift.name}">
-                <img src="${gift.img}" alt="${gift.name}" onerror="this.src='https://via.placeholder.com/40/000/e5b044?text=?">
+            <div class="theme-gift-item" data-name="${gift.name}" style="cursor: pointer;" title="${gift.name}">
+                <img src="${gift.img}" alt="${gift.name}" onerror="this.src='https://via.placeholder.com/40/000/e5b044?text=?'">
             </div>
         `).join('');
+
+        // [수정점 1번] 유실되었던 클릭 이벤트 리스너 다시 복구
+        document.querySelectorAll('.theme-gift-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                const targetGiftName = e.currentTarget.dataset.name;
+                // 이전 대화에서 만들었던 openGiftModal 함수가 존재한다면 호출
+                if (typeof openGiftModal === "function") {
+                    openGiftModal(targetGiftName);
+                } else {
+                    console.warn("openGiftModal 함수가 아직 복구되지 않았습니다.");
+                }
+            });
+        });
     } else {
         giftDiv.innerHTML = `<span style="color:#aaa; font-size:12px;">고유 기프트 없음</span>`;
     }
