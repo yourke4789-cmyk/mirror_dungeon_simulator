@@ -99,7 +99,7 @@
         "id": 2,
         "sinner": "이상",
         "name": "남부 세븐 협회 6과 이상",
-        "affiliation": "LCB",
+        "affiliation": "세븐 협회",
         "keywords": [
             "파열"
         ],
@@ -195,7 +195,7 @@
         "id": 3,
         "sinner": "이상",
         "name": "어금니 사무소 해결사 이상",
-        "affiliation": "LCB",
+        "affiliation": "어금니 사무소",
         "keywords": [
             "진동"
         ],
@@ -293,7 +293,7 @@
         "id": 4,
         "sinner": "이상",
         "name": "피쿼드호 일등 항해사 이상",
-        "affiliation": "LCB",
+        "affiliation": "피쿼드호",
         "keywords": [
             "출혈",
             "호흡"
@@ -390,7 +390,7 @@
         "id": 5,
         "sinner": "이상",
         "name": "남부 디에치 협회 4과 이상",
-        "affiliation": "LCB",
+        "affiliation": "디에치 협회",
         "keywords": [
             "침잠"
         ],
@@ -486,7 +486,7 @@
         "id": 6,
         "sinner": "이상",
         "name": "LCE E.G.O::초롱 이상",
-        "affiliation": "LCB",
+        "affiliation": "LCE",
         "keywords": [
             "파열"
         ],
@@ -582,7 +582,7 @@
         "id": 7,
         "sinner": "이상",
         "name": "검계 살수 이상",
-        "affiliation": "LCB",
+        "affiliation": "검계",
         "keywords": [
             "호흡"
         ],
@@ -678,7 +678,7 @@
         "id": 8,
         "sinner": "이상",
         "name": "개화 E.G.O::동백 이상",
-        "affiliation": "LCB",
+        "affiliation": "기술해방연합",
         "keywords": [
             "진동",
             "침잠"
@@ -775,7 +775,7 @@
         "id": 9,
         "sinner": "이상",
         "name": "W사 3등급 정리 요원 이상",
-        "affiliation": "LCB",
+        "affiliation": "W사",
         "keywords": [
             "파열",
             "충전"
@@ -877,7 +877,7 @@
         "id": 10,
         "sinner": "이상",
         "name": "약지 점묘파 스튜던트 이상",
-        "affiliation": "LCB",
+        "affiliation": "약지",
         "keywords": [
             "화상",
             "출혈",
@@ -983,7 +983,7 @@
         "id": 11,
         "sinner": "이상",
         "name": "로보토미 E.G.O::엄숙한 애도 이상",
-        "affiliation": "LCB",
+        "affiliation": "로보토미",
         "keywords": [
             "침잠"
         ],
@@ -1083,7 +1083,7 @@
         "id": 12,
         "sinner": "이상",
         "name": "남부 리우 협회 3과 이상",
-        "affiliation": "LCB",
+        "affiliation": "리우 협회",
         "keywords": [
             "화상"
         ],
@@ -1181,7 +1181,7 @@
         "id": 13,
         "sinner": "이상",
         "name": "N사 E.G.O::흉탄 이상",
-        "affiliation": "LCB",
+        "affiliation": "N사",
         "keywords": [
             "출혈",
             "호흡"
@@ -1282,7 +1282,7 @@
         "id": 14,
         "sinner": "이상",
         "name": "흑수 - 오 필두 이상",
-        "affiliation": "LCB",
+        "affiliation": "흑수",
         "keywords": [
             "진동",
             "파열",
@@ -1402,7 +1402,7 @@
         "id": 15,
         "sinner": "이상",
         "name": "거미집 검지 아비 이상",
-        "affiliation": "LCB",
+        "affiliation": "검지",
         "keywords": [
             "화상",
             "침잠",
@@ -1543,259 +1543,66 @@
     },
     {
         "id": 16,
-        "sinner": "이상",
-        "name": "LCB 수감자 이상",
+        "sinner": "파우스트",
+        "name": "LCB 수감자 파우스트",
         "affiliation": "LCB",
-        "keywords": [
-            "침잠"
-        ],
+        "sim_keyword": [],
+        "keywords": [],
         "img": "asset/card/16.jpg",
         "skill": {
             "skill": [
                 {
-                    "name": "쳐내기",
+                    "name": "내려베기",
                     "coin": 1,
                     "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "우울",
+                    "type": "타격",
+                    "crime": "오만",
                     "default_power": 4,
                     "coin_power": "+7",
                     "weight": 1,
                     "keyword": [],
-                    "des": "적중시 침잠 2 부여",
-                    "level": "60(0)"
+                    "des": "적중시 마비 1 부여",
+                    "level": "59(-1)"
                 },
                 {
-                    "name": "밀어찌르기",
+                    "name": "올려베기",
                     "coin": 2,
                     "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "질투",
-                    "default_power": 4,
+                    "type": "타격",
+                    "crime": "나태",
+                    "default_power": 5,
                     "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "적중시 침잠 2 부여. 침잠 횟수 1 증가",
-                    "level": "60(0)"
+                    "des": "적중시 다음 턴에 공격 레벨 감소 3 부여",
+                    "level": "59(-1)"
                 },
                 {
-                    "name": "연격",
-                    "coin": 3,
+                    "name": "후벼찌르기",
+                    "coin": 2,
                     "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "나태",
-                    "default_power": 6,
+                    "type": "관통",
+                    "crime": "탐식",
+                    "default_power": 7,
                     "coin_power": "+2",
                     "weight": 1,
                     "keyword": [],
-                    "des": "적중시 대상의 정신력이 0 미만이면 다음 턴에 취약 1 부여",
-                    "level": "60(0)"
+                    "des": "앞면 적중시 다음 턴에 공격 위력 감소 1 부여",
+                    "level": "59(-1)"
                 }
             ],
             "passive_skill": {
-                "name": "정보전달",
-                "resources": [
-                    {
-                        "name": "우울",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "조작 패널에서 자신의 뒤에 있는 아군 2명에게 피해량 증가 1 부여",
-                "resource_type": "공명"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                }
-            ],
-            "support_passive": {
-                "name": "정보중화",
-                "resources": [
-                    {
-                        "name": "우울",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "정신력이 가장 낮은 아군 1명 이번 턴에 정신력이 감소한 경우 턴 종료 시 정신력 10 회복",
-                "resource_type": "보유"
-            },
-            "guard_skill": {
-                "name": "가드",
-                "crime": "우울",
-                "type": "가드",
-                "level": "58(-2)",
-                "default_power": "7",
-                "coin_power": "+3",
-                "keyword": [],
-                "des": "",
-                "coin": 1
-            }
-        },
-        "sim_keyword": []
-    },
-    {
-        "id": 17,
-        "sinner": "이상",
-        "name": "남부 세븐 협회 6과 이상",
-        "affiliation": "W사",
-        "keywords": [
-            "파열"
-        ],
-        "img": "asset/card/17.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "플레쉬",
-                    "coin": 1,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "우울",
-                    "default_power": 5,
-                    "coin_power": "+7",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "[앞면 적중시] 파열 2 부여",
-                    "level": "60(0)"
-                },
-                {
-                    "name": "리포스트",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "탐식",
-                    "default_power": 5,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "합 승리시  다음 턴에 마비 3 부여합 승리시  파열 횟수 1 부여적중시 다음 턴에 취약 1 부여적중시 파열 1 부여",
-                    "level": "60(0)"
-                },
-                {
-                    "name": "물리네",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "타격",
-                    "crime": "나태",
-                    "default_power": 5,
-                    "coin_power": "+3",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "적중시 다음 턴에 관통 취약 1 부여적중시 파열 1 부여",
-                    "level": "60(0)"
-                }
-            ],
-            "passive_skill": {
-                "name": "관찰",
-                "resources": [
-                    {
-                        "name": "탐식",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "합 진행 시 대상의 합 위력 -2",
-                "resource_type": "공명"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                }
-            ],
-            "support_passive": {
                 "name": "분석",
                 "resources": [
                     {
-                        "name": "탐식",
-                        "count": 3
+                        "name": "오만",
+                        "count": 2
                     }
                 ],
                 "keyword": [],
-                "des": "최대 체력이 가장 높은 아군 1명 합 진행 시 합 위력 +1",
+                "des": "부정적인 효과가 걸려있는 대상에게 가하는 피해량 +10%",
                 "resource_type": "공명"
             },
-            "guard_skill": {
-                "name": "가드",
-                "crime": "탐식",
-                "type": "가드",
-                "level": "62(+2)",
-                "default_power": "9",
-                "coin_power": "+3",
-                "keyword": [],
-                "des": "",
-                "coin": 1
-            }
-        },
-        "sim_keyword": []
-    },
-    {
-        "id": 18,
-        "sinner": "이상",
-        "name": "어금니 사무소 해결사 이상",
-        "affiliation": "로보토미",
-        "keywords": [
-            "진동"
-        ],
-        "img": "asset/card/18.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "침착하게",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "색욕",
-                    "default_power": 3,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "이 스킬이 버려지면 자신의 진동 횟수 4 증가사용시 자신의 진동 횟수 2 증가자신의 진동 횟수가 5 이상일 때 코인 위력 +1적중시 진동 횟수 2 증가",
-                    "level": "58(-2)"
-                },
-                {
-                    "name": "도박수",
-                    "coin": 1,
-                    "coin_type": "basic",
-                    "type": "타격",
-                    "crime": "나태",
-                    "default_power": 4,
-                    "coin_power": "+12",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "이 스킬이 버려지면 자신의 진동 횟수 4 증가사용시 자신의 모든 스킬 슬롯에서 등급이 가장 낮은 스킬 1개를 버림적중시 진동 횟수 3 증가적중시 자신의 진동 횟수가 5 이상일 때, 진동 폭발. 대상의 진동 횟수 2 감소",
-                    "level": "62(+2)"
-                },
-                {
-                    "name": "어금니 갈기",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "타격",
-                    "crime": "분노",
-                    "default_power": 4,
-                    "coin_power": "+3",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 자신의 모든 스킬 슬롯에서 등급이 가장 낮은 스킬 1개를 버림사용시 자신의 진동 횟수 10을 소모하여 코인 위력 +2적중시 진동 4 부여적중시 스킬 사용 시 진동 횟수를 소모했으면, 진동 폭발적중시 방어 레벨 감소 2 부여적중시 스킬 사용 시 진동 횟수를 소모했으면, 진동 폭발",
-                    "level": "65(+5)"
-                }
-            ],
-            "passive_skill": {
-                "name": "이럴 때 일수록…",
-                "resources": [
-                    {
-                        "name": "나태",
-                        "count": 3
-                    }
-                ],
-                "keyword": [],
-                "des": "적에게 진동 폭발 시 입히는 흐트러짐 손상 4 당 방어 레벨 감소 1 부여 (턴마다 적 1명당 최대 5)",
-                "resource_type": "보유"
-            },
             "add_passive_skill": [
                 {
                     "name": "",
@@ -1804,133 +1611,323 @@
                 }
             ],
             "support_passive": {
-                "name": "벌려진 일 수습",
+                "name": "관찰",
                 "resources": [
                     {
-                        "name": "나태",
+                        "name": "오만",
                         "count": 3
                     }
                 ],
                 "keyword": [],
-                "des": "최대 체력이 가장 낮은 아군 1명이 적에게 진동 폭발 시 입히는 흐트러짐 손상 4 당 다음 턴에 방어 레벨 감소 1 부여 (턴마다 적 1명당 최대 3)",
-                "resource_type": "보유"
-            },
-            "guard_skill": {
-                "name": "가드",
-                "crime": "나태",
-                "type": "가드",
-                "level": "60(0)",
-                "default_power": "10",
-                "coin_power": "+5",
-                "keyword": [],
-                "des": "사용시 자신의 모든 스킬 슬롯에서 등급이 가장 낮은 스킬 1개를 버림",
-                "coin": 1
-            }
-        },
-        "sim_keyword": []
-    },
-    {
-        "id": 19,
-        "sinner": "이상",
-        "name": "피쿼드호 일등 항해사 이상",
-        "affiliation": "츠바이 협회",
-        "keywords": [
-            "출혈",
-            "호흡"
-        ],
-        "img": "asset/card/19.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "후벼파기",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "오만",
-                    "default_power": 3,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 자신의 호흡 횟수 2 증가적중시 다음 턴에 속박 1 부여적중시 출혈 2 부여",
-                    "level": "62(+2)"
-                },
-                {
-                    "name": "쑤시고 쑤시기",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "질투",
-                    "default_power": 4,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 자신의 호흡 횟수 2 증가자신의 호흡이 5 이상이면, 합 위력 +3적중시 호흡 2 얻음적중시 출혈 1 부여[크리티컬 적중 시] 이 코인 재사용 (최대 3회)",
-                    "level": "62(+2)"
-                },
-                {
-                    "name": "급습",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "탐식",
-                    "default_power": 4,
-                    "coin_power": "+6",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 호흡 5 얻음자신의 호흡이 7 이상이면, 코인 위력 +1적중시 자신의 호흡 횟수 2 증가적중시 출혈 4 부여[크리티컬 적중 시] 출혈 횟수 6 증가",
-                    "level": "62(+2)"
-                }
-            ],
-            "passive_skill": {
-                "name": "일등 항해사의 작살",
-                "resources": [
-                    {
-                        "name": "오만",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "크리티컬 적중 시 스킬로 부여하는 출혈 위력 +2 (턴 당 최대 6회)",
-                "resource_type": "보유"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                }
-            ],
-            "support_passive": {
-                "name": "일등 항해사의 노련함",
-                "resources": [
-                    {
-                        "name": "오만",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "호흡을 가장 많이 보유한 아군 1명이 크리티컬 적중 시 스킬로 부여하는 출혈 위력 +2 (턴 당 최대 6회)",
+                "des": "최대 체력이 가장 높은 아군 1명 공격 적중 시 25% 확률로 공격 레벨 감소 2 부여",
                 "resource_type": "보유"
             },
             "guard_skill": {
                 "name": "회피",
                 "crime": "오만",
                 "type": "회피",
-                "level": "57(-3)",
+                "level": "61(+1)",
+                "default_power": "2",
+                "coin_power": "+10",
+                "keyword": [],
+                "des": "",
+                "coin": 1
+            }
+        }
+    },
+    {
+        "id": 17,
+        "sinner": "파우스트",
+        "name": "W사 2등급 정리 요원 파우스트",
+        "affiliation": "W사",
+        "sim_keyword": [],
+        "keywords": [
+            "충전"
+        ],
+        "img": "asset/card/17.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "에너지 순환",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+8",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 자신의 충전 횟수 2 증가적중시 자신의 충전 횟수 2 증가",
+                    "level": "59(-1)"
+                },
+                {
+                    "name": "도약",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "우울",
+                    "default_power": 6,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 자신의 충전 횟수 3 증가적중시 자신의 충전 횟수 3 증가적중시 충전 횟수를 3 소모하여 다음 턴에 속박 4 부여",
+                    "level": "59(-1)"
+                },
+                {
+                    "name": "과충전",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "분노",
+                    "default_power": 6,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "충전 횟수가 5 이상이면, 합 위력 +2적중시 충전 횟수를 5 소모하여 다음 턴에 공격 위력 감소 2 부여. 마비 3 부여",
+                    "level": "59(-1)"
+                }
+            ],
+            "passive_skill": {
+                "name": "자가충전",
+                "resources": [
+                    {
+                        "name": "질투",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "공격 종료 시 충전 횟수 1 증가공격 종료 시 무작위 아군 1명의 충전 횟수 1 증가",
+                "resource_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "무전",
+                "resources": [
+                    {
+                        "name": "질투",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "최대 체력이 가장 낮은 아군 1명 충전 횟수 얻는 값 +1",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "가드",
+                "crime": "질투",
+                "type": "가드",
+                "level": "66(+5)",
+                "default_power": "10",
+                "coin_power": "+2",
+                "keyword": [],
+                "des": "",
+                "coin": 1
+            }
+        }
+    },
+    {
+        "id": 18,
+        "sinner": "파우스트",
+        "name": "살아남은 로보토미 직원 파우스트",
+        "affiliation": "로보토미",
+        "sim_keyword": [],
+        "keywords": [
+            "파열",
+            "호흡"
+        ],
+        "img": "asset/card/18.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "단격",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "색욕",
+                    "default_power": 3,
+                    "coin_power": "+8",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 호흡 횟수 2 증가적중시 파열 2 부여",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "깊게베기",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "우울",
+                    "default_power": 5,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "적중시 다음 턴에 신속 4 얻음 적중시 다음 턴에 호흡 1 얻음",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "기회 노리기",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+8",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "이전 턴에 피해를 받지 않은 경우 코인 위력 +3앞면 적중시 파열 5 부여",
+                    "level": "63(+3)"
+                }
+            ],
+            "passive_skill": {
+                "name": "각오",
+                "resources": [
+                    {
+                        "name": "색욕",
+                        "count": 2
+                    }
+                ],
+                "keyword": [],
+                "des": "다음 턴 시작 시 호흡 횟수가 4 이상이면 신속 2를 얻음",
+                "resource_type": "공명"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "지지",
+                "resources": [
+                    {
+                        "name": "색욕",
+                        "count": 2
+                    }
+                ],
+                "keyword": [],
+                "des": "최대 체력이 가장 낮은 아군 1명 수비 스킬의 최종 위력 +2",
+                "resource_type": "공명"
+            },
+            "guard_skill": {
+                "name": "회피",
+                "crime": "질투",
+                "type": "회피",
+                "level": "60(0)",
                 "default_power": "3",
                 "coin_power": "+10",
                 "keyword": [],
                 "des": "",
                 "coin": 1
             }
-        },
-        "sim_keyword": []
+        }
+    },
+    {
+        "id": 19,
+        "sinner": "파우스트",
+        "name": "남부 츠바이 협회 4과 파우스트",
+        "affiliation": "츠바이 협회",
+        "sim_keyword": [],
+        "keywords": [],
+        "img": "asset/card/19.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "순찰",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "질투",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 다음 턴에 이 스킬 슬롯의 도발치 2 증가합 패배 방어 레벨 증가 3를 얻음적중시 다음 턴에 방어 레벨 증가 2를 얻음",
+                    "level": "59(-1)"
+                },
+                {
+                    "name": "고객 경호",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "우울",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 현재 체력 비율이 가장 낮은 아군에게 방어 레벨 증가 4 부여 (턴당 최대 3회 발동)자신의 방어 레벨 증가가 5 이상이면, 합 위력 +2적중시 다음 턴에 방어 레벨 증가 1을 얻음적중시 다음 턴에 방어 레벨 증가 1을 얻음적중시 다음 턴에 방어 레벨 증가 1을 얻음",
+                    "level": "59(-1)"
+                },
+                {
+                    "name": "치안 수호",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "색욕",
+                    "default_power": 6,
+                    "coin_power": "+5",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 방어 레벨 증가가 5 이상이면, 코인 위력 +1합 승리시 체력 4 회복현재 체력 비율이 가장 낮은 아군에게 다음 턴에 신속 1, 방어 레벨 증가 2 부여대상이 츠바이 협회 해결사면, 신속 1, 방어 레벨 증가 1 추가 부여",
+                    "level": "59(-1)"
+                }
+            ],
+            "passive_skill": {
+                "name": "지역 보호",
+                "resources": [
+                    {
+                        "name": "우울",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "전투 시작 시 조작 패널에서 양 옆의 아군에게 방어 레벨 증가 2 부여대상의 체력이 50% 미만이면 추가로 2 부여",
+                "resource_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "보호 요청 수신",
+                "resources": [
+                    {
+                        "name": "우울",
+                        "count": 2
+                    }
+                ],
+                "keyword": [],
+                "des": "전투 시작 시 체력 비율이 가장 낮은 아군 1명에게 방어 레벨 증가 2 부여대상의 체력이 50% 미만이면 추가로 2 부여",
+                "resource_type": "공명"
+            },
+            "guard_skill": {
+                "name": "가드",
+                "crime": "우울",
+                "type": "가드",
+                "level": "62(+2)",
+                "default_power": "12",
+                "coin_power": "+6",
+                "keyword": [],
+                "des": "사용시 다음 턴에 이 스킬 슬롯의 도발치 3 증가",
+                "coin": 1
+            }
+        }
     },
     {
         "id": 20,
-        "sinner": "이상",
-        "name": "남부 디에치 협회 4과 이상",
+        "sinner": "파우스트",
+        "name": "워더링하이츠 버틀러 파우스트",
         "affiliation": "워더링하이츠",
+        "sim_keyword": [],
         "keywords": [
             "침잠"
         ],
@@ -1938,55 +1935,55 @@
         "skill": {
             "skill": [
                 {
-                    "name": "지식 소모",
+                    "name": "압수",
                     "coin": 2,
                     "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "탐식",
+                    "type": "참격",
+                    "crime": "우울",
                     "default_power": 3,
                     "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "이 스킬이 버려지면 (탐구한 지식 × 최대 체력의 3%)만큼 보호막을 얻음\n사용시 자신의 모든 스킬 슬롯에서 등급이 가장 높은 스킬 1개를 버림\n사용시 대상의 침잠이 5 이상이면 코인 위력 +1적중시 탐구한 지식만큼 흐트러짐 회복적중시 탐구한 지식만큼 흐트러짐 회복",
-                    "level": "59(-1)"
+                    "des": "사용시 대상의 침잠이 6 이상이면 코인 위력 +1적중시 침잠 2 부여",
+                    "level": "61(+1)"
                 },
                 {
-                    "name": "잠궈닫기",
-                    "coin": 3,
+                    "name": "불청객 맞이",
+                    "coin": 2,
                     "coin_type": "basic",
                     "type": "타격",
                     "crime": "색욕",
                     "default_power": 4,
-                    "coin_power": "+3",
+                    "coin_power": "+5",
                     "weight": 1,
                     "keyword": [],
-                    "des": "이 스킬이 버려지면 (탐구한 지식 × 최대 체력의 6%)만큼 보호막을 얻음\n사용시 자신의 모든 스킬 슬롯에서 등급이 가장 높은 스킬 1개를 버림\n사용시 대상의 침잠이 5 이상이면 코인 위력 +1\n사용시 다음 턴에 이 슬롯이 도발치 3 얻음적중시 탐구한 지식만큼 침잠 부여적중시 탐구한 지식만큼 침잠 부여",
-                    "level": "59(-1)"
+                    "des": "사용시 대상의 침잠이 5 이상이면 합 위력 +1사용시 대상의 침잠 횟수가 3 이상이면 코인 위력 +1적중시 침잠 횟수 3 증가",
+                    "level": "62(+2)"
                 },
                 {
-                    "name": "지식의 가호",
+                    "name": "접객도 4식 봉심",
                     "coin": 4,
                     "coin_type": "basic",
-                    "type": "타격",
-                    "crime": "나태",
+                    "type": "참격",
+                    "crime": "분노",
                     "default_power": 4,
                     "coin_power": "+2",
                     "weight": 1,
                     "keyword": [],
-                    "des": "이 스킬이 버려지면 (탐구한 지식 × 최대 체력의 12%)만큼 보호막을 얻음\n사용시 다음 턴에 이 슬롯이 도발치 10 얻음\n사용시 자신의 체력이 50% 미만이면 코인 위력 +1적중시 침잠 횟수 3 증가",
-                    "level": "63(+3)"
+                    "des": "사용시 대상의 침잠 횟수가 5 이상이면 코인 위력 +2적중시 침잠 횟수 3 증가적중시 다음 턴에 저택의 메아리 2 부여.적중시 대상에게 저택의 메아리가 있으면 침잠 횟수 3 증가",
+                    "level": "64(+4)"
                 }
             ],
             "passive_skill": {
-                "name": "가라앉는 지식",
+                "name": "버틀러식 대응",
                 "resources": [
                     {
-                        "name": "나태",
-                        "count": 3
+                        "name": "우울",
+                        "count": 4
                     }
                 ],
                 "keyword": [],
-                "des": "피격 시 공격자에게 침잠 1 부여. 보호막이 있는 동안 피격 시 침잠 1 추가 부여 (최대 4회)",
+                "des": "합 승리 시 대상에게 침잠 1 부여 (턴 당 3회)\n대상에게 저택의 메아리가 있다면 대신 3 부여",
                 "resource_type": "보유"
             },
             "add_passive_skill": [
@@ -1997,84 +1994,185 @@
                 }
             ],
             "support_passive": {
-                "name": "반복 지식",
+                "name": "그 날을 위한 훈련",
                 "resources": [
                     {
-                        "name": "나태",
+                        "name": "우울",
                         "count": 4
                     }
                 ],
                 "keyword": [],
-                "des": "속도가 가장 빠른 아군 1명이 스킬을 버릴 때, 해당 캐릭터 최대 체력의 (5 × 버린 스킬의 등급)% 만큼 보호막을 얻음 (턴 당 최대 2회)",
+                "des": "정신력이 가장 낮은 아군 1명이 침잠이 5 이상 부여된 대상에게 공격 적중 시 자신의 정신력 3 회복 (턴 당 4회)",
                 "resource_type": "보유"
             },
             "guard_skill": {
-                "name": "탐구 몰입",
-                "crime": "나태",
+                "name": "사냥 대비",
+                "crime": "우울",
                 "type": "가드",
-                "level": "63(+3)",
-                "default_power": "12",
+                "level": "61(+1)",
+                "default_power": "7",
                 "coin_power": "+6",
                 "keyword": [],
-                "des": "사용시 자신의 모든 스킬 슬롯에서 무작위 스킬 2개를 등급이 낮은 순으로 버림\n사용시 다음 턴에 이 슬롯이 도발치 5 얻음",
+                "des": "사용시 대상의 침잠이 10 이상이면 코인 위력 +7",
                 "coin": 1
             }
-        },
-        "sim_keyword": []
+        }
     },
     {
         "id": 21,
-        "sinner": "이상",
-        "name": "LCE E.G.O::초롱 이상",
+        "sinner": "파우스트",
+        "name": "쥐는 자 파우스트",
         "affiliation": "N사",
+        "sim_keyword": [
+            "출혈"
+        ],
         "keywords": [
-            "파열"
+            "출혈"
         ],
         "img": "asset/card/21.jpg",
         "skill": {
             "skill": [
                 {
-                    "name": "E.G.O는 제식 장비라 할지라도,",
+                    "name": "광소",
                     "coin": 2,
-                    "coin_type": "indestructible",
-                    "type": "타격",
-                    "crime": "나태",
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "질투",
                     "default_power": 4,
                     "coin_power": "+3",
                     "weight": 1,
                     "keyword": [],
-                    "des": "전투 시작시 자신을 타겟팅한 스킬의 수만큼 합 패배 시 최종 위력이 증가 (최대 3)\n[사용시] 다음 턴에 도발치 3 얻음\n[사용시] 대상의 파열이 15, 파열 횟수가 3 이상이면, 이 스킬의 효과로 파열을 부여하지 않음\n[합 패배] 이 스킬에서 부여하는 파열 위력 +2파괴 불가 코인\n적중시 파열 1 부여파괴 불가 코인\n적중시 파열 1 부여",
-                    "level": "60(0)"
+                    "des": "합 승리시 대상의 정신력 3 감소적중시 못 1 부여적중시 출혈 2 부여",
+                    "level": "64(+4)"
                 },
                 {
-                    "name": "로보토미때의 E.G.O보다 환상체와의 감응 정도에 따라",
-                    "coin": 1,
-                    "coin_type": "indestructible",
+                    "name": "쥐어짐",
+                    "coin": 3,
+                    "coin_type": "basic",
                     "type": "관통",
-                    "crime": "질투",
-                    "default_power": 8,
-                    "coin_power": "+6",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "전투 시작시 (자신을 타겟팅한 스킬의 수 × 2)만큼 합 패배 시 최종 위력이 증가 (최대 6)\n[사용시] 다음 턴에 도발치 5 얻음\n[사용시] 대상의 파열이 15, 파열 횟수가 3 이상이면, 이 스킬의 효과로 파열 횟수를 부여하지 않음\n[합 패배] 이 스킬에서 부여하는 파열 횟수 +2파괴 불가 코인\n적중시 파열 횟수 2 증가",
-                    "level": "61(+1)"
+                    "des": "앞면 적중시 다음 턴에 마비 1 부여적중시 다음 턴에 주시 부여",
+                    "level": "64(+4)"
                 },
                 {
-                    "name": "본체의 특징을 더 유연하게 활용 가능하오",
+                    "name": "처단",
                     "coin": 3,
                     "coin_type": "basic",
                     "type": "타격",
-                    "crime": "탐식",
-                    "default_power": 16,
-                    "coin_power": "-5",
+                    "crime": "오만",
+                    "default_power": 6,
+                    "coin_power": "+2",
                     "weight": 1,
                     "keyword": [],
-                    "des": "자신의 잃은 체력 1% 당 피해량 +0.8%\n전투 시작시 자신을 타겟팅한 스킬의 수만큼 기본 위력이 증가 (최대 3)\n[사용시] 미끼 요정 3 얻음 (턴 당 1회)\n[사용시] 다음 턴에 도발치 8 얻음\n[사용시] 대상의 파열이 15, 파열 횟수가 3 이상이면, 이 스킬의 효과로 파열 위력과 횟수를 부여하지 않고, 기본 위력 +1\n[공격 종료시] 정신력 30 회복적중시 파열 횟수 3 증가\n적중시 다음 턴에 속박 2 부여적중시 파열 1 부여적중시 파열 1 부여",
-                    "level": "65(+5)"
+                    "des": "이 스킬로 적 처치 시 모든 아군의 정신력을 10 회복시키고, 모든 아군에게 관통 피해량 증가, 타격 피해량 증가 1 부여적중시 못 2 부여앞면 적중시 못 2 부여대상에게 못이 5 이상 있으면, 피해량 +70%",
+                    "level": "64(+4)"
                 }
             ],
             "passive_skill": {
-                "name": "외형 또한 이전 L사의 E.G.O에 비해, 환상체와 가깝게 추출할 수 있소",
+                "name": "휘파람",
+                "resources": [
+                    {
+                        "name": "색욕",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "전투 시작 시 정신력이 가장 낮은 아군 2명의 정신력 15 회복. 대상이 N사 광신도면 광신 2 부여",
+                "resource_type": "공명"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "속삭임",
+                "resources": [
+                    {
+                        "name": "색욕",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "전투 시작 시 정신력이 가장 낮은 아군 1명의 정신력 15 회복. 대상이 N사 광신도면 광신 2 부여",
+                "resource_type": "공명"
+            },
+            "guard_skill": {
+                "name": "불결하군요",
+                "crime": "색욕",
+                "type": "회피",
+                "level": "60(0)",
+                "default_power": "4",
+                "coin_power": "+10",
+                "keyword": [],
+                "des": "회피 성공시 대상의 정신력 3 감소, \n",
+                "coin": 1
+            }
+        }
+    },
+    {
+        "id": 22,
+        "sinner": "파우스트",
+        "name": "남부 세븐 협회 4과 파우스트",
+        "affiliation": "세븐 협회",
+        "sim_keyword": [
+            "파열"
+        ],
+        "keywords": [
+            "파열",
+            "호흡"
+        ],
+        "img": "asset/card/22.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "예측 분석",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "대상의 파열 3 당 코인 위력 +1 (최대 2)적중시 파열 3 부여",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "대상 해체",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "우울",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "대상의 파열 6 당 코인 위력 +1 (최대 2)합 승리시 파열 횟수 3 증가적중시 파열 3 부여적중시 대상의 파열이 6 이상이면, 다음 턴에 약점 분석 부여",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "프로파일링",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "탐식",
+                    "default_power": 5,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "대상의 파열 3 당 피해량 +10% (최대 50%)합 승리시 파열 횟수 2 증가적중시 파열 3 부여공격 종료시 대상이 흐트러짐 상태가 되거나 사망하면, 다음 턴에 신속 1, 참격 위력 증가 1을 얻음",
+                    "level": "63(+3)"
+                }
+            ],
+            "passive_skill": {
+                "name": "차가 식기 전에…",
                 "resources": [
                     {
                         "name": "탐식",
@@ -2082,7 +2180,7 @@
                     }
                 ],
                 "keyword": [],
-                "des": "사망 시 자신을 가장 마지막으로 공격한 대상에게 파열 5, 파열 횟수 3을 부여하고, 가장 부족한 속성 E.G.O 자원 4종을 2개씩 얻음\n- 공격자가 없거나 아군에게 사망한 경우, 현재 파열 횟수가 가장 적은 적에게 파열 5, 파열 횟수 3 부여\n- 자신이 미끼 요정 상태인 경우, 이 효과로 부여하는 파열 위력이 2배로 적용됨",
+                "des": "상대의 약점, 취약 속성(내성 1 초과)으로 공격할 때, 공격 전 대상의 파열만큼 호흡을 얻음 (턴 당 최대 20)",
                 "resource_type": "보유"
             },
             "add_passive_skill": [
@@ -2093,7 +2191,512 @@
                 }
             ],
             "support_passive": {
-                "name": "E.G.O가 붕괴될 때 거름과 같이 분해되오",
+                "name": "세븐 협회의 티타임",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "속도가 가장 빠른 아군 1명이 상대의 약점, 취약 속성(내성 1 초과)으로 공격 시 대상의 파열에 비례하여 피해량 증가 (파열 1 당 1.5%. 최대 15%)효과를 적용받은 대상이 세븐 협회 해결사면, 피해량 추가 증가 (파열 1 당 0.5%. 최대 5%)",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "빠르게 해결하죠",
+                "crime": "색욕",
+                "type": "가드",
+                "level": "58(-2)",
+                "default_power": "10",
+                "coin_power": "+4",
+                "keyword": [],
+                "des": "사용시 다음 턴에 신속 1을 얻음 (턴 당 최대 3)",
+                "coin": 1
+            }
+        }
+    },
+    {
+        "id": 23,
+        "sinner": "파우스트",
+        "name": "로보토미 E.G.O::후회 파우스트",
+        "affiliation": "로보토미",
+        "sim_keyword": [],
+        "keywords": [
+            "진동"
+        ],
+        "img": "asset/card/23.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "조여오는 구속구",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "나태",
+                    "default_power": 4,
+                    "coin_power": "+7",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 자신의 진동 횟수 3 증가\n합 패배 자신의 진동 횟수 3 증가적중시 자신의 진동 횟수 3 증가\n적중시 진동 횟수 3 증가",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "금속성 울림",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "오만",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "전투 시작시 자신의 진동 횟수 5를 소모하여 이 스킬의 공격 가중치 +1\n사용시 자신의 진동 횟수 4 증가앞면 적중시 자신의 진동 횟수 1 증가\n적중시 다음 턴에 공격 레벨 감소 1 부여적중시 진동 5 부여\n적중시 다음 턴에 더하기 코인 약화 1 부여",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "풀려난 폭력성",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "분노",
+                    "default_power": 3,
+                    "coin_power": "+5",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "전투 시작시 자신의 진동 횟수 5를 소모하여 이 스킬의 공격 가중치 +1 (최대 +2)\n합 패배 정신력 20 감소\n대상이 보유한 부정적인 효과 1개당 피해량이 6% 증가 (최대 30%)\n적 처치 시 자신의 진동 횟수 2 증가적중시 진동 폭발\n진동 폭발 시 최종 흐트러짐 손상의 30%만큼 분노 피해를 줌 (최대 20)적중시 진동 폭발\n진동 폭발 시 최종 흐트러짐 손상의 30%만큼 분노 피해를 줌 (최대 20)적중시 진동 폭발\n진동 폭발 시 최종 흐트러짐 손상의 30%만큼 분노 피해를 줌 (최대 20)\n진동 횟수 3 감소",
+                    "level": "63(+3)"
+                }
+            ],
+            "passive_skill": {
+                "name": "떠밀린 후회",
+                "resources": [
+                    {
+                        "name": "분노",
+                        "count": 6
+                    }
+                ],
+                "keyword": [],
+                "des": "- 합 진행 시 대상이 보유한 부정적인 효과 3개당 대상의 합 위력 -1 (최대 2)\n- 자신이 생존해 있을 때, 진동 폭발을 당하는 적이 방어 레벨 감소 2를 얻음 (턴 당 적 1명당 최대 3회)\n- 정신 오염: 턴 종료 시 정신력이 -25 미만일 때 다음 턴에 속박 2, 타격 위력 증가 1을 얻음",
+                "resource_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "억압 작업",
+                "resources": [
+                    {
+                        "name": "분노",
+                        "count": 5
+                    }
+                ],
+                "keyword": [],
+                "des": "속도가 가장 느린 아군 1명이 합 진행 시 대상이 보유한 부정적인 효과가 3개 이상이면, 대상의 합 위력 -1",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "앙금 쌓기",
+                "crime": "우울",
+                "type": "반격",
+                "level": "65(+5)",
+                "default_power": "9",
+                "coin_power": "+5",
+                "keyword": [],
+                "des": "사용시 자신의 진동 횟수 6 증가",
+                "coin": 1
+            }
+        }
+    },
+    {
+        "id": 24,
+        "sinner": "파우스트",
+        "name": "검계 살수 파우스트",
+        "affiliation": "검계",
+        "sim_keyword": [],
+        "keywords": [
+            "호흡"
+        ],
+        "img": "asset/card/24.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "월하검무",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "나태",
+                    "default_power": 3,
+                    "coin_power": "+2",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 호흡이 5 이상이면, 코인 위력 +1\n사용시 자신의 호흡 횟수 2 증가앞면 적중시 호흡 1 얻음크리티컬 적중 시 홍매화 1 부여",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "자법",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "오만",
+                    "default_power": 4,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 호흡이 7 이상이면, 코인 위력 +1\n사용시 자신의 호흡 횟수 2 증가적중시 자신의 호흡 횟수 2 증가\n크리티컬 피해량 +30%적중시 다음 턴에 속박 1 부여\n크리티컬 적중 시 홍매화 2 부여",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "흩날리는 홍매화",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "우울",
+                    "default_power": 5,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "대상의 홍매화 1 당 피해량 +3%\n자신의 호흡 7 당 코인 위력 +1 (최대 3)\n합 승리시 자신의 호흡 횟수를 절반 감소하고, 감소한 양만큼 호흡을 얻음\n이 스킬로 크리티컬 적중 시 홍매화가 감소하지 않음크리티컬 적중 시 홍매화 5 부여\n크리티컬 적중 시 대상의 홍매화가 10이면, 참격 취약 1 부여크리티컬 적중 시 홍매화 5 부여\n크리티컬 적중 시 대상의 홍매화가 10이면, 참격 취약 1 부여",
+                    "level": "62(+2)"
+                }
+            ],
+            "passive_skill": {
+                "name": "매화 같이 터져나오는 피",
+                "resources": [
+                    {
+                        "name": "오만",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "크리티컬 적중 시 홍매화 1 부여.\n 대상의 홍매화가 10이면, 대신 방어 레벨 감소 1 부여 (최대 6회)",
+                "resource_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "미련 서린 검끝",
+                "resources": [
+                    {
+                        "name": "오만",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "편성 순서가 가장 빠른 아군이 참격 속성 스킬로 크리티컬 적중 시 방어 레벨 감소 1 부여 (턴 당 적 1명당 최대 3)",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "흘려내기",
+                "crime": "우울",
+                "type": "가드",
+                "level": "60(0)",
+                "default_power": "10",
+                "coin_power": "+4",
+                "keyword": [],
+                "des": "사용시 자신의 호흡 4 당 최종 위력 +1 (최대 5)",
+                "coin": 1
+            }
+        }
+    },
+    {
+        "id": 25,
+        "sinner": "파우스트",
+        "name": "멀티크랙 사무소 대표 파우스트",
+        "affiliation": "멀티크랙 사무소",
+        "sim_keyword": [],
+        "keywords": [
+            "충전"
+        ],
+        "img": "asset/card/25.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "40Y-3 가동",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "색욕",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 충전 횟수를 5 소모하여 코인 위력 +2적중시 충전 횟수 3 증가",
+                    "level": "61(+1)"
+                },
+                {
+                    "name": "충전 역류",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 충전 횟수가 5 이상 10 미만이면, 최대 체력의 2 × (10 - 현재 충전 횟수)%만큼 체력을 소모하여 충전 횟수가 10으로 증가\n사용시 자신의 충전 횟수를 10 소모하여 코인 위력 +2이 스킬을 포함한 공명이 3 이상이면, 보유한 충전 횟수를 전부 소모하여 이 스킬로 소모한 충전 횟수당 피해량 +(충전 + 4)% (최대 180%)",
+                    "level": "64(+4)"
+                },
+                {
+                    "name": "40Y-3 충전",
+                    "coin": 4,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "우울",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 충전 당 코인 위력 +1 (최대 4)적중시 (충전 + 5)만큼 자신의 충전 횟수 증가 (최대 8)적중시 (충전 + 5)만큼 자신의 충전 횟수 증가 (최대 8)충전이 3 이상이면 충전당 피해량 +8% (최대 40%)\n적중시 다음 턴에 질투 취약 1 부여\n- 충전이 2 이상이면, 추가로 1 부여",
+                    "level": "63(+3)"
+                }
+            ],
+            "passive_skill": {
+                "name": "전류 해체",
+                "resources": [
+                    {
+                        "name": "질투",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "전투 중 누적으로 자신의 충전 횟수 10을 소모할 때마다, 충전 1 얻음\n충전이 2 이상이면, 피해량이 (충전 × 3)%만큼 증가 (최대 15%)\n- 대상의 체력이 50% 미만이면 피해량이 (충전 × 5)%만큼 추가로 증가 (최대 25%)\n적을 처치하면 자신과 충전 횟수가 가장 적은 아군 2명이 (2 + 충전)만큼 충전 횟수 증가 (최대 5, 충전을 소모하거나 스스로 획득하는 스킬을 보유한 아군에게 우선으로 적용됨)",
+                "resource_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "해체 보조 전류",
+                "resources": [
+                    {
+                        "name": "질투",
+                        "count": 5
+                    }
+                ],
+                "keyword": [],
+                "des": "충전 횟수가 가장 적은 아군 1명이 적 처치 시 충전 횟수 3 증가 (턴 당 1회, 충전을 소모하거나 스스로 획득하는 스킬을 보유한 아군에게 우선으로 적용됨)",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "충전",
+                "crime": "질투",
+                "type": "가드",
+                "level": "60(0)",
+                "default_power": "12",
+                "coin_power": "+6",
+                "keyword": [],
+                "des": "사용시 자신의 충전 횟수 4 증가 (턴 당 2회)",
+                "coin": 1
+            }
+        }
+    },
+    {
+        "id": 26,
+        "sinner": "파우스트",
+        "name": "LCE E.G.O::홍염살 파우스트",
+        "affiliation": "LCE",
+        "sim_keyword": [],
+        "keywords": [
+            "화상"
+        ],
+        "img": "asset/card/26.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "착화",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "나태",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 자신의 화상이 10 이상이면, 피해량 +10%\n사용시 화상 7 얻음, 화상 횟수 1 증가\n사용시 (자신의 화상 + 대상의 화상) 10 당, 코인 위력 +1 (최대 2)적중시 화상 1 부여\n적중시 화상 2 얻음적중시 화상 1 부여\n적중시 자신의 화상이 10 이상이면, 화상 3 추가 부여\n적중시 화상 2 얻음",
+                    "level": "61(+1)"
+                },
+                {
+                    "name": "E.G.O 홍염살 전개",
+                    "coin": 0,
+                    "coin_type": "indestructible",
+                    "type": "타격",
+                    "crime": "오만",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 화상 10 당, 피해량 +10% (최대 20%)\n사용시 자신의 화상 횟수 4 증가\n사용시 (자신의 화상 + 대상의 화상) 4 당, 코인 위력 +1 (최대 2)적중시 화상 1 부여적중시 화상 1 부여파괴되지 않고 적중시 화상 3 부여\n적중시 대상의 화상이 15 이상이면, 화상 횟수 2 증가",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "불에 끌리는 마음으로",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "분노",
+                    "default_power": 5,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "전투 시작시 화상 7 얻음, 화상 횟수 1 증가\n사용 전 자신의 화상이 30 이상이면, '홍염살 최대 감응 【열화침식】'으로 발동\n자신의 화상 5 당, 피해량 +12.5% (최대 50%)\n사용시 (자신의 화상 + 대상의 화상) 10 당, 기본 위력 +1 (최대 2)\n사용시 자신의 잃은 체력 30% 당, 코인 위력 +1 (최대 2)적중시 화상 3 부여적중시 화상 3 부여",
+                    "level": "65(+5)"
+                },
+                {
+                    "name": "홍염살 최대 감응 【열화침식】",
+                    "coin": 3,
+                    "coin_type": "indestructible",
+                    "type": "타격",
+                    "crime": "분노",
+                    "default_power": 5,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "이 스킬 공격 종료 시 사망함.\n- 이 스킬을 사용하는 동안 체력이 1이 되면, 체력이 1로 유지됨.\n사용시 자신의 화상 5 당 피해량 +12.5% (최대 50%)\n사용시 (자신의 화상 + 대상의 화상) 10 당, 기본 위력 +1 (최대 2)\n사용시 자신의 잃은 체력 30% 당, 코인 위력 +1 (최대 3)\n공격 시작 전 자신의 잃은 체력 20% 당, 공격 가중치 +1 (최대 4)파괴 불가 코인\n적중시 화상 4 부여파괴 불가 코인\n적중시 화상 4 부여파괴 불가 코인\n적중시 자신의 잃은 체력 20% 당, 피해량 +10% (최대 30%)\n",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "불나방",
+                "resources": [
+                    {
+                        "name": "분노",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "전투 시작 시 자신의 잃은 체력이 80% 이상이고 화상이 30 미만이면, 화상을 30까지 얻음 (스테이지 당 1회)\n턴 종료 시 자신의 화상 6 당, 다음 턴에 공격 레벨 증가 1 얻음 (최대 5)\n사망 시 아래의 효과 발동\n- 모든 적에게 화상 2 부여. 자신의 화상을 나누어 부여 (1명당 최대 3)\n- 가장 부족한 속성의 E.G.O 자원 2종 2개씩 획득\n홍염살 최대 감응 【열화침식】 스킬의 효과로 사망하였으면, 효과가 강화됨\n- 모든 적에게 화상 3 부여. 자신의 화상을 나누어 부여 (1명당 최대 5)\n- 가장 부족한 속성의 E.G.O 자원 2종 2개씩 획득\n- 자신의 화상이 30 이상이었으면, 대기 해제되는 인원 1명에게 공격 레벨 증가 3 부여",
+                "resource_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                },
+                {
+                    "name": "내화",
+                    "des": "화상 피해로 흐트러짐 상태가 되거나 체력이 1 미만으로 감소하지 않음"
+                }
+            ],
+            "support_passive": {
+                "name": "잔열",
+                "resources": [
+                    {
+                        "name": "분노",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "정신력이 가장 낮은 아군 1명이 기본 스킬의 적중시 효과로 화상을 부여할 때 화상 2 추가 부여 (최대 3회 발동)\n- 피격 대상의 화상이 30 이상이면, 대신 화상 횟수 1 증가 (최대 3회 발동)\n합 승리 시 합 횟수에 비례하여 증가\n(증가량: 기본 값 10. 2합부터 1합당 20%씩 증가)\n적 처치 시 처치한 적의 레벨에 관계 없이 10 증가\n아군이 처치한 적의 레벨에 관계 없이 5 증가\n합 패배 시 합 횟수에 비례하여 감소\n(감소량: 기본 값 5. 2합부터 1합당 10%씩 증가)",
+                "resource_type": "공명"
+            },
+            "guard_skill": {
+                "name": "홍염살의 감응도를 올려 공명하겠습니다",
+                "crime": "분노",
+                "type": "회피",
+                "level": "58(-2)",
+                "default_power": "4",
+                "coin_power": "+10",
+                "keyword": [],
+                "des": "사용시 자신의 화상이 10 이상이면, 코인 위력 +3\n사용시 자신의 화상 5 감소 (턴 당 1회)\n회피 성공시 자신의 화상 5 감소 (턴 당 1회)",
+                "coin": 1
+            }
+        }
+    },
+    {
+        "id": 27,
+        "sinner": "파우스트",
+        "name": "흑수 - 묘 필두 파우스트",
+        "affiliation": "흑수",
+        "sim_keyword": [],
+        "keywords": [
+            "파열",
+            "호흡"
+        ],
+        "img": "asset/card/27.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "순보",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "나태",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 속도가 대상보다 3 이상 높으면, 코인 위력 +1\n사용시 대상의 파열이 4 이상이면, 코인 위력 +1\n합 승리시 파열 횟수 1 증가적중시 파열 1 부여적중시 파열 횟수 1 증가\n적중시 자신의 속도가 10 이상이면, 코인 1회 재사용 (스킬 당 1회)",
+                    "level": "61(+1)"
+                },
+                {
+                    "name": "길을 뚫겠습니다, 주군.",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "오만",
+                    "default_power": 4,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 속도가 대상보다 빠르면, (대상과의 속도 차이 × 자신의 천구성도)%만큼 피해량이 증가 (최대 50%)\n자신의 속도가 대상보다 3 이상 높으면, 코인 위력 +1\n사용시 대상의 파열이 4 이상이면, 코인 위력 +1\n사용시 다음 턴에 신속 2 얻음 (턴 당 1회)\n합 승리시 파열 횟수 1 증가적중시 파열 횟수 1 증가적중시 파열 1 부여\n대상에게 주살【신속】 또는 주살【파】가 있으면, 피해량 +50%",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "눈으로도 귀로도 쫓지 못하게.",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "탐식",
+                    "default_power": 5,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 속도가 대상보다 빠르면, (대상과의 속도 차이 × 대상의 파열 위력)%만큼 피해량이 증가 (최대 50%)\n자신의 속도가 대상보다 높을수록 코인 위력 +1 (속도 차이 2 당 코인 위력 +1, 최대 2)\n전투 시작시 원호 방어 1 얻음 (턴 당 1회)\n사용 전 천구성도가 10 이상이면, '흑수 묘 오의 - 운해현현'으로 발동됨\n사용시 대상의 파열이 15 이상이면, 코인 위력 +1\n사용시 각력【묘】 3 얻음\n합 승리시 파열 횟수 2 증가적중시 파열 횟수 1 증가\n적중시 주살【신속】 부여적중시 파열 1 부여자신의 속도가 10 이상이면, 피해량 +30%\n적중시 파열 3 부여\n적중시 자신의 속도가 10 이상이면, 코인 1회 재사용 (스킬 당 1회)\n재사용 적중시 주살【신속】 부여",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "흑수 묘 오의 - 운해현현",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "탐식",
+                    "default_power": 5,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "자신의 속도가 대상보다 빠르면, (대상과의 속도 차이 × 대상의 파열 위력)%만큼 피해량이 증가 (최대 50%)\n자신의 속도가 대상보다 높을수록 코인 위력 +1 (속도 차이 2 당 코인 위력 +1, 최대 2)\n사용시 대상의 파열 10 당, 코인 위력 +1 (최대 2)\n사용시 자신의 속도가 10 이상이면 호흡을 20 얻고, 자신의 호흡 횟수가 4 미만이면, 호흡 횟수를 최대 4까지 얻음\n사용시 각력【묘】 3 얻음\n합 승리시 파열 횟수 2 증가\n공격 종료시 천구성도 10 소모적중시 파열 횟수 1 증가\n적중시 주살【파】 부여\n적중시 주살【신속】 부여적중시 파열 1 부여자신의 속도가 10 이상이면, 피해량 +30%\n적중시 파열 3 부여\n적중시 자신의 속도가 10 이상이면, 코인 1회 재사용 (스킬 당 1회)\n재사용 적중시 주살【파】 부여\n재사용 적중시 주살【신속】 부여\n",
+                    "level": "64(+4)"
+                },
+                {
+                    "name": "초속호위",
+                    "coin": 1,
+                    "coin_type": "indestructible",
+                    "type": "강화 방어",
+                    "crime": "탐식",
+                    "default_power": 4,
+                    "coin_power": "+10",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "합 가능 가드\n원호 방어 전용 스킬\n사용 전 천구성도가 10 이상이면, '흑수 묘 오의 - 운해현현'으로 발동됨\n사용시 자신이 이번 전투에서 잃은 체력 누적 10% 당, 이 스킬의 방어 레벨 1 증가 (최대 6. 발동 시점 최대 체력 기준)\n사용시 이 스킬 종료 시까지 피해로 인해 흐트러짐 상태가 되지 않음\n사용시 보호 2 얻음 (턴 당 2회)파괴 불가 코인\n",
+                    "level": "62(+2)"
+                }
+            ],
+            "passive_skill": {
+                "name": "흑수화 [묘] / 묘 필두",
                 "resources": [
                     {
                         "name": "탐식",
@@ -2101,622 +2704,51 @@
                     }
                 ],
                 "keyword": [],
-                "des": "현재 체력이 가장 낮은 아군 1명이 사망 시 가장 부족한 속성의 E.G.O 자원 2종을 2개씩 얻음\n\n합 패배 시 합 횟수에 비례하여 증가\n(증가량: 기본 값 10. 2합부터 1합당 10%씩 증가)\n적 처치 시 처치한 적의 레벨에 관계 없이 5 증가\n\n합 승리 시 합 횟수에 비례하여 감소\n(감소량: 기본 값 10. 2합부터 1합당 20%씩 증가)",
+                "des": "자신의 속도가 대상보다 빠르면, 속도 차이 1 당 가하는 피해량 +2% (최대 10%)\n전투 중 아군이 주살 효과를 발동시킬 때마다, 천구성도 1 얻음 (턴 당 최대 5회)\n- 자신이 발동시켰으면, 천구성도 추가로 1 얻음\n원호 방어 효과 발동 시, 천구성도 5 얻음",
                 "resource_type": "보유"
             },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                },
+                {
+                    "name": "천구성",
+                    "des": "주살【파】의 수치가 0이 되어 소멸 시, 붕괴 표식이 부여됨"
+                }
+            ],
+            "support_passive": {
+                "name": "쾌도",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "속도가 가장 빠른 아군이 파열 피해를 입히면, 다음 턴에 공격 레벨 증가 1 얻음 (턴 당 최대 3회)",
+                "resource_type": "공명"
+            },
             "guard_skill": {
-                "name": "다만 그 감응과 동기화 정도에 따라 잡아먹힐 수 있소",
+                "name": "존명.",
                 "crime": "탐식",
-                "type": "반격",
-                "level": "65(+5)",
-                "default_power": "10",
-                "coin_power": "+5",
-                "keyword": [],
-                "des": "전투 시작시 미끼 요정 3 얻음 (턴 당 1회)\n[사용시] 다음 턴에 도발치 8 얻음\n[사용시] 대상의 파열이 15, 파열 횟수가 3 이상이면, 이 스킬의 효과로 파열 횟수를 부여하지 않고, 기본 위력 +3적중시 파열 횟수 2 증가",
-                "coin": 1
-            }
-        },
-        "sim_keyword": [
-            "출혈"
-        ]
-    },
-    {
-        "id": 22,
-        "sinner": "이상",
-        "name": "검계 살수 이상",
-        "affiliation": "세븐 협회",
-        "keywords": [
-            "호흡"
-        ],
-        "img": "asset/card/22.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "격세",
-                    "coin": 1,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "오만",
-                    "default_power": 6,
-                    "coin_power": "+7",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 호흡 횟수 2 얻음적중시 다음 턴에 호흡 3 얻음",
-                    "level": "65(+5)"
-                },
-                {
-                    "name": "두의틀기",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "분노",
-                    "default_power": 7,
-                    "coin_power": "+2",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "합 승리시  다음 턴에 자신의 호흡 횟수 2 증가",
-                    "level": "65(+5)"
-                },
-                {
-                    "name": "이면찬자",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "질투",
-                    "default_power": 8,
-                    "coin_power": "+2",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 호흡 2 얻음[앞면 적중시] 다음 턴에 호흡 2 얻음크리티컬 피해량 +70%",
-                    "level": "65(+5)"
-                }
-            ],
-            "passive_skill": {
-                "name": "냉정",
-                "resources": [
-                    {
-                        "name": "오만",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "합 승리 시 호흡 횟수 1 증가호흡 횟수 5당 코인 위력 +1 (최대 3)",
-                "resource_type": "보유"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                }
-            ],
-            "support_passive": {
-                "name": "사사",
-                "resources": [
-                    {
-                        "name": "오만",
-                        "count": 3
-                    }
-                ],
-                "keyword": [],
-                "des": "정신력이 가장 높은 아군 1명 스킬의 효과로 얻는 호흡 횟수 +1",
-                "resource_type": "보유"
-            },
-            "guard_skill": {
-                "name": "반격",
-                "crime": "오만",
-                "type": "반격",
-                "level": "65(+5)",
-                "default_power": "10",
-                "coin_power": "+8",
-                "keyword": [],
-                "des": "크리티컬 피해량 +70%",
-                "coin": 1
-            }
-        },
-        "sim_keyword": [
-            "파열"
-        ]
-    },
-    {
-        "id": 23,
-        "sinner": "이상",
-        "name": "개화 E.G.O::동백 이상",
-        "affiliation": "로보토미",
-        "keywords": [
-            "진동",
-            "침잠"
-        ],
-        "img": "asset/card/23.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "움트는 봉우리",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "탐식",
-                    "default_power": 3,
-                    "coin_power": "+2",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 진동 횟수 3을 얻음적중시 다음 턴에 침잠 횟수 1 증가적중시 다음 턴에 침잠 횟수 2 증가",
-                    "level": "64(+4)"
-                },
-                {
-                    "name": "찰나의 꽃바람",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "타격",
-                    "crime": "나태",
-                    "default_power": 4,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "전투 시작시 자신의 진동 횟수를 6 소모하여 공격 가중치 3 스킬로 변경메인 타켓의 침잠 횟수가 6 이상이면, 코인 위력 +1적중시 다음 턴에 침잠 2 부여적중시 다음 턴에 침잠 2 부여적중시 다음 턴에 침잠 2 부여",
-                    "level": "63(+3)"
-                },
-                {
-                    "name": "피를 머금은 향기",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "오만",
-                    "default_power": 6,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "[합 패배] 정신력 20 감소사용시 진동 횟수 6을 얻음적중시 침잠 횟수 1 증가적중시 침잠 횟수 1 증가적중시 대상의 침잠이 6 이상이면, 침잠쇄도적중시 자신의 진동 횟수가 10 이상이면, 피해량의 40%만큼 추가 피해",
-                    "level": "65(+5)"
-                }
-            ],
-            "passive_skill": {
-                "name": "만개",
-                "resources": [
-                    {
-                        "name": "나태",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "2명 이상을 공격할 때 피해량 +30%",
-                "resource_type": "보유"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                }
-            ],
-            "support_passive": {
-                "name": "알싸한 봄바람",
-                "resources": [
-                    {
-                        "name": "나태",
-                        "count": 3
-                    }
-                ],
-                "keyword": [],
-                "des": "정신력이 가장 낮은 아군 1명이 2명 이상을 공격할 때 피해량 +10%",
-                "resource_type": "공명"
-            },
-            "guard_skill": {
-                "name": "흩날리는 잔향",
-                "crime": "나태",
-                "type": "회피",
-                "level": "58(-2)",
-                "default_power": "4",
-                "coin_power": "+10",
-                "keyword": [],
-                "des": "[회피 성공시] 침잠 1 부여",
-                "coin": 1
-            }
-        },
-        "sim_keyword": []
-    },
-    {
-        "id": 24,
-        "sinner": "이상",
-        "name": "W사 3등급 정리 요원 이상",
-        "affiliation": "검계",
-        "keywords": [
-            "파열",
-            "충전"
-        ],
-        "img": "asset/card/24.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "차원 긋기",
-                    "coin": 1,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "나태",
-                    "default_power": 5,
-                    "coin_power": "+6",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 자신의 충전 횟수 2 증가충전 횟수가 10 이상이면, 코인 위력 +2적중시 자신의 충전 횟수 2 증가적중시 파열 2 부여",
-                    "level": "63(+3)"
-                },
-                {
-                    "name": "에너지 순환",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "탐식",
-                    "default_power": 5,
-                    "coin_power": "+5",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 자신의 충전 횟수 7 증가충전 횟수가 10 이상이면, 코인 위력 +1적중시 다음 턴에 속박 1 부여적중시 파열 3 부여적중시 자신의 충전 횟수가 10 이상이면, 파열 3 부여, 파열 횟수 2 증가",
-                    "level": "63(+3)"
-                },
-                {
-                    "name": "차원의 틈",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "우울",
-                    "default_power": 5,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "사용시 충전 횟수가 15 미만이면, 충전 횟수를 10 소모하여 코인 위력 +1사용시 충전 횟수를 15 소모하여 코인 위력 +2공격 시작 전 충전 횟수를 15 소모했다면, 파열 횟수 3 증가[앞면 적중시] 파열 1 부여[앞면 적중시] 파열 1 부여적중시 스킬 사용시 소모한 충전 횟수 5 당 파열 3 부여 (최대 9)적중시 스킬 사용시 충전 횟수 15 소모하였으면, 차원 균열 2 부여[적 처치 시] 충전 역장 5 얻음",
-                    "level": "65(+5)"
-                }
-            ],
-            "passive_skill": {
-                "name": "비워낸 생각",
-                "resources": [
-                    {
-                        "name": "탐식",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": " - 턴 종료 시 자신의 충전 횟수 5 당 다음 턴에 신속 1을 얻음. (최대 3)- 자신이 스킬로 충전 횟수를 소모할 때, 현재 체력 비율이 가장 낮은 아군 1명에게 충전 역장 3 부여",
-                "resource_type": "보유"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                }
-            ],
-            "support_passive": {
-                "name": "정리 시범 교육",
-                "resources": [
-                    {
-                        "name": "탐식",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "충전 횟수가 가장 높은 아군 1명이 파열이 있는 대상에게 가하는 피해량이 대상의 파열 위력에 비례하여 증가 (파열 1당 1.5%. 최대 15%)",
-                "resource_type": "보유"
-            },
-            "guard_skill": {
-                "name": "텅 빈 차원",
-                "crime": "우울",
-                "type": "회피",
-                "level": "60(0)",
-                "default_power": "4",
-                "coin_power": "+10",
-                "keyword": [],
-                "des": "충전 횟수 5 당 기본 위력 +1(최대 2)[회피 성공 시] 다음 턴에 처음으로 스킬로 부여하는 파열 +1 (턴 당 최대 증가량: 3)",
-                "coin": 1
-            }
-        },
-        "sim_keyword": []
-    },
-    {
-        "id": 25,
-        "sinner": "이상",
-        "name": "약지 점묘파 스튜던트 이상",
-        "affiliation": "멀티크랙 사무소",
-        "keywords": [
-            "화상",
-            "출혈",
-            "진동",
-            "파열",
-            "침잠"
-        ],
-        "img": "asset/card/25.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "덧칠",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "우울",
-                    "default_power": 2,
-                    "coin_power": "+3",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "대상의 출혈이 6 이상이면 합 위력 +1[앞면 적중시] 화상, 출혈, 진동, 파열, 침잠 중 무작위 1개 효과의 횟수 2 증가적중시 출혈 2 부여",
-                    "level": "63(+3)"
-                },
-                {
-                    "name": "혈점묘화",
-                    "coin": 1,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "색욕",
-                    "default_power": 8,
-                    "coin_power": "+8",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "대상의 출혈 3 당 합 위력 +1 (최대 2)\n대상의 출혈 횟수 3 당 코인 위력 +1 (최대 2)적중시 40% 확률로 코인 재사용. 대상이 보유한 부정적인 효과 1개당 재사용 확률 +20% (스킬당 최대 2회 재사용 가능)\n적중시 출혈 횟수 1 증가\n적중시 화상, 출혈, 진동, 파열, 침잠 중 무작위 1개 효과의 횟수 3 증가",
-                    "level": "63(+3)"
-                },
-                {
-                    "name": "핏방울 채색",
-                    "coin": 4,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "나태",
-                    "default_power": 3,
-                    "coin_power": "+3",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "대상의 출혈 3 당 합 위력 +1 (최대 2)\n대상의 출혈 횟수 3 당 코인 위력 +1 (최대 2)적중시 출혈 횟수 1 증가. 대상이 보유한 부정적인 효과가 3개 이상이면 추가 2 증가\n적중시 화상, 출혈, 진동, 파열, 침잠 중 무작위 1개 효과의 횟수 3 증가적중시 출혈 1 부여. 대상이 보유한 부정적인 효과가 3개 이상이면 2 추가 부여\n적중시 화상, 출혈, 진동, 파열, 침잠 중 무작위 1개 효과의 위력 2 부여대상이 보유한 부정적인 효과 1개당 피해량 +25% (최대 125%)\n공격 종료시 대상이 흐트러졌거나 사망했으면, 부정적인 효과를 가장 적게 보유한 적 2명에게 화상, 출혈, 진동, 파열, 침잠 중 무작위 1개 효과 2 부여",
-                    "level": "63(+3)"
-                }
-            ],
-            "passive_skill": {
-                "name": "과제평가",
-                "resources": [
-                    {
-                        "name": "색욕",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "- 적중시 대상에게 출혈이 4 이상 있으면 정신력 2 회복\n- 대상이 보유한 부정적인 효과 1개당 정신력 1 추가 회복. (최대 3)\n- 이 효과로 정신력 회복 시 자신의 정신력이 최대면 다음 턴에 공격 레벨 증가 2 얻음\n(턴 당 패시브 최대 발동 횟수 : 4회)",
-                "resource_type": "보유"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                },
-                {
-                    "name": "혈점묘파",
-                    "des": "이 인격은 출혈을 부여하는 인격으로만 취급됨.\n랜덤으로 화상, 출혈, 진동, 파열, 침잠을 부여하는 스킬이 이 효과로 인해서 해당 키워드를 부여하는 스킬로 취급되지 않음."
-                }
-            ],
-            "support_passive": {
-                "name": "미학견습",
-                "resources": [
-                    {
-                        "name": "색욕",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "- 정신력이 가장 낮은 아군이 공격 적중시 대상이 보유한 부정적인 효과 1개당 정신력 2 회복 (최대 6)\n- 대상에게 출혈이 있으면 3 추가 회복\n(턴 당 패시브 최대 발동 횟수 : 2회)",
-                "resource_type": "보유"
-            },
-            "guard_skill": {
-                "name": "붓 털기",
-                "crime": "색욕",
-                "type": "가드",
-                "level": "61(+1)",
-                "default_power": "10",
-                "coin_power": "+4",
-                "keyword": [],
-                "des": "대상의 출혈 1 당 기본 위력 +1 (최대 10)",
-                "coin": 1
-            }
-        },
-        "sim_keyword": []
-    },
-    {
-        "id": 26,
-        "sinner": "이상",
-        "name": "로보토미 E.G.O::엄숙한 애도 이상",
-        "affiliation": "LCE",
-        "keywords": [
-            "침잠"
-        ],
-        "img": "asset/card/26.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "떠난이에게 축하를",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "오만",
-                    "default_power": 4,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "보유한 산나비·죽은나비가 10 이상이면, 합 위력 +1\n대상의 침잠과 모든 나비의 합이 6 이상이면, 코인 위력 +1\n합 승리시 침잠 횟수 2 증가산나비·죽은나비 1 소모\n적중시 소모한 산나비·죽은나비만큼 나비 부여산나비·죽은나비 1 소모\n적중시 소모한 산나비·죽은나비만큼 나비 부여",
-                    "level": "62(+2)"
-                },
-                {
-                    "name": "남은자에게 엄숙한 애도를",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "우울",
-                    "default_power": 4,
-                    "coin_power": "+6",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "보유한 산나비·죽은나비가 10 이상이면, 합 위력 +1\n대상의 침잠과 모든 나비의 합 6 당 코인 위력 +1 (최대 2)\n합 승리시 침잠 횟수 1 증가\n공격 종료시 최대 공명 수만큼 산나비·죽은나비를 얻음 (최대 6)\n- 해당 공명이 완전 공명이면, (최대 공명 수 × 2)만큼 얻음 (최대 12)\n- 해당 공명이 완전 공명 4 이상이면, 대신 재장전산나비·죽은나비 5 소모\n적중시 소모한 산나비·죽은나비만큼 나비 부여산나비·죽은나비 1 소모\n적중시 소모한 산나비·죽은나비만큼 나비 부여",
-                    "level": "62(+2)"
-                },
-                {
-                    "name": "이상으로 장례는 이상이오",
-                    "coin": 4,
-                    "coin_type": "basic",
-                    "type": "관통",
-                    "crime": "나태",
-                    "default_power": 4,
-                    "coin_power": "+3",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "보유한 산나비·죽은나비 5마다 기본 위력 +1 (최대 4)\n대상의 침잠과 모든 나비의 합 6 당 코인 위력 +1 (최대 2)\n합 승리시 침잠 횟수 3 증가\n공격 종료시 재장전산나비·죽은나비 1 소모\n적중시 소모한 산나비·죽은나비만큼 나비 부여산나비·죽은나비 6 소모\n적중시 소모한 산나비·죽은나비만큼 나비 부여보유한 산나비·죽은나비 전부 소모\n적중시 소모한 산나비·죽은나비만큼 나비 부여\n적중시 이 스킬에서 소모한 산나비·죽은나비 1 당 피해량 +4%적중시 대상의 모든 나비만큼 우울 피해\n- 산나비와 죽은나비의 합으로 계산",
-                    "level": "65(+5)"
-                }
-            ],
-            "passive_skill": {
-                "name": "쏘아라.쏘으리로다.",
-                "resources": [
-                    {
-                        "name": "우울",
-                        "count": 3
-                    }
-                ],
-                "keyword": [],
-                "des": "공격 종료 시 자신의 스킬에 의해 대상이 사망했으면, 재장전\n산나비·죽은나비를 얻으면, 다음 턴에 신속 2 얻음 (턴 당 1회)",
-                "resource_type": "공명"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                },
-                {
-                    "name": "죽어가는나비를본다.",
-                    "des": "전투 시작 시 산나비·죽은나비를 각각 10씩 보유함\n산나비·죽은나비를 소모할 때, 해당 효과의 산나비(위력)와 죽은나비(횟수)를 무작위로 소모\n나비를 부여할 때, 해당 코인에서 소모한 산나비·죽은나비에 따라 부여\n- 산나비를 소모했으면, 소모한 값만큼 산나비를 부여\n- 죽은나비를 소모했으면, 소모한 값만큼 죽은나비를 부여\n스킬 사용 중 산나비·죽은나비가 부족하면, 다음 코인을 모두 취소하고 재장전\n재장전을 하거나 산나비·죽은나비를 얻을 때, 현재 정신력에 따라 얻는 나비가 정해짐\n- 정신력이 0 이상이면, 30% 확률로 산나비를, 70% 확률로 죽은나비를 얻음\n- 정신력이 0 미만이면, 70% 확률로 산나비를, 30% 확률로 죽은나비를 얻음\n- 확률은 각 탄환마다 개별적으로 적용됨"
-                }
-            ],
-            "support_passive": {
-                "name": "구원의 손",
-                "resources": [
-                    {
-                        "name": "우울",
-                        "count": 6
-                    }
-                ],
-                "keyword": [],
-                "des": "아군의 스킬 적중 시 대상의 침잠을 2 소모하여 나비 1 부여 (턴 당 3회)",
-                "resource_type": "보유"
-            },
-            "guard_skill": {
-                "name": "관에서나비가날아오리라",
-                "crime": "우울",
-                "type": "가드",
-                "level": "61(+1)",
-                "default_power": "10",
-                "coin_power": "+4",
-                "keyword": [],
-                "des": "전투 시작시 재장전 (턴 당 1회)\n전투 시작시 최대 체력의 (지정한 대상의 모든 나비)%만큼 보호막을 얻음 (턴 당 최대 20%)",
-                "coin": 1
-            }
-        },
-        "sim_keyword": []
-    },
-    {
-        "id": 27,
-        "sinner": "이상",
-        "name": "남부 리우 협회 3과 이상",
-        "affiliation": "흑수",
-        "keywords": [
-            "화상"
-        ],
-        "img": "asset/card/27.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "염참",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "나태",
-                    "default_power": 3,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "대상의 화상 3 당, 코인 위력 +1 (최대 2)\n대상의 화상 10 당, 피해량 +10% (최대 30%)적중시 화상 1 부여\n[앞면 적중시] 화상 1 부여적중시 화상 1 부여\n[앞면 적중시] 화상 1 부여",
-                    "level": "62(+2)"
-                },
-                {
-                    "name": "정면돌파",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "분노",
-                    "default_power": 4,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "대상의 화상 6 당, 코인 위력 +1 (최대 2)적중시 화상 2 부여적중시 화상 2 부여대상의 화상당, 피해량 +5% (최대 60%)\n적중시 대상의 화상이 6 이상이면, 화상 횟수 2 증가",
-                    "level": "63(+3)"
-                },
-                {
-                    "name": "검의 흐름",
-                    "coin": 4,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "질투",
-                    "default_power": 4,
-                    "coin_power": "+3",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "대상의 화상 6 당, 코인 위력 +1 (최대 2)\n대상의 화상 6 당, 피해량 +10% (최대 30%)\n공격 종료시 자신을 제외한 정신력이 가장 낮은 아군 1명의 정신력 15 회복\n- 적을 처치했거나 메인 타겟의 화상이 10 이상이면, 인원 1명 추가적중시 화상 1 부여적중시 화상 1 부여적중시 화상 2 부여대상의 화상당, 피해량 +2% (최대 60%)\n적중시 대상의 화상 위력만큼 분노 속성 피해를 줌 (최대 30). 대상의 화상 횟수 2 감소",
-                    "level": "64(+4)"
-                }
-            ],
-            "passive_skill": {
-                "name": "내면의 열혈",
-                "resources": [
-                    {
-                        "name": "분노",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "턴 종료 시 현재 정신력이 가장 낮은 아군 1명의 정신력을 5 + (최대 공명 수)만큼 회복시킴. (최대 10) (자신 또는 패닉, E.G.O 침식 상태인 아군 제외)\n회복 대상이 화상 위력이나 횟수를 부여하는 기본 스킬을 가지고 있으면, 정신력 5 추가 회복\n분노 공명 4 이상이면, 회복 대상 1명 추가",
-                "resource_type": "보유"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                }
-            ],
-            "support_passive": {
-                "name": "리우 방진",
-                "resources": [
-                    {
-                        "name": "분노",
-                        "count": 3
-                    }
-                ],
-                "keyword": [],
-                "des": "- 정신력이 가장 낮은 아군 2명이 이번 턴에 정신력이 감소한 경우 턴 종료 시 정신력 5 회복\n회복 대상이 화상 위력이나 횟수를 부여하는 기본 스킬을 가지고 있으면, 대신 5 ~ 10 회복",
-                "resource_type": "공명"
-            },
-            "guard_skill": {
-                "name": "염반",
-                "crime": "분노",
-                "type": "반격",
-                "level": "60(0)",
+                "type": "강화 반격",
+                "level": "62(+2)",
                 "default_power": "5",
-                "coin_power": "+3",
+                "coin_power": "+4",
                 "keyword": [],
-                "des": "[피격 직전] 대상의 화상만큼 보호막을 얻음 (최대 15, 턴 당 1회)\n사용시 대상의 화상이 10 이상이면, 피해량 +10%[앞면 적중시] 화상 1 부여\n- 자신에게 보호막이 있으면, 화상 1 추가 부여[앞면 적중시] 화상 1 부여\n- 자신에게 보호막이 있으면, 화상 1 추가 부여",
+                "des": "합 가능 반격\n전투 시작시 원호 방어 1 얻음 (턴 당 1회)\n사용시 자신이 이번 전투에서 잃은 체력 누적 10% 당, 이 스킬의 공격 레벨 1 증가 (최대 6. 발동 시점 최대 체력 기준)\n사용시 각력【묘】 3 얻음\n사용시 자신의 속도가 대상보다 높을수록 기본 위력 +1 (속도 차이 2당 기본 위력 +1. 최대 2)적중시 파열 1 부여적중시 파열 1 부여",
                 "coin": 2
             }
-        },
-        "sim_keyword": []
+        }
     },
     {
         "id": 28,
-        "sinner": "이상",
-        "name": "N사 E.G.O::흉탄 이상",
+        "sinner": "파우스트",
+        "name": "동부 시 협회 3과 파우스트",
         "affiliation": "시 협회",
+        "sim_keyword": [],
         "keywords": [
             "출혈",
             "호흡"
@@ -2725,55 +2757,81 @@
         "skill": {
             "skill": [
                 {
-                    "name": "헛점 파악",
-                    "coin": 1,
+                    "name": "베어내기",
+                    "coin": 2,
                     "coin_type": "basic",
-                    "type": "타격",
+                    "type": "참격",
                     "crime": "분노",
-                    "default_power": 5,
-                    "coin_power": "+6",
+                    "default_power": 4,
+                    "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "자신의 찢어진 추억당, 피해량 +15% (최대 105%)\n사용시 자신의 호흡 5 당, 코인 위력 +1 (최대 2)\n사용시 자신의 호흡 횟수 3 당, 기본 위력 +1 (최대 2)\n사용시 자신의 호흡 횟수 2 증가, 찢어진 추억 1 얻음적중시 자신의 호흡 횟수 1 증가\n[크리티컬 적중 시] 출혈 횟수 1 증가\n[크리티컬 적중 시] 찢어진 추억 1 얻음",
+                    "des": "사용시 자신의 호흡과 대상의 출혈의 합이 4 이상이면, 코인 위력 +1\n사용시 호흡 2 얻음적중시 출혈 1 부여적중시 출혈 1 부여",
                     "level": "61(+1)"
                 },
                 {
-                    "name": "꿰뚫으리라",
-                    "coin": 0,
-                    "coin_type": "indestructible",
-                    "type": "관통",
-                    "crime": "색욕",
+                    "name": "거리 확보",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "오만",
                     "default_power": 4,
-                    "coin_power": "+6",
+                    "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "사용시 자신의 찢어진 추억당, 피해량 +15% (최대 105%)\n사용시 자신의 호흡 5 당, 코인 위력 +1 (최대 2)\n사용시 호흡 2 얻음적중시 호흡 2 얻음\n[크리티컬 적중 시] 출혈 2 부여파괴 불가 코인\n적중시 호흡 2 얻음\n적중시 찢어진 추억 1 얻음\n[크리티컬 적중 시] 출혈 2 부여\n[크리티컬 적중 시] 찢어진 추억 2 얻음",
+                    "des": "사용시 자신의 호흡과 대상의 출혈의 합 4 당, 합 위력 +1 (최대 4)\n사용시 자신의 호흡 4당 피해량 +11% (최대 44%)\n사용시 소모한 화살 - 시 1당 피해량 +11% (최대 44%)\n사용시 자신의 호흡 횟수 1 증가적중시 출혈 횟수 2 증가적중시 호흡 2 얻음적중시 출혈 2 부여",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "궁섬【弓閃】",
+                    "coin": 4,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "사용시 자신의 호흡과 대상의 출혈의 합 4 당, 코인 위력 +1 (최대 2)\n사용시 자신의 호흡 4당 피해량 +11% (최대 44%)\n사용시 소모한 화살 - 시 1당 피해량 +11% (최대 44%)\n사용시 자신의 호흡 횟수 2 증가적중시 호흡 2 얻음\n크리티컬 적중시 자신의 호흡 횟수 1 증가적중시 출혈 횟수 2 증가\n크리티컬 적중시 출혈 횟수 1 증가적중시 출혈 4 부여크리티컬 적중시 다음 턴에 방어 레벨 감소 2 부여 (턴당 1회)",
                     "level": "63(+3)"
                 },
                 {
-                    "name": "대상 조정 사격",
-                    "coin": 2,
-                    "coin_type": "indestructible",
+                    "name": "섬궁【閃弓】",
+                    "coin": 1,
+                    "coin_type": "basic",
                     "type": "관통",
-                    "crime": "오만",
+                    "crime": "색욕",
                     "default_power": 4,
-                    "coin_power": "+7",
+                    "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "전투 시작시 체력이 가장 낮은 대상 우선 공격\n- 자신의  찢어진 추억이 7이면, 메인 타겟을 아군 우선 지정\n전투 시작시 자신의 찢어진 추억 3당, 공격 가중치 +1 (최대 2)\n사용시 자신의 호흡 5 당, 코인 위력 +1 (최대 2)\n사용시 자신의 호흡 횟수 3 당, 기본 위력 +1 (최대 2)\n사용시 자신의 찢어진 추억당, 호흡 1 얻음 (최대 7)\n공격 종료시 자신의 찢어진 추억 × 2만큼 정신력 감소 (최대 14 감소)\n공격 종료시 전투 시작 시 자신의 찢어진 추억이 7이면, 전부 소모\n- 전부 소모했고 아군이 사망했으면, 자신의 정신력 20 회복파괴 불가 코인\n이 코인에는 메인 타겟만 피해를 입음\n메인 타겟이 아군이면, 아래 효과가 적용됨\n- 이 공격에 한해 관통 속성 내성을 취약으로 변경함\n- 자신의 찢어진 추억당 피해량 +7% (최대 49%)\n- 자신의 호흡당 크리티컬 피해량 +3% (최대 60%)파괴 불가 코인\n이 코인에는 서브 타겟만 피해를 입음\n- 메인 타겟이 적이였을 경우, 메인 타겟에게 피해를 입힘\n- 첫 번째 코인에서 아군을 처치하지 못했으면, 서브 타겟 중 무작위 1명이 피해를 입음\n자신의 찢어진 추억당, 피해량 +20% (최대 140%)\n- 첫 번째 코인에서 아군을 처치했으면, 대신하여 자신의 찢어진 추억당 피해량 +40% (최대 280%)\n- 호흡 위력당, 크리티컬 피해량 +5% (최대 50%)\n- 자신의 찢어진 추억당, 크리티컬 피해량 +10% (최대 70%)\n- 첫 번째 코인으로 메인 타겟에게 가한 피해 비율(최대 체력 기준)만큼 추가 피해 발생 (최대 100%)\n적중시  출혈 3 부여\n- 첫 번째 코인에서 아군을 처치했으면, 대신하여 출혈 5 부여, 출혈 횟수 2 증가",
+                    "des": "합 불가능\n이 스킬은 외부 효과로 재사용이 불가능함\n목표 조준 1당 피해량 +48% (최대 144%)\n목표 조준 1당 크리티컬 피해량 +48% (최대 144%)\n- 목표 조준이 4면, 위 두 효과 대신 크리티컬 피해량 +444%\n사용시 자신의 호흡 4당 기본 위력 +2 (최대 10)\n사용시 목표 조준 1당 코인 위력 +4 (최대 10)\n사용시 목표 조준 1당 호흡 5 얻음\n공격 종료시 ((목표 조준 - 1) × 5)만큼 호흡 감소\n공격 종료시 저격 자세 제거, 목표 조준 제거적중시 박힌 화살 1 부여, 부여 성공시 화살 - 시 1 감소\n적 처치 시 다음 턴에 절명 1 얻음\n크리티컬 적 처치 시 자신의 호흡 횟수 4 증가\n",
                     "level": "65(+5)"
+                },
+                {
+                    "name": "회피",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "회피",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+10",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "회피 성공시 자신의 호흡 횟수 1 증가 (턴당 3회)\n",
+                    "level": "61(+1)"
                 }
             ],
             "passive_skill": {
-                "name": "흉탄",
+                "name": "시노유미",
                 "resources": [
                     {
-                        "name": "오만",
-                        "count": 6
+                        "name": "색욕",
+                        "count": 3
                     }
                 ],
                 "keyword": [],
-                "des": "전투 중 자신이 아군을 사망시켰다면 다음 턴 동안 흉탄을 얻음 (자신의 E.G.O 침식 및 아군 공격 포함)\n자신의 E.G.O 흉탄을 사용하여, 찢어진 추억이 소모되면, 턴 종료 시 소모한 만큼 다음 턴에 찢어진 추억을 얻음",
+                "des": "자신의 화살 - 시가 4면 기본 공격 스킬 효과로 호흡 위력을 얻을 때, 호흡 횟수 1 증가 (전투당 3회, 화살 - 시가 3이 될 때 발동 횟수 초기화)\n목표 조준이 2 이상일 때 '섬궁'을 사용했으면, 다음 턴에 참격 피해량 증가 2 얻음",
                 "resource_type": "보유"
             },
             "add_passive_skill": [
@@ -2783,51 +2841,56 @@
                     "keyword": []
                 },
                 {
-                    "name": "휘발된 추억",
-                    "des": "턴 종료 시 자신의 찢어진 추억을 전부 제거하고 다음 턴에 제거한 수치만큼 찢어진 추억을 얻음"
+                    "name": "저격 - 활",
+                    "des": "자신이 저격 자세 상태면, 가장 왼쪽에 장착한 기본 공격 스킬을 '섬궁'으로 변경하여 전투 시작시 사용함\n- 이 효과 발동 시 자신의 목표 조준이 최대 수치이고, 조작 패널과 예비 스킬 슬롯에 '궁섬'이 없으면, 가장 왼쪽 슬롯에 장착한 수비 스킬을 스킬 3으로 취급하여 '섬궁'으로 변경함\n사용하는 기본 공격 스킬에 따라 아래 효과 적용 (죄악 속성은 사용한 스킬 속성을 따름)\n- 스킬 1: 기본 위력 +1, 피해량 +11%\n- 스킬 2: 기본 위력 +1, 코인 위력 +1, 피해량 +22%\n- 스킬 3: 기본 위력 +4, 코인 위력 +4, 피해량 +44%\n※ E.G.O 스킬 장착하여 전투를 시작한 경우, 저격 자세가 해제되고 '섬궁'이 사용되지 않음."
                 }
             ],
             "support_passive": {
-                "name": "대상 지정",
+                "name": "한점 노리기",
                 "resources": [
                     {
-                        "name": "오만",
+                        "name": "색욕",
                         "count": 4
                     }
                 ],
                 "keyword": [],
-                "des": "속도가 가장 느린 아군이 아군을 공격했다면, 공격 종료 시, 다음 턴에 피해량 증가 1 얻음(턴 당 최대 2). - 이때, 아군이 사망했으면, 위 효과를 대신하여 이번 전투 동안 피해량 증가 1 얻음(스테이지 및 인격당 최대 2).- 위 효과들로 얻는 피해량 증가는 최대 2까지만 얻어짐.\n",
+                "des": "턴 종료 시 전투 중 스킬 및 패시브로 적에게 출혈 위력을 가장 많이 부여한 아군에게 다음 턴에 관통 피해량 증가 1 부여 (E.G.O 스킬 포함, 출혈 부여량이 동일하다면 편성 순서가 가장 빠른 순으로 결정함, 해당 턴에 출혈 위력을 부여하지 않았다면 발동하지 않음)",
                 "resource_type": "공명"
             },
             "guard_skill": {
-                "name": "전방 지원",
-                "crime": "오만",
-                "type": "강화 반격",
-                "level": "62(+2)",
-                "default_power": "5",
-                "coin_power": "+7",
+                "name": "궁도【弓刀】전개",
+                "crime": "색욕",
+                "type": "가드",
+                "level": "61(+1)",
+                "default_power": "14",
+                "coin_power": "+4",
                 "keyword": [],
-                "des": "[합 가능 반격]\n사용시 자신의 호흡 2 당 코인 위력 +1 (최대 3)\n사용시 찢어진 추억 2 얻음적중시 호흡 2 얻음\n적중시 자신의 호흡 횟수 2 증가",
+                "des": "자신에게 화살 - 시가 없으면, '회피'로 발동됨\n전투 시작시 '섬궁' 사용 예정이면 '회피'로 발동됨\n전투 시작시 자신에게 저격 자세가 있으면, 해당 턴 동안 (60 / 목표 조준 수치)만큼 보호막을 얻음 (턴당 1회)\n턴 종료시 자신에게 저격 자세가 있고, 이번 턴에 공격 스킬을 사용하지 않았으면, 다음 턴에 목표 조준 1 얻음 (턴당 1회)\n턴 종료시 자신에게 저격 자세가 없고, 화살 - 시가 1 이상이면, 다음 턴에 저격 자세, 목표 조준 1 얻음 (턴당 1회)",
                 "coin": 1
             }
-        },
-        "sim_keyword": []
+        }
     },
     {
         "id": 29,
-        "sinner": "이상",
-        "name": "흑수 - 오 필두 이상",
+        "sinner": "파우스트",
+        "name": "검지 수행자:【쪽지】 파우스트",
         "affiliation": "검지",
-        "keywords": [
+        "sim_keyword": [
+            "호흡",
             "진동",
-            "파열",
+            "충전",
+            "침잠",
+            "화상"
+        ],
+        "keywords": [
+            "침잠",
             "호흡"
         ],
         "img": "asset/card/29.jpg",
         "skill": {
             "skill": [
                 {
-                    "name": "베어 무너뜨리리",
+                    "name": "지령에 따라, 확실하게",
                     "coin": 2,
                     "coin_type": "basic",
                     "type": "참격",
@@ -2836,193 +2899,54 @@
                     "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "자신의 속도가 대상보다 높으면, 코인 위력 +1\n사용시 대상의 파열과 진동의 합이 5 이상이면, 코인 위력 +1\n합 승리시  다음 턴에 속박 1 부여 (턴 당 2회)적중시 파열 2 부여적중시 파열 횟수 1 증가\n적중시 진동 2 부여",
-                    "level": "61(+1)"
-                },
-                {
-                    "name": "월도격 [月刀擊]",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "질투",
-                    "default_power": 4,
-                    "coin_power": "+5",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "자신의 속도가 대상보다 높으면- 코인 위력 +1\n- 대상보다 2 이상 높으면, (자신의 적진 주파 × 20)%만큼 피해량이 증가 (최대 100%)\n사용시 대상의 파열과 진동의 합 5 당, 코인 위력 +1 (최대 2)\n사용시 다음 턴에 신속을 2 얻음 (턴 당 1회)적중시 파열 횟수 2 증가\n적중시 진동 3 부여적중시 진동 폭발. 대상의 진동 횟수 1 감소\n적중시 대상에게 주살이 없으면, 뇌진탕 1 부여\n적중시 대상에게 주살이 있으면, 파열 3 부여",
+                    "des": "이 스킬에 지령 표식이 새겨졌으면, 합 위력 +1, 피해량 +20%\n자신의 호흡과 대상의 침잠의 합 6당, 코인 위력 +1 (최대 2)\n사용시 자신의 호흡 횟수 2 증가적중시 호흡 1 얻음적중시 침잠 1 부여\n크리티컬 적중 시 침잠 1 부여",
                     "level": "62(+2)"
                 },
                 {
-                    "name": "선봉주파",
+                    "name": "지령을 수행하며 수행합니다",
                     "coin": 3,
                     "coin_type": "basic",
                     "type": "참격",
-                    "crime": "탐식",
-                    "default_power": 5,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "자신의 속도가 대상보다 높으면- 최종 위력 +1\n- (자신의 적진 주파 × 20)%만큼 피해량이 증가 (최대 80%)\n- 자신의 (보호막 수치 × 2)%만큼 피해량이 증가 (최대 50%)\n[사용 전] 자신의 적진 주파가 5면, 전부 소모하여 '흑풍마각월참'으로 발동됨\n사용시 각력【오】 3 얻음\n사용시 대상의 파열과 진동의 합 5 당, 코인 위력 +1 (최대 2)\n사용시 자신의 적진 주파가 3 이상이면, 모든 코인이 파괴 불가 코인으로 변경됨적중시 파열 2 부여\n적중시 진동 2 부여적중시 다음 턴에 속박 1 부여\n- 자신의 적진 주파가 3 이상이면, 속박 1 추가 부여\n적중시 진동 횟수 1 증가적중시 진동 폭발. 대상의 진동 횟수 1 감소.\n적중시 자신의 각력【오】가 2 이상이면, 뇌진탕 2 부여",
-                    "level": "63(+3)"
-                },
-                {
-                    "name": "흑풍마각월참 [黑風馬脚月斬]",
-                    "coin": 4,
-                    "coin_type": "indestructible",
-                    "type": "참격",
-                    "crime": "탐식",
-                    "default_power": 5,
-                    "coin_power": "+3",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "자신의 속도가 대상보다 높으면, 최종 위력 +1\n사용시 다음 턴에 자신을 제외한 모든 아군에게 호령 1 부여 (턴 당 1회)\n사용시 각력【오】 3 얻음\n사용시 대상의 파열과 진동의 합 5 당, 코인 위력 +1 (최대 2)\n합 승리시  자신의 속도가 대상보다 높으면, 피해량 +50%\n합 승리시  메인 타겟에게 뇌진탕 1 부여파괴 불가 코인\n적중시 파열 3 부여\n적중시 진동 4 부여파괴 불가 코인\n적중시 파열 횟수 2 증가\n적중시 진동 횟수 2 증가파괴 불가 코인\n적중시 뇌진탕 1 부여파괴 불가 코인\n적중시 진동 폭발. 대상의 진동 횟수 1 감소.\n적중시 진동 폭발. 대상의 진동 횟수 1 감소.\n",
-                    "level": "64(+4)"
-                }
-            ],
-            "passive_skill": {
-                "name": "흑풍마각 [黑風馬脚]",
-                "resources": [
-                    {
-                        "name": "탐식",
-                        "count": 5
-                    }
-                ],
-                "keyword": [],
-                "des": "아래의 조건 만족 시 적진 주파 1 얻음\n- 공격 시작 시 대상보다 속도가 2 이상 높을 때\n- 자신의 스킬로 진동 폭발 효과 2회 발동시 (E.G.O 스킬 포함)\n- 각력【오】를 보유 중인 상태로 합 승리 시\n※ 적진 주파는 턴 당 최대 3까지 얻을 수 있으며, '흑풍마각월참' 스킬로는 얻을 수 없음\n자신에게 보호막이 있을 때, 방어 레벨이 (보호막 수치 / 10)만큼 증가 (최대 5, 소수점 버림)",
-                "resource_type": "보유"
-            },
-            "add_passive_skill": [
-                {
-                    "name": "",
-                    "des": "",
-                    "keyword": []
-                },
-                {
-                    "name": "구마지심 [拘馬之心]",
-                    "des": "홍원 군주 홍루와 존명 발동 시, 홍원 군주 홍루가 흑수환염[黑獸丸染]으로 아래 효과 얻음\n- 기본 스킬의 마지막 코인 적중 시, 진동 폭발 1회 (턴 당 1회)\n전투 인원에 가주 후보 이스마엘이 있다면, 아래 효과 적용\n- 가주 후보 이스마엘이 스킬 효과로 파열 또는 파열 횟수 부여 시 호흡 위력 3 얻음 (턴 당 2회, E.G.O 스킬에는 적용되지 않음)\n- 턴 시작 시 가주 후보 이스마엘에게 공격 위력 증가 1 부여. 이스마엘의 호흡 위력이 10 이상이면, 공격 위력 증가를 1 추가 부여\n- '흑풍마각월참' 사용 후 가주 후보 이스마엘이 적춘 스킬로 원호 공격함 (턴 당 1회)"
-                },
-                {
-                    "name": "필두선봉",
-                    "des": "호령 부여 시 이번 턴과 다음 턴에 공격 레벨 증가 3 얻음(해당 패시브로 이미 공격 레벨 증가를 얻었으면, 다음 턴에만 얻음)"
-                }
-            ],
-            "support_passive": {
-                "name": "검은 갑각이 살을 째고 돋아 날 지키리",
-                "resources": [
-                    {
-                        "name": "탐식",
-                        "count": 4
-                    }
-                ],
-                "keyword": [],
-                "des": "최대 체력이 가장 높은 아군 1명에게 아래 효과 적용\n- 전투 시작 시 방어 레벨이 (해당 캐릭터의 이전 턴과 이번 턴 속도 차이 × 2)만큼 증가 (최대 5. 이전 턴에 전투 인원이 아니었다면, 해당 캐릭터의 기본 속도 최솟값으로 계산)\n- 전투 시작 시 현재 체력이 최대 체력의 50% 미만이고, 이전 턴과 이번 턴 속도 차이가 3 이상이면, 체력 50 회복 (전투 당 1회)\n",
-                "resource_type": "보유"
-            },
-            "guard_skill": {
-                "name": "돌진 전, 가다듬겠소",
-                "crime": "탐식",
-                "type": "강화 방어",
-                "level": "62(+2)",
-                "default_power": "3",
-                "coin_power": "+10",
-                "keyword": [],
-                "des": "[합 가능 가드]\n전투 시작시 다음 턴에 각력【오】 3 얻음\n[턴 종료 시] 자신에게 부여된 해제 가능한 부정적인 효과 중 무작위 1개 제거 (턴 당 1회)파괴 불가 코인",
-                "coin": 1,
-                "coin_type": "indestructible"
-            }
-        },
-        "sim_keyword": [
-            "호흡",
-            "진동",
-            "충전",
-            "침잠",
-            "화상"
-        ]
-    },
-    {
-        "id": 30,
-        "sinner": "이상",
-        "name": "거미집 검지 아비 이상",
-        "affiliation": "약지",
-        "keywords": [
-            "화상",
-            "침잠",
-            "호흡"
-        ],
-        "img": "asset/card/30.jpg",
-        "skill": {
-            "skill": [
-                {
-                    "name": "얼어붙은 피를 삼백삼십 휘감아",
-                    "coin": 2,
-                    "coin_type": "basic",
-                    "type": "타격",
-                    "crime": "탐식",
-                    "default_power": 3,
-                    "coin_power": "+4",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "(75 - 카르마 / 2)% 확률로 타격 무기가 등장\n- 타격 무기 코인 피해량 +15%\n이 스킬에 지령 표식이 새겨졌으면, 합 위력 +1, 피해량 +20%\n자신의 호흡과 대상의 침잠의 합 6당, 코인 위력 +1 (최대 2)\n사용시 (해금 단계 - 1)만큼 마지막 코인부터 파괴 불가 코인으로 변경됨\n사용시 자신의 호흡 횟수 2 증가적중시 호흡 2 얻음\n[파괴되지 않고 적중시] 침잠 2 부여",
-                    "level": "62(+2)"
-                },
-                {
-                    "name": "소리 없이 손뼉 쳐 즐기고, 목소리 없이 슬피 꿰뚫어",
-                    "coin": 3,
-                    "coin_type": "basic",
-                    "type": "관통",
                     "crime": "오만",
                     "default_power": 4,
                     "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "(75 - 카르마 / 2)% 확률로 관통 무기가 등장\n- 관통 무기 코인 피해량 +15%\n이 스킬에 지령 표식이 새겨졌으면, 최종 위력 +1\n자신의 호흡과 대상의 침잠의 합 6당, 코인 위력 +1 (최대 2)\n사용시 해금 단계만큼 마지막 코인부터 파괴 불가 코인으로 변경됨\n사용시 호흡 3 얻음적중시 침잠 3 부여적중시 자신의 호흡 횟수 2 증가\n[파괴되지 않고 적중시] 침잠 횟수 1 증가",
-                    "level": "63(+3)"
+                    "des": "이 스킬에 지령 표식이 새겨졌으면, 최종 위력 +1\n자신의 호흡과 대상의 침잠의 합 6당, 코인 위력 +1 (최대 2)\n사용시 호흡 3 얻음, 자신의 호흡 횟수 2 증가적중시 호흡 2 얻음적중시 침잠 1 부여적중시 침잠 1 부여\n크리티컬 적중 시 침잠 횟수 2 증가",
+                    "level": "62(+2)"
                 },
                 {
-                    "name": "날 세워 칼을 웃거라, 낙엽 향 나듯 폭포를 울거라",
-                    "coin": 4,
+                    "name": "지령에 따라 당신을 처단하겠습니다.",
+                    "coin": 3,
                     "coin_type": "basic",
                     "type": "참격",
                     "crime": "우울",
-                    "default_power": 4,
-                    "coin_power": "+3",
+                    "default_power": 5,
+                    "coin_power": "+4",
                     "weight": 1,
                     "keyword": [],
-                    "des": "턴 시작 시 대행 [헤르메스]가 9면, 'Furioso-Replica'로 변경됨 (턴당 1회)\n- 가장 왼쪽 슬롯의 아래 스킬 우선 변경\n- 대행 [헤르메스]가 9 미만이면 스킬 3으로 발동됨\n(75 - 카르마 / 2)% 확률로 참격 무기가 등장\n- 참격 무기 코인 피해량 +25%\n이 스킬에 지령 표식이 새겨졌으면, 피해량 +20%\n자신의 호흡과 대상의 침잠의 합 6당, 코인 위력 +1 (최대 2)\n사용시 (해금 단계 + 1)만큼 마지막 코인부터 파괴 불가 코인으로 변경됨\n사용시 자신의 호흡 횟수 3 증가\n- 해금 단계만큼 호흡 추가로 얻음적중시 호흡 3 얻음적중시 침잠 3 부여해금 단계 1당 피해량 +20% (최대 60%)\n[크리티컬 적중 시] 자신의 호흡 횟수 1 증가\n[파괴되지 않고 적중시] 침잠 횟수 3 증가",
-                    "level": "64(+4)"
-                },
-                {
-                    "name": "Furioso-Replica",
-                    "coin": 9,
-                    "coin_type": "basic",
-                    "type": "참격",
-                    "crime": "분노",
-                    "default_power": 3,
-                    "coin_power": "+3",
-                    "weight": 1,
-                    "keyword": [],
-                    "des": "광역 난사\n조작 슬롯에 1개만 배치 가능\n이 스킬에 지령 표식이 새겨졌으면, 피해량 +10%\n코인 위력이 변하지 않는 대신, 코인 위력이 최종적으로 증가할 때 1당 최종 위력 +5, 피해량 +25% (이 스킬은 마비의 영향을 받지 않음)\n자신의 호흡과 대상의 침잠의 합 6당, 최종 위력 +1 (최대 2)\n전투 시작시\n- 모든 코인이 파괴 불가 코인으로 변경됨\n- 이 스킬 적중 시마다 침잠 1 부여 또는 호흡 1 얻음\n- 이번 턴 동안 대행 [헤르메스]를 얻지 않음\n사용시\n- 합 위력 +3\n- 호흡 3 얻음, 자신의 호흡 횟수 3 증가\n공격 종료시\n- 적중한 모든 대상에게 다음 턴에 화상 5, 속박 3, 취약 3 부여\n- 대행 [헤르메스] 전부 소모이 코인의 무기는 낫으로 확정\n크리티컬 피해량 +90%\n[파괴되지 않고 적중시] 침잠 횟수 3 증가\n",
-                    "level": "65(+5)"
+                    "des": "이 스킬에 지령 표식이 새겨졌으면, 최종 위력 +1, 크리티컬 피해량 +30%\n자신의 호흡과 대상의 침잠의 합 6당, 코인 위력 +1 (최대 2)\n전투 시작시 지령의 가호가 6 이상이면, 이 스킬의 모든 코인이 파괴 불가 코인으로 변경되고 피해량 +30%\n사용시 자신의 호흡 횟수 3 증가- (지령의 가호/3)만큼 호흡 얻음 (소수점 버림)적중시 호흡 1 얻음적중시 침잠 1 부여지령의 가호 1당 피해량 +5% (최대 40%)\n- 지령의 가호가 9면, 대신 피해량 +60%\n적중시 침잠 1 부여\n크리티컬 적중 시 침잠 횟수 3 증가",
+                    "level": "63(+3)"
                 }
             ],
             "passive_skill": {
-                "name": "모조된 삶",
+                "name": "수행자의 검",
                 "resources": [
                     {
-                        "name": "탐식",
-                        "count": 1
-                    },
-                    {
-                        "name": "우울",
+                        "name": "나태",
                         "count": 1
                     },
                     {
                         "name": "오만",
                         "count": 1
+                    },
+                    {
+                        "name": "우울",
+                        "count": 1
                     }
                 ],
                 "keyword": [],
-                "des": "자신의 지령의 가호 1당 지령 표식 스킬 피해량 +2% (최대 16%)\n- 지령의 가호가 9면, 대신 기본 스킬 피해량 +20%\n기본 공격 스킬의 파괴 불가 코인 적중 시, 대행 [헤르메스] 1 얻음\n- 공격 종료 시, 남은 파괴 불가 코인 수만큼 대행 [헤르메스] 얻음\n- 'Furioso-Replica' 공격 종료 시, (남은 파괴 불가 코인 수/2)만큼 다음 턴에 대행 [헤르메스] 얻음 (소수점 버림)\n턴 종료 시 이번 턴에 대행 [헤르메스]가 증가하여 9가 되었을 때, 다음 턴 시작 시 조작 슬롯에 스킬 3이 없으면, 기본 스킬 하나를 스킬 3으로 변경 (가장 왼쪽 슬롯의 아래 스킬 우선)",
+                "des": "자신의 지령의 가호 1당 지령 표식 스킬 피해량 +2% (최대 16%)\n- 지령의 가호가 9면, 대신 기본 스킬 피해량 +20%\n지령 대상이 있는 대상에게 기본 스킬 적중 시, 호흡 1 얻고 침잠 1 부여 (턴당 1회)\n- 지령의 가호 3당, 턴당 발동 가능한 횟수 +1 (최대 2)\n지령의 가호가 9면, 기본 스킬의 침잠 위력 부여값 +1. 호흡 위력 획득값 +1",
                 "resource_type": ""
             },
             "add_passive_skill": [
@@ -3032,55 +2956,225 @@
                     "keyword": []
                 },
                 {
-                    "name": "단말기로 전해진 지령",
-                    "des": "턴 시작 시\n- 자신의 지령의 가호 수치에 따라 지령[단말기] Ⅰ / 지령[단말기] Ⅱ / 지령[단말기] Ⅲ / 지령[단말기] Ⅳ 얻음\n- 무작위 적에게 지령 대상 부여 (집중 전투면, 부위에 부여)\n- 조작 슬롯의 자신의 기본 공격 스킬에 지령 표식 부여 (슬롯당 1개, 최대 2개 부여)\n · 해금 - Ⅱ 이상이면, 스킬 3에 우선 부여 (강화된 스킬 우선)\n- 흐트러짐, 행동 불가, 패닉, E.G.O 침식 상태면, 위의 모든 효과와 지령 수행 여부가 적용되지 않음"
+                    "name": "쪽지로 전해진 지령",
+                    "des": "턴 시작 시\n- 자신의 지령의 가호 수치에 따라 지령[쪽지] Ⅰ / 지령[쪽지] Ⅱ / 지령[쪽지] Ⅲ / 지령[쪽지] Ⅳ 얻음\n- 무작위 적에게 지령 대상 부여 (집중 전투면, 부위에 부여)\n- 조작 슬롯의 자신의 기본 공격 스킬에 지령 표식 부여 (슬롯당 1개, 최대 2개 부여)\n · 지령의 가호가 6 이상이면, 스킬 3에 우선 부여\n- 흐트러짐, 행동 불가, 패닉, E.G.O 침식 상태면, 위의 모든 효과와 지령 수행 여부가 적용되지 않음"
                 },
                 {
-                    "name": "신탁 대행자 / 해금",
-                    "des": "해금 - Ⅱ 미만일 때 이번 턴에 지령을 수행했으면, 턴 종료 시 정신력 4 회복, 지령의 가호 1 얻음 (턴당 1회)\n- 지령 수행 시 메인 타겟에게 지령 대상이 있으면, 대신 정신력 8 회복, 지령의 가호 3 얻음\n해금 - Ⅱ일 때 이번 턴에 지령[단말기] Ⅲ을 수행했으면, 턴 종료 시 정신력 4 회복 (턴당 1회)\n- 지령 수행 시 대행 [헤르메스]가 9가 되었으면, 대신 정신력 8 회복, 지령의 가호 3 얻음\n이번 턴에 지령을 수행하지 못했으면, 턴 종료 시 카르마 5 얻음\n- 해금 - Ⅲ이면, 카르마를 얻지 않음\n- 전투 시작 시 지령 수행을 시도했으나, 전투 중 대상을 타겟할 수 없게 되었으면, 카르마를 얻지 않음 (해금 단계가 2 미만일 때 적용)\n턴 종료 시 지령의 가호가 3/6/9이면, 해금 - Ⅰ/해금 - Ⅱ/해금 - Ⅲ 얻음\n턴 시작 시 해금 - Ⅲ이면, 신(心) - 운명 얻음"
-                },
-                {
-                    "name": "검지 아비",
-                    "des": "스테이지에 첫 등장 시, 상처를 가린 가면 얻음\n- 이 효과를 보유 중일 때 이번 전투에서 처음으로 흐트러지면, 턴 종료 시 흐트러짐을 해제(강제 흐트러짐 제외)하고 상처를 가린 가면이 이글거리는 상처로 변경됨\n검지 대행자 - 개화 E.G.O::대행 돈키호테가 자신과 함께 전장에 있으면, 돈키호테에게 인정 욕구 충족 부여"
-                },
-                {
-                    "name": "신탁 단말기 [카두세우스]",
-                    "des": "기본 공격 스킬의 코인마다 무기가 무작위로 정해져 특수 효과가 적용됨\n- 손도끼로 갈비뼈를 찍어 내릴 때는…\n- 스틸레토로 허파를 꿰뚫을 때는…\n- 바스타드 소드로 어깨와 머리를 짓이길 때는…\n- 레이피어로 몸에 10개 이상의 구멍을 내야할 때는…\n- 망치로 뒤통수를 으깨야 할 때는…\n- 커다란 검으로 몸통을 갈라야 할 때는…\n- 랜스로 20인치의 구멍을 내야 할 때는…\n- 채찍으로 살점을 만 갈래 떼어내야 할 때는…\n- 낫으로… 누군가처럼 공간을 따라 베어내야 할 때는…\n지령 표식 스킬 사용 시, 대행 [헤르메스] 1 얻음\n이번 전투에서 'Furioso-Replica'를 처음 사용하였다면, 해당 턴 종료 시 상처를 가린 가면이 이글거리는 상처로 변경됨\n턴 시작 시 이글거리는 상처를 보유 중일 때 조작 슬롯에 'Furioso-Replica'가 있으면 지령 탐닉 얻음"
+                    "name": "지령의 뜻",
+                    "des": "이번 턴에 지령을 수행했으면, 턴 종료 시 정신력 4 회복, 지령의 가호 1 얻음\n- 지령 수행 시 메인 타겟에게 지령 대상이 있으면, 대신 정신력 8 회복, 지령의 가호 3 얻음\n이번 턴에 지령을 수행하지 못 했으면, 턴 종료 시 카르마 5 얻음\n- 지령의 가호가 9면, 카르마를 얻지 않음\n- 전투 시작 시 지령 수행을 시도했으나, 전투 중 대상을 타겟할 수 없게 되었으면, 카르마를 얻지 않음"
                 }
             ],
             "support_passive": {
-                "name": "신의 가호",
+                "name": "지령이 이끄는 대로…",
                 "resources": [
                     {
-                        "name": "탐식",
-                        "count": 1
-                    },
-                    {
-                        "name": "우울",
+                        "name": "나태",
                         "count": 1
                     },
                     {
                         "name": "오만",
                         "count": 1
+                    },
+                    {
+                        "name": "우울",
+                        "count": 1
                     }
                 ],
                 "keyword": [],
-                "des": "이번 턴에 아군이 적에게 처음으로 사용한 참격, 관통, 타격 기본 공격 스킬의 피해량이 각각 +5%\n- 효과가 적용된 스킬이 검지 소속 인격의 스킬이면, 대신 피해량이 추가로 +10%\n- 공격 시작 전 기준으로 적용됨\n\n합 승리 시 합 횟수에 비례하여 증가\n(증가량: 기본 값 10. 2합부터 1합당 20%씩 증가)\n적 처치 시 처치한 적의 레벨에 관계 없이 10 증가\n아군이 처치한 적의 레벨에 관계 없이 5 증가",
+                "des": "편성 순서가 가장 빠른 인격에게 효과 적용\n- 검지 소속 인격이 있으면, 해당 인격에게 우선 적용\n전투 시작 시 자신의 조작 슬롯 중 가장 왼쪽 스킬로 지정한 적 슬롯을 다른 아군이 같이 지정했으면, 해당 스킬의 피해량이 자신을 제외하고 해당 슬롯을 타겟한 인원 수 1명당 5% 증가 (최대 15%, 자신과 아군 모두 기본 공격 스킬로 메인 타겟할 때 적용)",
                 "resource_type": "보유"
             },
             "guard_skill": {
-                "name": "예측할 수 없는 변덕으로",
+                "name": "지령이 하사한 지령으로 만들어진 천",
                 "crime": "우울",
-                "type": "회피",
+                "type": "반격",
                 "level": "62(+2)",
+                "default_power": "3",
+                "coin_power": "+3",
+                "keyword": [],
+                "des": "지령의 가호 3당 최종 위력 +1, 피해량 +10% (각각 최대 3, 최대 30%)\n전투 시작시 자신의 최대 체력의 15%만큼 보호막 얻음 (턴당 1회)\n- 카르마 5당 이 효과로 얻는 보호막 수치가 1.5% 감소, 카르마가 50 이상이면 보호막 얻지 않음\n사용시 호흡 2 얻음적중시 침잠 1 부여적중시 침잠 1 부여",
+                "coin": 3
+            }
+        }
+    },
+    {
+        "id": 30,
+        "sinner": "파우스트",
+        "name": "거미집 약지 제자 파우스트",
+        "affiliation": "약지",
+        "sim_keyword": [],
+        "keywords": [
+            "출혈",
+            "충전"
+        ],
+        "img": "asset/card/30.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "도축 - 갈비뼈",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "탐식",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "아이언 메이든 전용 스킬\n사용시 대상의 부정적인 효과 1개당, 합 위력 +1 (최대 2)\n사용시 대상의 출혈 4당, 최종 위력 +1 (최대 3)적중시 출혈 횟수 1 증가적중시 다음 턴에 방어 레벨 감소 2 부여 (턴당 1회)\n적중시 다음 턴에 방어 레벨 증가 2 얻음 (턴당 1회)",
+                    "level": "61(+1)"
+                },
+                {
+                    "name": "파시아가 굶주렸어",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "아이언 메이든 전용 스킬\n사용시 대상의 부정적인 효과 1개당, 합 위력 +1 (최대 2)\n사용시 대상의 출혈 4당, 최종 위력 +1 (최대 4)\n사용시 자신의 생체 재료 횟수가 10 이상이면, 생체 재료 횟수를 5 소모하고 아래 효과 적용\n- 합 위력 +1\n- 마지막 코인이 파괴 불가 코인이 됨적중시 출혈 횟수 2 증가적중시 다음 턴에 속박 1 부여 (턴당 1회)적중시 자신의 생체 재료 횟수 4 증가",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "억압당한 육체",
+                    "coin": 4,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "아이언 메이든 전용 스킬\n사용시 대상의 출혈 4당, 최종 위력 +1 (최대 3)\n사용시 자신의 생체 재료 횟수가 10 이상이면, 생체 재료 횟수를 최대 20까지 소모하고 아래 효과 적용\n- 최종 위력 +2\n- 소모한 수치 1당, 피해량 +3%적중시 출혈 4 부여적중시 다음 턴에 속박 1 부여 (턴당 1회)적중시 다음 턴에 피해량 감소 1 부여대상의 부정적인 효과 1개당, 피해량 +5% (최대 30%)\n적중시 출혈 횟수 1 증가",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "도축 - 갈비뼈",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "탐식",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "구속 해제 - 창작 몰입 전용 스킬\n사용시 대상의 부정적인 효과 1개당, 피해량 +10% (최대 30%)\n사용시 대상의 출혈 4당, 최종 위력 +1 (최대 3)적중시 출혈 횟수 1 증가적중시 다음 턴에 방어 레벨 감소 2 부여 (턴당 1회)\n적중시 다음 턴에 방어 레벨 증가 2 얻음 (턴당 1회)\n",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "파시아 식사 시간이네요",
+                    "coin": 3,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "구속 해제 - 창작 몰입 전용 스킬\n사용시 대상의 부정적인 효과 1개당, 피해량 +10% (최대 30%)\n사용시 대상의 출혈 4당, 최종 위력 +1 (최대 4)\n사용시 자신의 생체 재료 횟수가 10 이상이면, 생체 재료 횟수를 5 소모하고 아래 효과 적용\n- 합 위력 +1\n- 마지막 코인이 파괴 불가 코인이 됨적중시 출혈 횟수 2 증가적중시 다음 턴에 속박 1 부여 (턴당 1회)\n적중시 다음 턴에 신속 1 얻음 (턴당 1회)적중시 자신의 생체 재료 횟수 4 증가\n",
+                    "level": "64(+4)"
+                },
+                {
+                    "name": "억압당한 육체의 해방",
+                    "coin": 4,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "구속 해제 - 창작 몰입 전용 스킬\n사용시 이 스킬 공격 가중치보다 낮은 공격 대상 1당, 피해량 +30% (집중 전투인 경우, 부위로 판정)\n사용시 대상의 출혈 4당, 최종 위력 +1 (최대 3)\n사용시 자신의 생체 재료 횟수가 10 이상이면, 생체 재료 횟수를 최대 20까지 소모하고 아래 효과 적용\n- 최종 위력 +2\n- 소모한 1당, 피해량 +1%\n- 생체 재료가 3/5 이상이면, 공격 가중치 +1/+2\n- 모든 코인이 파괴 불가 코인이 됨적중시 출혈 4 부여적중시 다음 턴에 속박 1 부여 (턴당 1회)\n적중시 다음 턴에 신속 1 얻음 (턴당 1회)적중시 다음 턴에 피해량 감소 1 부여 (턴당 1회)\n적중시 다음 턴에 참격 피해량 증가 1 얻음 (턴당 1회)대상의 부정적인 효과 1개당, 피해량 +5% (최대 30%)\n적중시 출혈 횟수 1 증가\n",
+                    "level": "65(+5)"
+                },
+                {
+                    "name": "시작된 전시회",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "회피",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+10",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "구속 해제 - 창작 몰입 전용 스킬\n전투 시작시 원호 방어 1 얻음 (턴당 1회)\n회피 성공시 공격자에게 다음 턴에 속박 1 부여 (턴당 1회)\n회피 성공시 다음 턴에 신속 1 얻음 (턴당 1회)\n",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "반달리즘은 사절입니다",
+                    "coin": 2,
+                    "coin_type": "basic",
+                    "type": "강화 반격",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "합 가능 반격\n구속 해제 - 창작 몰입 전용 스킬\n원호 방어 전용 스킬\n사용시 대상의 부정적인 효과 1개당, 피해량 +10% (최대 30%)\n사용시 대상의 출혈 6당, 코인 위력 +1 (최대 2)\n사용시 자신의 생체 재료 횟수가 10 이상이면, 생체 재료 횟수를 5 소모하고 아래 효과 적용\n- 합 위력 +1\n- 마지막 코인이 파괴 불가 코인이 됨적중시 출혈 횟수 1 증가적중시 출혈 2 부여\n",
+                    "level": "62(+2)"
+                }
+            ],
+            "passive_skill": {
+                "name": "크리틱으로부터의 영감",
+                "resources": [
+                    {
+                        "name": "색욕",
+                        "count": 4
+                    },
+                    {
+                        "name": "질투",
+                        "count": 2
+                    }
+                ],
+                "keyword": [],
+                "des": "신체가 울리는 선율의 속도, 합 위력, 피해량이 증가하는 효과가 2배로 적용됨\n공격 적중 시 해당 공격 스킬로 부정적인 효과를 부여했으면, 공격 종료시 자신의 정신력 4 회복 (턴당 2회)\n- 이 효과로 정신력 회복 시 자신의 정신력이 최대면, 다음 턴에 참격 피해량 증가 1 얻음 (턴당 1회)",
+                "resource_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                },
+                {
+                    "name": "소중한 작품 파시아",
+                    "des": "스테이지 첫 등장 시 자신의 생체 재료 횟수가 (전장에 있는 약지 소속 아군 수 × 2)만큼 증가 (최대 10)\n스킬 종료 시 해당 스킬로 체력 또는 보호막 피해를 입혔으면, 자신의 생체 재료 횟수 5 증가\n- 대상이 사망했으면, 추가로 횟수 3 증가\n전투 중 누적으로 자신의 생체 재료 횟수 10을 소모할 때마다, 생체 재료 위력 1 얻음\n- 위 효과로 생체 재료 위력이 2 이상이 되면, 작품명: 파시아 1 얻음\n기본 공격 스킬과 합 가능 반격 스킬이 충전 횟수를 얻는 스킬로 취급됨"
+                },
+                {
+                    "name": "보호와 억제를 위한 갑주",
+                    "des": "스테이지 첫 등장 시 아이언 메이든 얻음\n턴 종료 시 자신에게 작품명: 파시아가 있으면, 아이언 메이든이 소멸하고, 구속 해제 - 창작 몰입 얻음\n- 흐트러짐 상태면, 흐트러짐 해제 (강제 흐트러짐 제외)"
+                }
+            ],
+            "support_passive": {
+                "name": "아이언메이든 - 가시",
+                "resources": [
+                    {
+                        "name": "색욕",
+                        "count": 1
+                    },
+                    {
+                        "name": "질투",
+                        "count": 2
+                    }
+                ],
+                "keyword": [],
+                "des": "이번 턴에 수비 스킬을 장착한 아군이 피격 시 공격자에게 출혈 4 부여 (턴당 2회)\n- 이미 출혈이 있으면, 대신 공격자의 출혈 횟수 2 증가",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "전시회 준비",
+                "crime": "색욕",
+                "type": "강화 방어",
+                "level": "65(+5)",
                 "default_power": "4",
                 "coin_power": "+10",
                 "keyword": [],
-                "des": "해금 - Ⅲ이면, 코인 위력 +2\n전투 시작시 호흡 횟수 2 증가 (턴당 1회)\n[회피 성공시] 호흡 2 얻음 (턴당 2회)\n[턴 종료 시] 해금 - Ⅱ 미만이면, 다음 효과 발동 (전투당 1회)\n- 해금 - Ⅱ 얻음\n- 6 미만인 지령의 가호가 6으로 변경됨\n- 증가한 지령의 가호 1당 다음 턴 시작 시 카르마 5 얻음",
-                "coin": 1
+                "des": "합 가능 가드\n아이언 메이든 전용 스킬\n합 승리시 공격자의 출혈 횟수 2 증가 (턴당 최대 2회)\n합 승리시 공격자에게 (공격자의 출혈 위력 × 2)만큼 관통 피해를 입힘 (최대 30)파괴 불가 코인",
+                "coin": 1,
+                "coin_type": "indestructible"
             }
-        },
-        "sim_keyword": []
+        }
     },
     {
         "id": 31,
