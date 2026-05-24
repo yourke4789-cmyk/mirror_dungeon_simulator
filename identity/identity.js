@@ -1,27 +1,16 @@
-async function loadIdentityData() {
-    try {
-        // data.json 파일을 불러옵니다 (파일 경로는 실제 파일 위치에 맞게 수정 가능)
-        const response = await fetch('./data.json');
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        identityData = await response.json(); // 데이터를 배열로 변환하여 저장
-        renderCards(identityData); // 카드 렌더링 실행
-
-    } catch (error) {
-        console.error("데이터 로드 실패:", error);
-    }
-}
-
 const cardContainer = document.getElementById('card-container');
 const searchInput = document.getElementById('search-input');
 const backBtn = document.getElementById('back-btn');
-    
-// 모달 관련 요소들
+const identityGrid = document.getElementById('identity-serach-grid');
+
+// 모달 관련 요소들 
 const modal = document.getElementById('info-modal');
 const closeModalBtn = document.getElementById('close-modal');
+
+//url query parsing
+const url_query = new URLSearchParams(location.search);
+
+let identityData = null;
 
 // 카드 렌더링 함수
 function renderCards(dataList) {
@@ -33,7 +22,7 @@ function renderCards(dataList) {
         
         // 카드 클릭 시 모달 열기 이벤트
         cardDiv.addEventListener('click', () => {
-            openModal(data);
+            openModal(data.id);
         });
 
 
@@ -48,7 +37,9 @@ function renderCards(dataList) {
 
 
 // 모달 열기 함수
-function openModal(data) {
+function openModal(id) {
+    const data = identityData[id - 1]
+
     // 헤더 정보 채우기
     document.getElementById('modal-img').src = data.img;
     
@@ -58,8 +49,14 @@ function openModal(data) {
     // 키워드 태그 생성
     const keywordContainer = document.getElementById('modal-keywords');
     keywordContainer.innerHTML = '';
+    if(data.sim_keyword) {
+        data.sim_keyword.forEach(kw => {
+            keywordContainer.innerHTML += `<span class="sim-tag">${kw}</span>`;
+        });
+    }   
     if(data.keywords) {
-        data.keywords.forEach(kw => {
+        const g_keyword = data.keywords.filter(item => !data.sim_keyword.includes(item));
+        g_keyword.forEach(kw => {
             keywordContainer.innerHTML += `<span class="tag">${kw}</span>`;
         });
     }
@@ -81,7 +78,11 @@ function openModal(data) {
                             <span class="skill-type">${s.type} / ${s.crime}</span>
                         </div>
                         <div class="skill-stats">
-                            기본 위력: ${s.default_power} | 코인 위력: ${s.coin_power} (코인: ${s.coin}개)
+                            기본 위력: ${s.default_power} | 코인 위력: ${s.coin_power} (`
+                        if (s.coin_type == "indestructible") {
+                            detailsHTML += "파괴 불가 "
+                        }
+                detailsHTML += `코인: ${s.coin}개)
                         </div>
                     </div>`;
             });
@@ -98,7 +99,13 @@ function openModal(data) {
                         <div class="skill-header">
                             <span>${g.name}</span><span class="skill-type">${g.type} / ${g.crime}</span>
                         </div>
-                        <div class="skill-stats">위력: ${g.default_power} ${g.coin_power}</div>
+                        <div class="skill-stats">
+                        기본 위력: ${g.default_power} | 코인 위력: ${g.coin_power} (`
+                        if (g.coin_type == "indestructible") {
+                            detailsHTML += "파괴 불가 "
+                        }
+                detailsHTML += `코인: ${g.coin}개)
+                        </div>
                     </div>
                 </div>`;
         }
@@ -111,8 +118,13 @@ function openModal(data) {
                 detailsHTML += `
                     <div class="skill-box">
                         <div class="skill-header"><span>[패시브] ${p.name}</span></div>
-                        <div class="skill-type">발동 조건: ${p.resources_type}</div>
-                    </div>`;
+                        <div class="skill-type">
+                        `
+                for (let i = 0; i < p.resources.length; i++) {
+                    detailsHTML += p.resources[i].name + "x" + p.resources[i].count + " "
+                }
+                detailsHTML +=" " + p.resource_type + `<br><br>` + p.des + `</div>
+                </div>`;
             }
             
             if(data.skill.support_passive) {
@@ -125,7 +137,7 @@ function openModal(data) {
                 for (let i = 0; i < sp.resources.length; i++) {
                     detailsHTML += sp.resources[i].name + "x" + sp.resources[i].count + " "
                 }
-                detailsHTML +=`</div>
+                detailsHTML +=" " + sp.resource_type + `<br><br>` + sp.des + `</div>
                 </div>`;
             }
             detailsHTML += `</div>`;
@@ -153,17 +165,86 @@ window.addEventListener('click', (event) => {
     }
 });
 
+let selected_sinner = [];
+let keyword = ""
+
+function filterUpdate() {
+    let filteredData;
+    if (selected_sinner.length == 0) {
+        filteredData = identityData.filter(data => 
+            data.name.toLowerCase().includes(keyword) 
+        );
+    } else {
+        filteredData = identityData.filter(data => 
+            data.name.toLowerCase().includes(keyword) &&
+            selected_sinner.includes(data.sinner)
+        );
+    }
+    renderCards(filteredData);
+
+}
+
 // 검색 및 뒤로가기
 searchInput.addEventListener('input', (event) => {
-    const keyword = event.target.value.toLowerCase();
-    const filteredData = identityData.filter(data => 
-        data.name.toLowerCase().includes(keyword) || 
-        (data.sinner && data.sinner.toLowerCase().includes(keyword))
-    );
-    renderCards(filteredData);
+    keyword = event.target.value.toLowerCase();
+    filterUpdate()
+});
+
+identityGrid.addEventListener('click', (event) => {
+    let target;
+    if(event.target.id != "identity-serach-grid") {
+        if(event.target.nodeName == "IMG") {
+            target = event.target.parentElement
+        } else {
+            target = event.target
+        }
+        if (target.className == "identity-serach-button-selected") {
+            target.className = "identity-serach-button";
+        } else {
+            target.className = "identity-serach-button-selected";
+        }
+    }
 });
 
 backBtn.addEventListener('click', () => { window.history.back(); });
 
+function card_url_query() {
+    if (url_query.get("id")) {
+    let identity_id = Number(url_query.get("id"))
+
+    if (isNaN(identity_id)) {
+        console.log("id parsing error")
+        return
+    }
+
+    if (identity_id <= 0  || identityData.length < identity_id) {
+        console.log("id invaild")
+        return
+    }
+    
+    openModal(identity_id)
+}
+}
+
+async function loadIdentityData() {
+    try {
+        // data.json 파일을 불러옵니다 (파일 경로는 실제 파일 위치에 맞게 수정 가능)
+        const response = await fetch('./data.json');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        identityData = await response.json(); // 데이터를 배열로 변환하여 저장
+        renderCards(identityData); // 카드 렌더링 실행
+        
+        card_url_query()
+
+    } catch (error) {
+        console.error("데이터 로드 실패:", error);
+    }
+}
+
 // 초기 화면 그리기
 loadIdentityData()
+
