@@ -1,27 +1,16 @@
-async function loadIdentityData() {
-    try {
-        // data.json 파일을 불러옵니다 (파일 경로는 실제 파일 위치에 맞게 수정 가능)
-        const response = await fetch('./data.json');
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        identityData = await response.json(); // 데이터를 배열로 변환하여 저장
-        renderCards(identityData); // 카드 렌더링 실행
-
-    } catch (error) {
-        console.error("데이터 로드 실패:", error);
-    }
-}
-
 const cardContainer = document.getElementById('card-container');
 const searchInput = document.getElementById('search-input');
 const backBtn = document.getElementById('back-btn');
-    
-// 모달 관련 요소들
+const identityGrid = document.getElementById('identity-serach-grid');
+
+// 모달 관련 요소들 
 const modal = document.getElementById('info-modal');
 const closeModalBtn = document.getElementById('close-modal');
+
+//url query parsing
+const url_query = new URLSearchParams(location.search);
+
+let identityData = null;
 
 // 카드 렌더링 함수
 function renderCards(dataList) {
@@ -33,7 +22,7 @@ function renderCards(dataList) {
         
         // 카드 클릭 시 모달 열기 이벤트
         cardDiv.addEventListener('click', () => {
-            openModal(data);
+            openModal(data.id);
         });
 
 
@@ -48,7 +37,9 @@ function renderCards(dataList) {
 
 
 // 모달 열기 함수
-function openModal(data) {
+function openModal(id) {
+    const data = identityData[id - 1]
+
     // 헤더 정보 채우기
     document.getElementById('modal-img').src = data.img;
     
@@ -58,8 +49,14 @@ function openModal(data) {
     // 키워드 태그 생성
     const keywordContainer = document.getElementById('modal-keywords');
     keywordContainer.innerHTML = '';
+    if(data.sim_keyword) {
+        data.sim_keyword.forEach(kw => {
+            keywordContainer.innerHTML += `<span class="sim-tag">${kw}</span>`;
+        });
+    }   
     if(data.keywords) {
-        data.keywords.forEach(kw => {
+        const g_keyword = data.keywords.filter(item => !data.sim_keyword.includes(item));
+        g_keyword.forEach(kw => {
             keywordContainer.innerHTML += `<span class="tag">${kw}</span>`;
         });
     }
@@ -168,17 +165,108 @@ window.addEventListener('click', (event) => {
     }
 });
 
+let selected_sinner = [];
+let keyword = ""
+
+function filterUpdate() {
+    let filteredData;
+    if (selected_sinner.length == 0) {
+        filteredData = identityData.filter(data => 
+            data.name.toLowerCase().includes(keyword) 
+        );
+    } else {
+        filteredData = identityData.filter(data => 
+            data.name.toLowerCase().includes(keyword) &&
+            selected_sinner.includes(data.sinner)
+        );
+    }
+    renderCards(filteredData);
+
+}
+
 // 검색 및 뒤로가기
 searchInput.addEventListener('input', (event) => {
-    const keyword = event.target.value.toLowerCase();
-    const filteredData = identityData.filter(data => 
-        data.name.toLowerCase().includes(keyword) || 
-        (data.sinner && data.sinner.toLowerCase().includes(keyword))
-    );
-    renderCards(filteredData);
+    keyword = event.target.value.toLowerCase();
+    filterUpdate()
+});
+
+function identity_eng2kor(name) {
+    switch (name) {
+        case "yisang": return "이상"
+        case "faust": return "파우스트"
+        case "donquixote": return "돈키호테"
+        case "gregor": return "그레고르"
+        case "heathcliff": return "히스클리프"
+        case "honglu": return "홍루"
+        case "ishmael": return "이스마엘"
+        case "meursault": return "뫼르소"
+        case "outis": return "오티스"
+        case "rodya": return "로쟈"
+        case "ryoshu": return "료슈"
+        case "sinclair": return "싱클레어"
+        default: return ""
+    }   
+}
+
+identityGrid.addEventListener('click', (event) => {
+    let target;
+    if(event.target.id != "identity-serach-grid") {
+        if(event.target.nodeName == "IMG") {
+            target = event.target.parentElement
+        } else {
+            target = event.target
+        }
+        if (target.className == "identity-serach-button-selected") {
+            target.className = "identity-serach-button";
+            const idx = selected_sinner.indexOf(identity_eng2kor(target.id))
+            if (idx > -1) selected_sinner.splice(idx, 1)
+        } else {
+            target.className = "identity-serach-button-selected";
+            selected_sinner.push(identity_eng2kor(target.id))
+        }
+        filterUpdate()
+    }
 });
 
 backBtn.addEventListener('click', () => { window.history.back(); });
 
+function card_url_query() {
+    if (url_query.get("id")) {
+    let identity_id = Number(url_query.get("id"))
+
+    if (isNaN(identity_id)) {
+        console.log("id parsing error")
+        return
+    }
+
+    if (identity_id <= 0  || identityData.length < identity_id) {
+        console.log("id invaild")
+        return
+    }
+    
+    openModal(identity_id)
+}
+}
+
+async function loadIdentityData() {
+    try {
+        // data.json 파일을 불러옵니다 (파일 경로는 실제 파일 위치에 맞게 수정 가능)
+        const response = await fetch('./data.json');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        identityData = await response.json(); // 데이터를 배열로 변환하여 저장
+        renderCards(identityData); // 카드 렌더링 실행
+        
+        card_url_query()
+
+    } catch (error) {
+        console.error("데이터 로드 실패:", error);
+    }
+}
+
 // 초기 화면 그리기
 loadIdentityData()
+

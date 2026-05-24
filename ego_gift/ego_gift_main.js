@@ -9,7 +9,7 @@ const categories = [
   { name: "참격", file: "slash.json" },
   { name: "관통", file: "pierce.json" },
   { name: "타격", file: "blunt.json" },
-  { name: "범용", file: "nokeyword.json" }
+  { name: "범용", file: "common.json" }
 ];
 
 let currentCategory = categories[0];
@@ -113,16 +113,12 @@ function renderGifts() {
             const hasPlus = Boolean(gift.plusDesc);
             const hasDoublePlus = Boolean(gift.doublePlusDesc);
             const desc = getGiftDesc(gift);
-            const isComboGift = Array.isArray(gift.tags) && gift.tags.includes("combo");
-
-            console.log(gift.name, gift.tags, isComboGift);
 
             return `
               <div class="damage-box
-                 ${hasPlus || hasDoublePlus ? "upgradeable" : ""}
-                 ${currentMode === "plus" && hasPlus ? "plus-mode" : ""}
-                 ${currentMode === "doublePlus" && hasDoublePlus ? "double-plus-mode" : ""}
-                 ${isComboGift ? "combo-gift" : ""}
+                ${hasPlus || hasDoublePlus ? "upgradeable" : ""}
+                ${currentMode === "plus" && hasPlus ? "plus-mode" : ""}
+                ${currentMode === "doublePlus" && hasDoublePlus ? "double-plus-mode" : ""}
               ">
                 <img src="${gift.img}" alt="${gift.name}">
 
