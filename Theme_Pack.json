@@ -1,0 +1,1620 @@
+[
+    {
+        "id": "t01",
+        "name": "잊혀진 자들",
+        "floor": "1F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/잊혀진자들.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t02",
+        "name": "속하지 못하는",
+        "floor": "1F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/속하지못하는.png",
+        "gifts": [
+            {"name": "갇힌 구더기", "img": "../ego_gift/images/bleed25.webp"},
+            {"name": "흑단 브로치", "img": "../ego_gift/images/rupture16.webp"}
+        ]
+    },
+    {
+        "id": "t03",
+        "name": "카지노 푸어",
+        "floor": "1F,2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/카지노푸어.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t04",
+        "name": "공장 자동화",
+        "floor": "1F,2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/공장자동화.png",
+        "gifts": [
+            {"name": "오더메이드", "img": "../ego_gift/images/tremor16.webp"},
+            {"name": "귀신들린 신발", "img": "../ego_gift/images/sinking12.webp"}
+        ]
+    },
+    {
+        "id": "t05",
+        "name": "사랑할 수 없는",
+        "floor": "1F,2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/사랑할수없는.png",
+        "gifts": [
+            {"name": "얼어붙은 아우성", "img": "../ego_gift/images/sinking14.webp"}
+        ]
+    },
+    {
+        "id": "t06",
+        "name": "못과 망치",
+        "floor": "1F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/못과망치.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t07",
+        "name": "신앙과 침식",
+        "floor": "1F,2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/신앙과침식.png",
+        "gifts": [
+            {"name": "못과 망치의 책", "img": "../ego_gift/images/bleed13.webp"},
+            {"name": "핏빛 갈기", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t08",
+        "name": "마주하지 않는",
+        "floor": "3F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/마주하지않는.png",
+        "gifts": [
+            {"name": "불결함", "img": "../ego_gift/images/bleed14.webp"}
+        ]
+    },
+    {
+        "id": "t09",
+        "name": "둥지, 공방, 기술",
+        "floor": "1F,2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/둥지공방기술.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t10",
+        "name": "낙화",
+        "floor": "3F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/낙화.png",
+        "gifts": [
+            {"name": "생강꽃가지", "img": "../ego_gift/images/.webp"},
+            {"name": "만화경", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t11",
+        "name": "흘리는 것들",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/흘리는것들.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t12",
+        "name": "레이크월드",
+        "floor": "2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/레이크월드.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t13",
+        "name": "기어오는 심연",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/기어오는심연.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t14",
+        "name": "저택의부산물",
+        "floor": "3F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/저택의부산물.png",
+        "gifts": [
+        ]
+    },        
+    {
+        "id": "t15",
+        "name": "어느 세계",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/어느세계.png",
+        "gifts": [
+            {"name": "치프 버틀러의 비급서", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t16",
+        "name": "현혹, 방황, 불신",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/현혹방황불신.png",
+        "gifts": [
+            {"name": "열선 무기", "img": "../ego_gift/images/bleed27.webp"},
+            {"name": "붉게 얽힌 거미집", "img": "../ego_gift/images/.webp"}
+        ]
+    },    
+    {
+        "id": "t17",
+        "name": "헬스치킨",
+        "floor": "2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/헬스치킨.png",
+        "gifts": [
+            {"name": "뜨거운 육즙 다리살", "img": "../ego_gift/images/burn15.webp"},
+            {"name": "오염된 실과 바늘", "img": "../ego_gift/images/bleed15.webp"},
+            {"name": "목이 뻑뻑 가슴살", "img": "../ego_gift/images/rupture23.webp"},
+            {"name": "탱고 닭양념장", "img": "../ego_gift/images/.webp"},
+            {"name": "날카로운 실과 바늘", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t18",
+        "name": "우.미.다",
+        "floor": "2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/우미다.png",
+        "gifts": [
+            {"name": "기름때 찌든 스패너", "img": "../ego_gift/images/tremor5.webp"},
+            {"name": "크맆게 뇌수 담금주", "img": "../ego_gift/images/rupture26.webp"},
+            {"name": "반짝이는 폐품", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t19",
+        "name": "20번구의 기적",
+        "floor": "4F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/20번구의기적.png",
+        "gifts": [
+            {"name": "털방울 모자", "img": "../ego_gift/images/poise5.webp"},
+            {"name": "거대한 선물 보따리", "img": "../ego_gift/images/poise12.webp"},
+            {"name": "슬픈 봉제인형", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t20",
+        "name": "육참골단",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/육참골단.png",
+        "gifts": [
+            {"name": "조각난 칼날", "img": "../ego_gift/images/bleed28.webp"},
+            {"name": "부서진 칼날", "img": "../ego_gift/images/poise20.webp"},
+            {"name": "헤진 삿갓", "img": "../ego_gift/images/poise26.webp"},
+            {"name": "녹슨 칼자루", "img": "../ego_gift/images/slash11.webp"},
+            {"name": "붉은 색술", "img": "../ego_gift/images/slash13.webp"},
+            {"name": "낡은 도포", "img": "../ego_gift/images/slash17.webp"},
+            {"name": "검은 장부", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t21",
+        "name": "시간살인시간",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/시간살인시간.png",
+        "gifts": [
+            {"name": "은빛 시계 케이스", "img": "../ego_gift/images/tremor18.webp"},
+            {"name": "빛바랜 시계 케이스", "img": "../ego_gift/images/tremor15.webp"},
+            {"name": "에칭 시계침", "img": "../ego_gift/images/tremor17.webp"},
+            {"name": "녹슨 시계침", "img": "../ego_gift/images/tremor14.webp"},
+            {"name": "낙수의 잔", "img": "../ego_gift/images/tremor25.webp"},
+            {"name": "경고장", "img": "../ego_gift/images/.webp"},
+            {"name": "선불 시간 영수증", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t22",
+        "name": "워프특급살인사건",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/워프특급살인사건.png",
+        "gifts": [
+            {"name": "결정화된 혈액", "img": "../ego_gift/images/bleed12.webp"},
+            {"name": "E식 차원 단검", "img": "../ego_gift/images/charge24.webp"},
+            {"name": "휴대용 역장 배터리", "img": "../ego_gift/images/charge23.webp"},
+            {"name": "생체 발전형 배터리", "img": "../ego_gift/images/charge12.webp"},
+            {"name": "심장 리액트 모듈", "img": "../ego_gift/images/charge13.webp"},
+            {"name": "의체관절 서브모터", "img": "../ego_gift/images/charge14.webp"},
+            {"name": "일반석 할인 바우처", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t23",
+        "name": "자색정오의 시련",
+        "floor": "4F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/자색정오의시련.png",
+        "gifts": [
+            {"name": "치사량", "img": "../ego_gift/images/bleed17.webp"},
+            {"name": "정신 오염 가속 가스", "img": "../ego_gift/images/sinking15.webp"},
+            {"name": "흘러내린 엔케팔린", "img": "../ego_gift/images/sinking16.webp"},
+            {"name": "안식", "img": "../ego_gift/images/sinking24.webp"},
+            {"name": "어긋난 트랜지스터", "img": "../ego_gift/images/charge15.webp"},
+            {"name": "고초", "img": "../ego_gift/images/.webp"},
+            {"name": "가시나무 관", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t24",
+        "name": "탄환이 찍은 마침표",
+        "floor": "4F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/탄환이찍은마침표.png",
+        "gifts": [
+            {"name": "톱니 파편", "img": "../ego_gift/images/poise13.webp"},
+            {"name": "근접전술교본", "img": "../ego_gift/images/poise19.webp"},
+            {"name": "흑염 파이프", "img": "../ego_gift/images/pierce11.webp"},
+            {"name": "평등", "img": "../ego_gift/images/pierce10.webp"},
+            {"name": "묵시적 계약 갱신", "img": "../ego_gift/images/.webp"},
+            {"name": "신속하 지휘", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t25",
+        "name": "LCB 정기검진",
+        "floor": "5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/LCB정기검진.png",
+        "gifts": [
+            {"name": "점화 장갑", "img": "../ego_gift/images/burn19.webp"},
+            {"name": "재점화 플러그", "img": "../ego_gift/images/burn18.webp"},
+            {"name": "잔불", "img": "../ego_gift/images/burn17.webp"},
+            {"name": "가시 전투화", "img": "../ego_gift/images/rupture21.webp"},
+            {"name": "강화제 Mk. 4", "img": "../ego_gift/images/rupture22.webp"},
+            {"name": "잔가지", "img": "../ego_gift/images/rupture25.webp"},
+            {"name": "통상 작전용 장비", "img": "../ego_gift/images/.webp"},
+            {"name": "작전 승인 카드", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t26",
+        "name": "심야청소",
+        "floor": "3F, 4F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/심야청소.png",
+        "gifts": [
+            {"name": "괴문자 부적", "img": "../ego_gift/images/rupture11.webp"},
+            {"name": "묘각", "img": "../ego_gift/images/rupture15.webp"},
+            {"name": "새겨넣어진 괴문자", "img": "../ego_gift/images/rupture24.webp"},
+            {"name": "그림자 삿갓", "img": "../ego_gift/images/slash10.webp"},
+            {"name": "강화 문신- 중지", "img": "../ego_gift/images/blunt9.webp"},
+            {"name": "의리 사슬", "img": "../ego_gift/images/rupture25.webp"},
+            {"name": "찰랑이는 연료통", "img": "../ego_gift/images/.webp"}        
+        ]
+    },
+    {
+        "id": "t27",
+        "name": "증오와 절망",
+        "floor": "3F, 4F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/증오와절망.png",
+        "gifts": [
+            {"name": "선택 받지 못한 자", "img": "../ego_gift/images/sinking13.webp"},
+            {"name": "눈물로 벼려낸 검", "img": "../ego_gift/images/sinking22.webp"},
+            {"name": "마법소녀의 애정 어린 선물", "img": "../ego_gift/images/charge11.webp"},
+            {"name": "다한 쓸모, 맺힌 증오", "img": "../ego_gift/images/charge21.webp"},
+            {"name": "쟂빛 별자리의 가호", "img": "../ego_gift/images/.webp"},
+            {"name": "트라우마 방지장", "img": "../ego_gift/images/.webp"},
+            {"name": "가치처분", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t28",
+        "name": "절차탁춘",
+        "floor": "5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/절차탁춘.png",
+        "gifts": [
+            {"name": "혈염도", "img": "../ego_gift/images/burn11.webp"},
+            {"name": "흑철마갑", "img": "../ego_gift/images/tremor19.webp"},
+            {"name": "덕목 - 지", "img": "../ego_gift/images/rupture12.webp"},
+            {"name": "덕목 - 용", "img": "../ego_gift/images/rupture13.webp"},
+            {"name": "덕목 - 인", "img": "../ego_gift/images/rupture14.webp"},
+            {"name": "마음을 닫는 붉은 천", "img": "../ego_gift/images/slash12.webp"},
+            {"name": "소흥주", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t29",
+        "name": "호박색어스름의시련",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/호박색어스름의시련.png",
+        "gifts": [
+            {"name": "로열 젤리 퍼퓸", "img": "../ego_gift/images/burn16.webp"},
+            {"name": "부리 모양 목걸이", "img": "../ego_gift/images/bleed26.webp"},
+            {"name": "하모닉스", "img": "../ego_gift/images/bleed29.webp"},
+            {"name": "워킹 베이스", "img": "../ego_gift/images/bleed16.webp"},
+            {"name": "노이즈 섞인 무전기", "img": "../ego_gift/images/sinking21.webp"},
+            {"name": "분홍 꽃잎", "img": "../ego_gift/images/sinking23.webp"}
+        ]
+    },
+    {
+        "id": "t30",
+        "name": "타래엮기",
+        "floor": "5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/타래엮기.png",
+        "gifts": [
+            {"name": "작품 : 야성", "img": "../ego_gift/images/sinking25.webp"},
+            {"name": "작품 : 약동", "img": "../ego_gift/images/charge22.webp"},
+            {"name": "중지식 너클", "img": "../ego_gift/images/blunt13.webp"},
+            {"name": "모든 것의 뼈대", "img": "../ego_gift/images/.webp"},
+            {"name": "텅 빈 새장", "img": "../ego_gift/images/.webp"},
+            {"name": "모든 것의 본능", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t31",
+        "name": "가르고 베는 이들",
+        "floor": "5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/가르고베는이들.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t32",
+        "name": "베어낼 것",
+        "floor": "2F,3F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/가르고베는이들.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t34",
+        "name": "꿰뚫을 것",
+        "floor": "2F,3F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/꿰뚫을것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t35",
+        "name": "부수고 깨드릴 이들",
+        "floor": "5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/부수고깨드릴이들.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t33",
+        "name": "꿰고 뚫는 이들",
+        "floor": "5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/꿰고뚫는이들.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t36",
+        "name": "바스라질 것",
+        "floor": "2F,3F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/바스라질것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t37",
+        "name": "억눌린 분노",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/억눌린분노.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t38",
+        "name": "감정에 짓눌리는 것",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/감정에짓눌리는것.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t39",
+        "name": "빠져드는 색욕",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/빠져드는색욕.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t40",
+        "name": "감정에 홀리는 것",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/감정에홀리는것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t41",
+        "name": "헛도는 나태",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/헛도는나태.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t42",
+        "name": "감정 앞에 게으른 것",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/감정앞에게으른것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t43",
+        "name": "먹어치운 탐식",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/먹어치운탐식.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t44",
+        "name": "감정에 굶주린 것",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/감정에굶주린것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t45",
+        "name": "전락하는 우울",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/전락하는우울.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t46",
+        "name": "감정에 침수된 것",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/감정에침수된것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t47",
+        "name": "허세짙은 오만",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/허세짙은오만.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t48",
+        "name": "감정에 복종한 것",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/감정에복종한것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t49",
+        "name": "초라한 질투",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/초라한질투.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t50",
+        "name": "감정으로 평가된 것",
+        "floor": "4F,5F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/감정으로평가된것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t51",
+        "name": "잊혀진 자들",
+        "floor": "1F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/잊혀진자들.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t52",
+        "name": "속하지 못하는",
+        "floor": "1F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/속하지못하는.png",
+        "gifts": [
+            {"name": "갇힌 구더기", "img": "../ego_gift/images/bleed25.webp"},
+            {"name": "흑단 브로치", "img": "../ego_gift/images/rupture16.webp"}
+        ]
+    },    {
+        "id": "t53",
+        "name": "카지노 푸어",
+        "floor": "1F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/카지노푸어.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t4",
+        "name": "공장 자동화",
+        "floor": "1F,2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/공장자동화.png",
+        "gifts": [
+            {"name": "오더메이드", "img": "../ego_gift/images/tremor16.webp"},
+            {"name": "귀신들린 신발", "img": "../ego_gift/images/sinking12.webp"}
+        ]
+    },
+    {
+        "id": "t55",
+        "name": "사랑할 수 없는",
+        "floor": "1F,2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/사랑할수없는.png",
+        "gifts": [
+            {"name": "얼어붙은 아우성", "img": "../ego_gift/images/sinking14.webp"}
+        ]
+    },
+    {
+        "id": "t56",
+        "name": "못과 망치",
+        "floor": "1F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/못과망치.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t57",
+        "name": "신앙과 침식",
+        "floor": "1F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/신앙과침식.png",
+        "gifts": [
+            {"name": "못과 망치의 책", "img": "../ego_gift/images/bleed13.webp"},
+            {"name": "핏빛 갈기", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t58",
+        "name": "마주하지 않는",
+        "floor": "2F,3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/마주하지않는.png",
+        "gifts": [
+            {"name": "불결함", "img": "../ego_gift/images/bleed14.webp"}
+        ]
+    },
+    {
+        "id": "t59",
+        "name": "둥지, 공방, 기술",
+        "floor": "1F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/둥지공방기술.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t60",
+        "name": "낙화",
+        "floor": "2F,3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/낙화.png",
+        "gifts": [
+            {"name": "생강꽃가지", "img": "../ego_gift/images/.webp"},
+            {"name": "만화경", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t61",
+        "name": "흘리는 것들",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/흘리는것들.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t62",
+        "name": "변하지 않는",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/변하지않는.png",
+        "gifts": [
+            {"name": "깨진 안경", "img" :"../ego_gift/images/.webp"}
+        ]
+    },
+        {
+        "id": "t63",
+        "name": "레이크월드",
+        "floor": "1F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/레이크월드.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t64",
+        "name": "기어오는 심연",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/기어오는심연.png",
+        "gifts": [
+            {"name": "고래의 심장", "img": "../ego_gift/images/poise27.webp"},
+            {"name": "마을을 지킬 작살", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t65",
+        "name": "악으로규정되는",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/악으로규정되는.png",
+        "gifts": [
+            {"name": "작살 의족", "img": "../ego_gift/images/poise15.webp"}
+        ]
+    },
+        {
+        "id": "t66",
+        "name": "저택의부산물",
+        "floor": "1F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/저택의부산물.png",
+        "gifts": [
+            {"name": "모형 저택 오르골", "img": "../ego_gift/images/sinking27.webp"},
+            {"name": "부서진 바이올린", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t67",
+        "name": "어느 세계",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/어느세계.png",
+        "gifts": [
+            {"name": "치프 버틀러의 비급서", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t68",
+        "name": "마음이 어긋나는",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/마음이어긋나는.png",
+        "gifts": [
+            {"name": "굴절 유리관", "img": "../ego_gift/images/sinking32.webp"},
+            {"name": "버틀러식 포박술", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t69",
+        "name": "다시 열린 라만차랜드",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/다시열린라만차랜드.png",
+        "gifts": [
+            {"name": "라만차랜드 자유이용권", "img": "../ego_gift/images/bleed31.webp"},
+            {"name": "승리의 징표", "img": "../ego_gift/images/bleed32.webp"},
+            {"name": "퍼레이드 가면", "img": "../ego_gift/images/sinking32bleed40.webp"},
+            {"name": "떨어진 한 방울", "img": "../ego_gift/images/bleed38.webp"},
+            {"name": "먹어치우는 큐브", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t70",
+        "name": "끝나지 않는 행렬",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/끝나지않는행렬.png",
+        "gifts": [
+            {"name": "라만차랜드 자유이용권", "img": "../ego_gift/images/bleed31.webp"},
+            {"name": "승리의 징표", "img": "../ego_gift/images/bleed32.webp"},
+            {"name": "퍼레이드 가면", "img": "../ego_gift/images/sinking32bleed40.webp"},
+            {"name": "떨어진 한 방울", "img": "../ego_gift/images/bleed38.webp"},
+            {"name": "먹어치우는 큐브", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t71",
+        "name": "꿈이 끝나는",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/꿈이끝나는.png",
+        "gifts": [
+            {"name": "라만차랜드 자유이용권", "img": "../ego_gift/images/bleed31.webp"},
+            {"name": "승리의 징표", "img": "../ego_gift/images/bleed32.webp"},
+            {"name": "퍼레이드 가면", "img": "../ego_gift/images/sinking32bleed40.webp"},
+            {"name": "떨어진 한 방울", "img": "../ego_gift/images/bleed38.webp"},
+            {"name": "먹어치우는 큐브", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t72",
+        "name": "사대 가문과 욕망",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/사대가문과욕망.png",
+        "gifts": [
+            {"name": "전격부", "img": "../ego_gift/images/charge16.webp"},
+            {"name": "강인환", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t73",
+        "name": "바라볼 수밖에 없는",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/바라볼수밖에없는.png",
+        "gifts": [
+            {"name": "거울 속의 꽃", "img": "../ego_gift/images/rupture27.webp"},
+            {"name": "물 속의 달", "img": "../ego_gift/images/poise21.webp"}
+        ]
+    },
+    {
+        "id": "t74",
+        "name": "현혹, 방황, 불신",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/현혹방황불신.png",
+        "gifts": [
+            {"name": "열선 무기", "img": "../ego_gift/images/bleed27.webp"},
+            {"name": "붉게 얽힌 거미집", "img": "../ego_gift/images/.webp"},
+            {"name": "도둑맞은 해결사 잡지", "img": "../ego_gift/images/blunt13.webp"}
+        ]
+    },
+        {
+        "id": "t75",
+        "name": "교본",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/교본.png",
+        "gifts": [
+            {"name": "붉은색 넥타이", "img": "../ego_gift/images/burn20.webp"},
+            {"name": "붉게 얽힌 거미집", "img": "../ego_gift/images/.webp"},
+            {"name": "달궈진 망치", "img": "../ego_gift/images/tremor27.webp"}
+        ]
+    },
+    {
+        "id": "t76",
+        "name": "검과 작품 ",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/검과작품.png",
+        "gifts": [
+            {"name": "새하얀 캔버스", "img": "../ego_gift/images/bleed1.webp"},
+            {"name": "붉게 얽힌 거미집", "img": "../ego_gift/images/.webp"},
+            {"name": "범작", "img": "../ego_gift/images/bleed19.webp"},
+            {"name": "누군가의 푸른 검", "img": "../ego_gift/images/poise14.webp"},
+            {"name": "거미줄", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t77",
+        "name": "끊어지지 않는 ",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/끊어지지않는.png",
+        "gifts": [
+            {"name": "누군가의 단말기", "img": "../ego_gift/images/sinking26.webp"},
+            {"name": "지령의 보살핌", "img": "../ego_gift/images/poise22.webp"},
+            {"name": "만능 도구", "img": "../ego_gift/images/.webp"},
+            {"name": "붉게 얽힌 거미집", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t78",
+        "name": "헬스치킨",
+        "floor": "2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/헬스치킨.png",
+        "gifts": [
+            {"name": "뜨거운 육즙 다리살", "img": "../ego_gift/images/burn15.webp"},
+            {"name": "오염된 실과 바늘", "img": "../ego_gift/images/bleed15.webp"},
+            {"name": "목이 뻑뻑 가슴살", "img": "../ego_gift/images/rupture23.webp"},
+            {"name": "탱고 닭양념장", "img": "../ego_gift/images/.webp"},
+            {"name": "날카로운 실과 바늘", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t79",
+        "name": "우.미.다",
+        "floor": "2F,3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/우미다.png",
+        "gifts": [
+            {"name": "기름때 찌든 스패너", "img": "../ego_gift/images/tremor5.webp"},
+            {"name": "크맆게 뇌수 담금주", "img": "../ego_gift/images/rupture26.webp"},
+            {"name": "반짝이는 폐품", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t80",
+        "name": "20번구의 기적",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/20번구의기적.png",
+        "gifts": [
+            {"name": "털방울 모자", "img": "../ego_gift/images/poise5.webp"},
+            {"name": "거대한 선물 보따리", "img": "../ego_gift/images/poise12.webp"},
+            {"name": "슬픈 봉제인형", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t81",
+        "name": "육참골단",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/육참골단.png",
+        "gifts": [
+            {"name": "조각난 칼날", "img": "../ego_gift/images/bleed28.webp"},
+            {"name": "부서진 칼날", "img": "../ego_gift/images/poise20.webp"},
+            {"name": "헤진 삿갓", "img": "../ego_gift/images/poise26.webp"},
+            {"name": "녹슨 칼자루", "img": "../ego_gift/images/slash11.webp"},
+            {"name": "붉은 색술", "img": "../ego_gift/images/slash13.webp"},
+            {"name": "낡은 도포", "img": "../ego_gift/images/slash17.webp"},
+            {"name": "검은 장부", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t82",
+        "name": "시간살인시간",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/시간살인시간.png",
+        "gifts": [
+            {"name": "은빛 시계 케이스", "img": "../ego_gift/images/tremor18.webp"},
+            {"name": "빛바랜 시계 케이스", "img": "../ego_gift/images/tremor15.webp"},
+            {"name": "에칭 시계침", "img": "../ego_gift/images/tremor17.webp"},
+            {"name": "녹슨 시계침", "img": "../ego_gift/images/tremor14.webp"},
+            {"name": "낙수의 잔", "img": "../ego_gift/images/tremor25.webp"},
+            {"name": "경고장", "img": "../ego_gift/images/.webp"},
+            {"name": "선불 시간 영수증", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "83",
+        "name": "워프특급살인사건",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/워프특급살인사건.png",
+        "gifts": [
+            {"name": "결정화된 혈액", "img": "../ego_gift/images/bleed12.webp"},
+            {"name": "E식 차원 단검", "img": "../ego_gift/images/charge24.webp"},
+            {"name": "휴대용 역장 배터리", "img": "../ego_gift/images/charge23.webp"},
+            {"name": "생체 발전형 배터리", "img": "../ego_gift/images/charge12.webp"},
+            {"name": "심장 리액트 모듈", "img": "../ego_gift/images/charge13.webp"},
+            {"name": "의체관절 서브모터", "img": "../ego_gift/images/charge14.webp"},
+            {"name": "일반석 할인 바우처", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t84",
+        "name": "자색정오의 시련",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/자색정오의시련.png",
+        "gifts": [
+            {"name": "치사량", "img": "../ego_gift/images/bleed17.webp"},
+            {"name": "정신 오염 가속 가스", "img": "../ego_gift/images/sinking15.webp"},
+            {"name": "흘러내린 엔케팔린", "img": "../ego_gift/images/sinking16.webp"},
+            {"name": "안식", "img": "../ego_gift/images/sinking24.webp"},
+            {"name": "어긋난 트랜지스터", "img": "../ego_gift/images/charge15.webp"},
+            {"name": "고초", "img": "../ego_gift/images/.webp"},
+            {"name": "가시나무 관", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t85",
+        "name": "1호선",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/1호선.png",
+        "gifts": [
+            {"name": "뱀 허물", "img": "../ego_gift/images/.webp"},
+            {"name": "거짓 광배", "img": "../ego_gift/images/.webp"}
+        ]
+    },    
+    {
+        "id": "t86",
+        "name": "2호선",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/2호선.png",
+        "gifts": [
+            {"name": "메트로놈", "img": "../ego_gift/images/.webp"},
+            {"name": "굴레", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+        {
+        "id": "t87",
+        "name": "3호선",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/3호선.png",
+        "gifts": [
+            {"name": "부화하지 않은 불씨", "img": "../ego_gift/images/burn26.webp"},
+            {"name": "경멸의 시선의 경멸", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t88",
+        "name": "4호선-제3구간",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/4호선.png",
+        "gifts": [
+            {"name": "대양전 접지 플러그", "img": "../ego_gift/images/.webp"},
+            {"name": "왕의 잔재", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+        {
+        "id": "t89",
+        "name": "4호선-제4구간",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/4호선1.png",
+        "gifts": [
+            {"name": "대양전 접지 플러그", "img": "../ego_gift/images/.webp"},
+            {"name": "왕의 잔재", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t90",
+        "name": "20번구의 기적BokGok",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/20번구의기적BokGak.png",
+        "gifts": [
+            {"name": "불 꺼진 랜턴", "img": "../ego_gift/images/tremor6.webp"},
+            {"name": "털방울 모자", "img": "../ego_gift/images/poise5.webp"},
+            {"name": "거대한 선물 보따리", "img": "../ego_gift/images/poise12.webp"},
+            {"name": "슬픈 봉제인형", "img": "../ego_gift/images/.webp"},
+            {"name": "불 꺼진 촛대", "img": "../ego_gift/images/.webp"},
+            {"name": "포장용 상자", "img": "../ego_gift/images/.webp"},
+            {"name": "포장용 끈", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t91",
+        "name": "탄환이 찍은 마침표",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/탄환이찍은마침표.png",
+        "gifts": [
+            {"name": "톱니 파편", "img": "../ego_gift/images/poise13.webp"},
+            {"name": "근접전술교본", "img": "../ego_gift/images/poise19.webp"},
+            {"name": "흑염 파이프", "img": "../ego_gift/images/pierce11.webp"},
+            {"name": "평등", "img": "../ego_gift/images/pierce10.webp"},
+            {"name": "묵시적 계약 갱신", "img": "../ego_gift/images/.webp"},
+            {"name": "신속하 지휘", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t92",
+        "name": "LCB 정기검진",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/LCB정기검진.png",
+        "gifts": [
+            {"name": "점화 장갑", "img": "../ego_gift/images/burn19.webp"},
+            {"name": "재점화 플러그", "img": "../ego_gift/images/burn18.webp"},
+            {"name": "잔불", "img": "../ego_gift/images/burn17.webp"},
+            {"name": "가시 전투화", "img": "../ego_gift/images/rupture21.webp"},
+            {"name": "강화제 Mk. 4", "img": "../ego_gift/images/rupture22.webp"},
+            {"name": "잔가지", "img": "../ego_gift/images/rupture25.webp"},
+            {"name": "통상 작전용 장비", "img": "../ego_gift/images/.webp"},
+            {"name": "작전 승인 카드", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+        {
+        "id": "t93",
+        "name": "육참골단BokGak",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/육참골단BokGak.png",
+        "gifts": [
+            {"name": "조각난 칼날", "img": "../ego_gift/images/bleed28.webp"},
+            {"name": "부서진 칼날", "img": "../ego_gift/images/poise20.webp"},
+            {"name": "헤진 삿갓", "img": "../ego_gift/images/poise26.webp"},
+            {"name": "녹슨 칼자루", "img": "../ego_gift/images/slash11.webp"},
+            {"name": "붉은 색술", "img": "../ego_gift/images/slash13.webp"},
+            {"name": "낡은 도포", "img": "../ego_gift/images/slash17.webp"},
+            {"name": "검은 장부", "img": "../ego_gift/images/.webp"},
+            {"name": "낡은 칼자루", "img": "../ego_gift/images/slash14.webp"},
+            {"name": "떼구름", "img": "../ego_gift/images/slash18.webp"}
+        ]
+    },
+        {
+        "id": "t94",
+        "name": "심야청소",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/심야청소.png",
+        "gifts": [
+            {"name": "괴문자 부적", "img": "../ego_gift/images/rupture11.webp"},
+            {"name": "묘각", "img": "../ego_gift/images/rupture15.webp"},
+            {"name": "새겨넣어진 괴문자", "img": "../ego_gift/images/rupture24.webp"},
+            {"name": "그림자 삿갓", "img": "../ego_gift/images/slash10.webp"},
+            {"name": "강화 문신- 중지", "img": "../ego_gift/images/blunt9.webp"},
+            {"name": "의리 사슬", "img": "../ego_gift/images/rupture25.webp"},
+            {"name": "찰랑이는 연료통", "img": "../ego_gift/images/.webp"}        
+        ]
+    },
+    {
+        "id": "t95",
+        "name": "5호선",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/5호선.png",
+        "gifts": [
+            {"name": "탐하는 가시", "img": "../ego_gift/images/bleed39.webp"},
+            {"name": "애달픈 날숨", "img": "../ego_gift/images/poise28.webp"},
+            {"name": "깨어질 화포", "img": "../ego_gift/images/.webp"}    
+        ]
+    },
+    {
+        "id": "t96",
+        "name": "증오와 절망",
+        "floor": "3F, 4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/증오와절망.png",
+        "gifts": [
+            {"name": "선택 받지 못한 자", "img": "../ego_gift/images/sinking13.webp"},
+            {"name": "눈물로 벼려낸 검", "img": "../ego_gift/images/sinking22.webp"},
+            {"name": "마법소녀의 애정 어린 선물", "img": "../ego_gift/images/charge11.webp"},
+            {"name": "다한 쓸모, 맺힌 증오", "img": "../ego_gift/images/charge21.webp"},
+            {"name": "쟂빛 별자리의 가호", "img": "../ego_gift/images/.webp"},
+            {"name": "트라우마 방지장", "img": "../ego_gift/images/.webp"},
+            {"name": "가치처분", "img": "../ego_gift/images/.webp"}
+        ]
+    },    
+    {
+        "id": "t97",
+        "name": "시간살인시간BokGak",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/시간살인시간BokGak.png",
+        "gifts": [
+            {"name": "은빛 시계 케이스", "img": "../ego_gift/images/tremor18.webp"},
+            {"name": "빛바랜 시계 케이스", "img": "../ego_gift/images/tremor15.webp"},
+            {"name": "에칭 시계침", "img": "../ego_gift/images/tremor17.webp"},
+            {"name": "녹슨 시계침", "img": "../ego_gift/images/tremor14.webp"},
+            {"name": "엇낀 시간", "img": "../ego_gift/images/tremor20.webp"},
+            {"name": "강제 얽힘 시퀀스 장치", "img": "../ego_gift/images/tremor26.webp"},
+            {"name": "초정밀 시간 가속 장치", "img": "../ego_gift/images/tremor34.webp"},
+            {"name": "낙수의 잔", "img": "../ego_gift/images/tremor25.webp"},
+            {"name": "경고장", "img": "../ego_gift/images/.webp"},
+            {"name": "선불 시간 영수증", "img": "../ego_gift/images/.webp"},
+            {"name": "긴급 부여형 수사관 배지", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t98",
+        "name": "절차탁춘",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/절차탁춘.png",
+        "gifts": [
+            {"name": "혈염도", "img": "../ego_gift/images/burn11.webp"},
+            {"name": "흑철마갑", "img": "../ego_gift/images/tremor19.webp"},
+            {"name": "덕목 - 지", "img": "../ego_gift/images/rupture12.webp"},
+            {"name": "덕목 - 용", "img": "../ego_gift/images/rupture13.webp"},
+            {"name": "덕목 - 인", "img": "../ego_gift/images/rupture14.webp"},
+            {"name": "마음을 닫는 붉은 천", "img": "../ego_gift/images/slash12.webp"},
+            {"name": "소흥주", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t99",
+        "name": "워프특급살인사건BokGak",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/워프특급살인사건BokGak.png",
+        "gifts": [
+            {"name": "결정화된 혈액", "img": "../ego_gift/images/bleed12.webp"},
+            {"name": "피로 된 살점, 살점으로 된 피", "img": "../ego_gift/images/bleed33.webp"},
+            {"name": "경혈식 글레이브", "img": "../ego_gift/images/bleed30.webp"},
+            {"name": "E식 차원 단검", "img": "../ego_gift/images/charge24.webp"},
+            {"name": "휴대용 역장 배터리", "img": "../ego_gift/images/charge23.webp"},
+            {"name": "생체 발전형 배터리", "img": "../ego_gift/images/charge12.webp"},
+            {"name": "심장 리액트 모듈", "img": "../ego_gift/images/charge13.webp"},
+            {"name": "의체관절 서브모터", "img": "../ego_gift/images/charge14.webp"},
+            {"name": "남겨진 차원 건틀릿", "img": "../ego_gift/images/charge25.webp"},
+            {"name": "W사 보급 모자", "img": "../ego_gift/images/charge17.webp"},
+            {"name": "일반석 할인 바우처", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t100",
+        "name": "호박색어스름의시련",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/호박색어스름의시련.png",
+        "gifts": [
+            {"name": "로열 젤리 퍼퓸", "img": "../ego_gift/images/burn16.webp"},
+            {"name": "부리 모양 목걸이", "img": "../ego_gift/images/bleed26.webp"},
+            {"name": "하모닉스", "img": "../ego_gift/images/bleed29.webp"},
+            {"name": "워킹 베이스", "img": "../ego_gift/images/bleed16.webp"},
+            {"name": "노이즈 섞인 무전기", "img": "../ego_gift/images/sinking21.webp"},
+            {"name": "분홍 꽃잎", "img": "../ego_gift/images/sinking23.webp"}
+        ]
+    },
+    {
+        "id": "t101",
+        "name": "LCB 정기검진BokGak",
+        "floor": "5F~10F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/LCB정기검진BokGak.png",
+        "gifts": [
+            {"name": "시험 추출: 홍염살", "img": "../ego_gift/images/burn21.webp"},
+            {"name": "점화 장갑", "img": "../ego_gift/images/burn19.webp"},
+            {"name": "재점화 플러그", "img": "../ego_gift/images/burn18.webp"},
+            {"name": "잔불", "img": "../ego_gift/images/burn17.webp"},
+            {"name": "시험 추출: 초롱", "img": "../ego_gift/images/rupture28.webp"},
+            {"name": "가시 전투화", "img": "../ego_gift/images/rupture21.webp"},
+            {"name": "강화제 Mk. 4", "img": "../ego_gift/images/rupture22.webp"},
+            {"name": "잔가지", "img": "../ego_gift/images/rupture25.webp"},
+            {"name": "변형 추출: AEDD", "img": "../ego_gift/images/charge26.webp"},
+            {"name": "누군가 놓쳐버린 사원증", "img": "../ego_gift/images/.webp"},
+            {"name": "통상 작전용 장비", "img": "../ego_gift/images/.webp"},
+            {"name": "작전 승인 카드", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t102",
+        "name": "타래엮기",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/타래엮기.png",
+        "gifts": [
+            {"name": "작품 : 야성", "img": "../ego_gift/images/sinking25.webp"},
+            {"name": "작품 : 약동", "img": "../ego_gift/images/charge22.webp"},
+            {"name": "중지식 너클", "img": "../ego_gift/images/blunt13.webp"},
+            {"name": "모든 것의 뼈대", "img": "../ego_gift/images/.webp"},
+            {"name": "텅 빈 새장", "img": "../ego_gift/images/.webp"},
+            {"name": "모든 것의 본능", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+        {
+        "id": "t103",
+        "name": "심야청소BokGak",
+        "floor": "3F, 4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/심야청소BokGak.png",
+        "gifts": [
+            {"name": "흑수환-묘", "img": "../ego_gift/images/rupture17.webp"},
+            {"name": "괴문자 부적", "img": "../ego_gift/images/rupture11.webp"},
+            {"name": "묘각", "img": "../ego_gift/images/rupture15.webp"},
+            {"name": "새겨넣어진 괴문자", "img": "../ego_gift/images/rupture24.webp"},
+            {"name": "그림자 삿갓", "img": "../ego_gift/images/slash10.webp"},
+            {"name": "등장 전용 붐박스", "img": "../ego_gift/images/blunt.webp"},
+            {"name": "강화 문신- 중지", "img": "../ego_gift/images/blunt9.webp"},
+            {"name": "의리 사슬", "img": "../ego_gift/images/rupture25.webp"},
+            {"name": "찰랑이는 연료통", "img": "../ego_gift/images/.webp"}        
+        ]
+    },
+    {
+        "id": "t104",
+        "name": "가르고 베는 이들",
+        "floor": "4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/가르고베는이들.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t105",
+        "name": "베어낼 것",
+        "floor": "1F,2F",
+        "difficulty": ["NORMAL"],
+        "img": "./assets/Theme_Pack/가르고베는이들.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t107",
+        "name": "꿰뚫을 것",
+        "floor": "1F,2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/꿰뚫을것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t108",
+        "name": "부수고 깨드릴 이들",
+        "floor": "4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/부수고깨드릴이들.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t106",
+        "name": "꿰고 뚫는 이들",
+        "floor": "4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/꿰고뚫는이들.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t109",
+        "name": "바스라질 것",
+        "floor": "1F,2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/바스라질것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t110",
+        "name": "억눌린 분노",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/억눌린분노.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t111",
+        "name": "해방된 분노",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/해방된분노.png",
+        "gifts": [
+            {"name": "달궈진 놋쇠", "img": "../ego_gift/images/burn25.webp"},
+            {"name": "인연 얽힘", "img": "../ego_gift/images/.webp"}     
+        ]
+    },
+    {
+        "id": "t112",
+        "name": "감정에 짓눌리는 것",
+        "floor": "2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/감정에짓눌리는것.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t113",
+        "name": "빠져드는 색욕",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/빠져드는색욕.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t114",
+        "name": "옭아매는 색욕",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/옭아매는색욕.png",
+        "gifts": [
+            {"name": "인연 얽힘", "img": "../ego_gift/images/.webp"}     
+        ]
+    },
+    {
+        "id": "t115",
+        "name": "감정에 홀리는 것",
+        "floor": "2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/감정에홀리는것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t116",
+        "name": "헛도는 나태",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/헛도는나태.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t117",
+        "name": "멎어버린 나태",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/멎어버린나태.png",
+        "gifts": [
+            {"name": "인연 얽힘", "img": "../ego_gift/images/.webp"}     
+        ]
+    },
+        {
+        "id": "t118",
+        "name": "감정 앞에 게으른 것",
+        "floor": "2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/감정앞에게으른것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t119",
+        "name": "먹어치운 탐식",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/먹어치운탐식.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t120",
+        "name": "넘쳐흐른 탐식",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/넘쳐흐른탐식.png",
+        "gifts": [
+            {"name": "인연 얽힘", "img": "../ego_gift/images/.webp"}     
+        ]
+    },
+    {
+        "id": "t121",
+        "name": "감정에 굶주린 것",
+        "floor": "2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/감정에굶주린것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t122",
+        "name": "전락하는 우울",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/전락하는우울.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t123",
+        "name": "가라앉은 우울",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/가라앉은우울.png",
+        "gifts": [
+            {"name": "인연 얽힘", "img": "../ego_gift/images/.webp"},
+            {"name": "먹장구름", "img": "../ego_gift/images/sinking33.webp"}
+        ]
+    },
+    {
+        "id": "t124",
+        "name": "감정에 침수된 것",
+        "floor": "2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/감정에침수된것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t125",
+        "name": "허세짙은 오만",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/허세짙은오만.png",
+        "gifts": [
+            {"name": "도시를 사랑하는 당신을 위한", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t126",
+        "name": "독선적인 오만",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/독선적인오만.png",
+        "gifts": [
+            {"name": "인연 얽힘", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+
+    {
+        "id": "t127",
+        "name": "감정에 복종한 것",
+        "floor": "2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/감정에복종한것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t128",
+        "name": "초라한 질투",
+        "floor": "3F,4F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/초라한질투.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t129",
+        "name": "처량한 질투",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/처량한질투.png",
+        "gifts": [
+            {"name": "인연 얽힘", "img": "../ego_gift/images/.webp"}
+        ]
+    },
+    {
+        "id": "t130",
+        "name": "감정으로 평가된 것",
+        "floor": "2F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/감정으로평가된것.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t131",
+        "name": "타오르는 일렁임",
+        "floor": "3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/타오르는일렁임.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t132",
+        "name": "화왕지절",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/처량한질투.png",
+        "gifts": [
+            {"name": "달궈진 놋쇠", "img": "../ego_gift/images/burn25.webp"}
+        ]
+    },
+    {
+        "id": "t133",
+        "name": "새어나온 적혈",
+        "floor": "3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/새어나온적혈.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t134",
+        "name": "시산혈해",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/시산혈해.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t135",
+        "name": "어지러운 파동",
+        "floor": "3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/어지러운파동.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t136",
+        "name": "이상진역",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/이상진역.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t137",
+        "name": "부서뜨리는 외력",
+        "floor": "3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/부서뜨리는외력.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t138",
+        "name": "파죽지세",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/파죽지세.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t139",
+        "name": "잠겨드는 아림",
+        "floor": "3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/잠겨드는아림.png",
+        "gifts": [
+        ]
+    },
+        {
+        "id": "t140",
+        "name": "침잠쇄도",
+        "floor": "5F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/침잠쇄도.png",
+        "gifts": [
+            {"name": "먹장구름", "img": "../ego_gift/images/sinking33.webp"}
+        ]
+    },
+    {
+        "id": "t141",
+        "name": "내쉬어진 한숨",
+        "floor": "3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/내쉬어진한숨.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t142",
+        "name": "순환호흡",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/순환호흡.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t143",
+        "name": "차오르는 동력",
+        "floor": "3F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/차오르는동력.png",
+        "gifts": [
+        ]
+    },
+    {
+        "id": "t144",
+        "name": "벽력섬전",
+        "floor": "4F~10F",
+        "difficulty": ["HARD"],
+        "img": "./assets/Theme_Pack/벽력섬전.png",
+        "gifts": [
+        ]
+    }
+]
