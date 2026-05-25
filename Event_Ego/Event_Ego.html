@@ -8,13 +8,13 @@
 <body>
     <h1>이벤트 및 Ego</h1>
     <div class="tab-menu">
-        <button class="tab-btn active" data-target="ego-view">EGO</button>
+        <button class="tab-btn" data-target="ego-view">EGO</button>
         <button class="tab-btn" data-target="event-view">거던 이벤트 선택지</button>
-        <button class="tab-btn" data-target="penalty-view">거던 제약선택지</button>
+        <button class="tab-btn active" data-target="theme-view">거울 던전 테마팩</button>
     </div>
 
     <main class="content-area">
-        <div id="ego-view" class="view-panel active">
+        <div id="ego-view" class="view-panel">
             <h3>EGO 수감자 선택</h3>
             <div id="sinner-icons" class="sinner-grid"></div>
             <div class="filter-container">
@@ -44,7 +44,9 @@
             <h3>거던 이벤트 선택지</h3>
             <div class="mirror-dungeon-ui">
                 <aside class="sidebar">
-                    <div class="search-header"><input type="text" id="event-search" placeholder="이벤트 검색..."></div>
+                    <div class="search-header">
+                        <input type="text" id="event-search" placeholder="이벤트 검색...">
+                    </div>
                     <ul class="event-list" id="event-list"></ul>
                 </aside>
                 <main class="detail-panel">
@@ -63,7 +65,36 @@
                 </main>
             </div>
         </div>
-        <div id="penalty-view" class="view-panel"><h3>거던 제약선택지</h3></div>
+
+        <div id="theme-view" class="view-panel active">
+            <div class="difficulty-tabs">
+                <button class="diff-btn active" data-diff="NORMAL">NORMAL</button>
+                <button class="diff-btn" data-diff="HARD">HARD</button>
+                <button class="diff-btn" data-diff="EXTREME">EXTREME</button>
+            </div>
+
+            <div class="theme-split-layout">
+                <aside class="theme-info-panel">
+                    <div class="info-section">
+                        <h4 class="red-title">등장 층</h4>
+                        <div class="floor-display" id="theme-floor-display">-</div>
+                    </div>
+                    <div class="info-section">
+                        <h4 class="red-title">테마팩 한정 기프트</h4>
+                        <div class="theme-gift-grid" id="theme-gift-display"></div>
+                    </div>
+                </aside>
+
+                <main class="theme-list-panel">
+                    <div class="theme-filter-bar">
+                        <select id="theme-category-select">
+                            <option value="all">전체 테마</option>
+                        </select>
+                    </div>
+                    <div class="theme-pack-grid" id="theme-pack-list"></div>
+                </main>
+            </div>
+        </div>
     </main>
 
     <div id="ego-modal" class="modal-overlay">
